@@ -1,0 +1,3268 @@
+año;canton;provincia;tipoEmpresa;ventasTotales
+2019;Atacames;Esmeraldas;Microempresa;280
+2019;Muisne;Esmeraldas;Microempresa;349
+2019;Atacames;Esmeraldas;Microempresa;14
+2019;Eloy Alfaro;Esmeraldas;Microempresa;38290
+2019;Esmeraldas;Esmeraldas;Microempresa;729
+2019;Esmeraldas;Esmeraldas;Microempresa;66514
+2019;Muisne;Esmeraldas;Microempresa;40
+2019;Quinindé;Esmeraldas;Microempresa;9149
+2019;Rioverde;Esmeraldas;Microempresa;51493
+2019;San Lorenzo;Esmeraldas;Microempresa;1291
+2019;Archidona;Napo;Microempresa;11851
+2019;Tena;Napo;Microempresa;63991
+2019;Tena;Napo;Microempresa;11085
+2019;Tiwintza;Morona Santiago;Microempresa;40403
+2019;Huamboya;Morona Santiago;Microempresa;14070
+2019;Cuenca;Azuay;Pequeña empresa;202561
+2019;Babahoyo;Los Ríos;Grande empresa;5161223
+2019;Quito;Pichincha;Grande empresa;5833440
+2019;Pedro Moncayo;Pichincha;"Mediana empresa ""A""";1998596
+2019;Rumiñahui;Pichincha;"Mediana empresa ""A""";1212225
+2019;Guayaquil;Guayas;"Mediana empresa ""A""";1007098
+2019;Quito;Pichincha;"Mediana empresa ""A""";10457776
+2019;Quito;Pichincha;"Mediana empresa ""A""";1866096
+2019;Quito;Pichincha;"Mediana empresa ""A""";1429867
+2019;Quito;Pichincha;"Mediana empresa ""A""";1842128
+2019;Ambato;Tungurahua;"Mediana empresa ""A""";1297074
+2019;Shushufindi;Sucumbíos;"Mediana empresa ""A""";1110857
+2019;Baños de Agua Santa;Tungurahua;"Mediana empresa ""A""";1893611
+2019;Patate;Tungurahua;"Mediana empresa ""A""";1627895
+2019;Quito;Pichincha;"Mediana empresa ""B""";9751043
+2019;Loreto;Orellana;Microempresa;51486
+2019;Orellana;Orellana;Microempresa;14919
+2019;Orellana;Orellana;Microempresa;91151
+2019;Orellana;Orellana;Microempresa;3498
+2019;El Guabo;El Oro;Microempresa;76045
+2019;Orellana;Orellana;Microempresa;248285
+2019;Orellana;Orellana;Microempresa;85158
+2019;San Cristóbal;Galápagos;Microempresa;174787
+2019;Morona;Morona Santiago;Microempresa;20476
+2019;Rioverde;Esmeraldas;"Mediana empresa ""B""";2391350
+2019;Atacames;Esmeraldas;Microempresa;64683
+2019;Esmeraldas;Esmeraldas;Microempresa;40
+2019;Esmeraldas;Esmeraldas;Microempresa;300
+2019;Esmeraldas;Esmeraldas;Microempresa;12816
+2019;Rioverde;Esmeraldas;Microempresa;62
+2019;Taisha;Morona Santiago;Microempresa;774
+2019;Atacames;Esmeraldas;Microempresa;290973
+2019;Tena;Napo;Microempresa;84097
+2019;Morona;Morona Santiago;Microempresa;60770
+2019;Tena;Napo;Microempresa;18781
+2019;Atacames;Esmeraldas;Pequeña empresa;196760
+2019;Esmeraldas;Esmeraldas;Pequeña empresa;146980
+2019;Esmeraldas;Esmeraldas;Pequeña empresa;311449
+2019;Pastaza;Pastaza;Pequeña empresa;580990
+2019;Pastaza;Pastaza;Pequeña empresa;530653
+2019;Cuenca;Azuay;"Mediana empresa ""B""";4894530
+2019;Cuenca;Azuay;"Mediana empresa ""A""";1268893
+2019;Cuenca;Azuay;"Mediana empresa ""A""";2769828
+2019;Cuenca;Azuay;"Mediana empresa ""A""";1069703
+2019;Cuenca;Azuay;"Mediana empresa ""B""";9309390
+2019;Cuenca;Azuay;"Mediana empresa ""B""";4664833
+2019;Rumiñahui;Pichincha;Microempresa;38824
+2019;Ambato;Tungurahua;Microempresa;22616
+2019;Morona;Morona Santiago;Microempresa;2303
+2019;Atacames;Esmeraldas;Pequeña empresa;117358
+2019;Esmeraldas;Esmeraldas;Pequeña empresa;135062
+2019;Esmeraldas;Esmeraldas;Microempresa;90020
+2019;Esmeraldas;Esmeraldas;Microempresa;89675
+2019;Tena;Napo;Microempresa;164205
+2019;Logroño;Morona Santiago;Microempresa;77788
+2019;San Juan Bosco;Morona Santiago;Microempresa;69221
+2019;Rioverde;Esmeraldas;Pequeña empresa;372591
+2019;Archidona;Napo;Pequeña empresa;161572
+2019;Quijos;Napo;Pequeña empresa;414852
+2019;Tena;Napo;Pequeña empresa;157378
+2019;Morona;Morona Santiago;Pequeña empresa;146640
+2019;Morona;Morona Santiago;Pequeña empresa;100380
+2019;Atacames;Esmeraldas;"Mediana empresa ""A""";1823407
+2019;Tena;Napo;"Mediana empresa ""B""";2522104
+2019;Archidona;Napo;"Mediana empresa ""A""";1427404
+2019;Santiago;Morona Santiago;"Mediana empresa ""A""";1321027
+2019;Morona;Morona Santiago;Microempresa;37171
+2019;Morona;Morona Santiago;Microempresa;91279
+2019;Morona;Morona Santiago;Microempresa;11040
+2019;Morona;Morona Santiago;Pequeña empresa;100287
+2019;Morona;Morona Santiago;Pequeña empresa;341142
+2019;Guayaquil;Guayas;"Mediana empresa ""A""";1262234
+2019;Guayaquil;Guayas;"Mediana empresa ""A""";1169109
+2019;Portoviejo;Manabí;"Mediana empresa ""B""";2240051
+2019;Mera;Pastaza;Microempresa;150
+2019;Pastaza;Pastaza;Microempresa;71
+2019;Mera;Pastaza;Microempresa;5400
+2019;Pastaza;Pastaza;Microempresa;621
+2019;Chone;Manabí;Microempresa;17866
+2019;Chone;Manabí;Microempresa;42867
+2019;Flavio Alfaro;Manabí;Microempresa;8428
+2019;Jaramijó;Manabí;Microempresa;20
+2019;Jipijapa;Manabí;Microempresa;91756
+2019;Manta;Manabí;Microempresa;500
+2019;Ambato;Tungurahua;Microempresa;9754
+2019;Quevedo;Los Ríos;Microempresa;40
+2019;Urdaneta;Los Ríos;Microempresa;54
+2019;Quito;Pichincha;Microempresa;106946
+2019;Quito;Pichincha;Microempresa;384338
+2019;Quito;Pichincha;Microempresa;15
+2019;Quito;Pichincha;Microempresa;103932
+2019;Quito;Pichincha;Microempresa;11064
+2019;Quito;Pichincha;Microempresa;59495
+2019;Guaranda;Bolívar;Microempresa;6318
+2019;Quito;Pichincha;Microempresa;14780
+2019;Quito;Pichincha;Microempresa;28668
+2019;Lago Agrio;Sucumbíos;Microempresa;22
+2019;Puerto Quito;Pichincha;Microempresa;800
+2019;San Pedro de Pelileo;Tungurahua;Microempresa;3385
+2019;Guaranda;Bolívar;Microempresa;6780
+2019;Babahoyo;Los Ríos;Microempresa;151
+2019;Buena Fé;Los Ríos;Microempresa;53503
+2019;Quevedo;Los Ríos;Microempresa;40018
+2019;Quito;Pichincha;Microempresa;42359
+2019;Quito;Pichincha;Microempresa;111618
+2019;Guaranda;Bolívar;Microempresa;57013
+2019;El Tambo;Cañar;Microempresa;10634
+2019;La Troncal;Cañar;Microempresa;99165
+2019;Azogues;Cañar;Microempresa;80453
+2019;Ambato;Tungurahua;Microempresa;41452
+2019;Latacunga;Cotopaxi;Pequeña empresa;328254
+2019;Guano;Chimborazo;Pequeña empresa;771842
+2019;Riobamba;Chimborazo;Pequeña empresa;2783546
+2019;Riobamba;Chimborazo;Pequeña empresa;1162823
+2019;Salcedo;Cotopaxi;Pequeña empresa;517996
+2019;Pujilí;Cotopaxi;Pequeña empresa;200069
+2019;Saquisilí;Cotopaxi;Pequeña empresa;460861
+2019;Santa Elena;Santa Elena;Microempresa;11410
+2019;Santa Elena;Santa Elena;Pequeña empresa;100359
+2019;La Libertad;Santa Elena;Pequeña empresa;305072
+2019;Antonio Ante;Imbabura;"Mediana empresa ""A""";1351568
+2019;La Libertad;Santa Elena;"Mediana empresa ""B""";2381292
+2019;Salinas;Santa Elena;Microempresa;23170
+2019;Santa Elena;Santa Elena;Microempresa;68787
+2019;Salinas;Santa Elena;Microempresa;174497
+2019;La Libertad;Santa Elena;Microempresa;80462
+2019;Loja;Loja;Microempresa;144616
+2019;Macará;Loja;Microempresa;61082
+2019;Paltas;Loja;Microempresa;80076
+2019;Loja;Loja;Microempresa;98554
+2019;Loja;Loja;Microempresa;99823
+2019;Salinas;Santa Elena;Pequeña empresa;822582
+2019;Antonio Ante;Imbabura;Pequeña empresa;454555
+2019;Ibarra;Imbabura;Pequeña empresa;2460491
+2019;Otavalo;Imbabura;Pequeña empresa;1053761
+2019;San Miguel de Urcuqui;Imbabura;Pequeña empresa;246624
+2019;Antonio Ante;Imbabura;Pequeña empresa;942165
+2019;Antonio Ante;Imbabura;Pequeña empresa;780162
+2019;Santa Cruz;Galápagos;Microempresa;158371
+2019;Santa Cruz;Galápagos;Microempresa;29604
+2019;Babahoyo;Los Ríos;Microempresa;71081
+2019;Montalvo;Los Ríos;Microempresa;14388
+2019;Quevedo;Los Ríos;Microempresa;62044
+2019;Huaquillas;El Oro;Microempresa;89500
+2019;Machala;El Oro;Microempresa;258566
+2019;Pasaje;El Oro;Microempresa;44244
+2019;Piñas;El Oro;Microempresa;17829
+2019;Santa Rosa;El Oro;Microempresa;81351
+2019;Zaruma;El Oro;Microempresa;89577
+2019;El Guabo;El Oro;Microempresa;41695
+2019;Machala;El Oro;Microempresa;118469
+2019;Portovelo;El Oro;Microempresa;1000
+2019;Yantzaza (Yanzatza);Zamora Chinchipe;Microempresa;58843
+2019;Otavalo;Imbabura;Microempresa;575
+2019;Cotacachi;Imbabura;Microempresa;10
+2019;Otavalo;Imbabura;Microempresa;613
+2019;Cotacachi;Imbabura;Pequeña empresa;723103
+2019;Cotacachi;Imbabura;Pequeña empresa;119949
+2019;Ibarra;Imbabura;Pequeña empresa;1775098
+2019;Ibarra;Imbabura;Pequeña empresa;348945
+2019;Otavalo;Imbabura;Pequeña empresa;466861
+2019;Otavalo;Imbabura;Pequeña empresa;110083
+2019;Otavalo;Imbabura;Pequeña empresa;314359
+2019;Otavalo;Imbabura;Pequeña empresa;255717
+2019;Ibarra;Imbabura;"Mediana empresa ""A""";2663447
+2019;Otavalo;Imbabura;"Mediana empresa ""A""";2528192
+2019;San Miguel de Urcuqui;Imbabura;"Mediana empresa ""A""";1141731
+2019;Loja;Loja;Microempresa;13880
+2019;Saraguro;Loja;Microempresa;146
+2019;Loja;Loja;Microempresa;26382
+2019;Puyango;Loja;Microempresa;10
+2019;Calvas;Loja;Pequeña empresa;699023
+2019;Loja;Loja;Pequeña empresa;1054555
+2019;Loja;Loja;Pequeña empresa;1074082
+2019;Loja;Loja;"Mediana empresa ""B""";2089917
+2019;Antonio Ante;Imbabura;Microempresa;18503
+2019;Cotacachi;Imbabura;Microempresa;48
+2019;Cotacachi;Imbabura;Microempresa;8173
+2019;Portoviejo;Manabí;"Mediana empresa ""A""";2483001
+2019;Manta;Manabí;"Mediana empresa ""A""";1187415
+2019;Guayaquil;Guayas;Microempresa;162078
+2019;Rumiñahui;Pichincha;Pequeña empresa;387564
+2019;Guayaquil;Guayas;Pequeña empresa;182800
+2019;Quito;Pichincha;Pequeña empresa;1739520
+2019;La Joya de los Sachas;Orellana;Pequeña empresa;1536320
+2019;Orellana;Orellana;Pequeña empresa;3704310
+2019;La Joya de los Sachas;Orellana;Pequeña empresa;895652
+2019;Orellana;Orellana;Pequeña empresa;2405344
+2019;Orellana;Orellana;Pequeña empresa;461452
+2019;Naranjal;Guayas;Pequeña empresa;198394
+2019;Guayaquil;Guayas;Pequeña empresa;4681329
+2019;Guayaquil;Guayas;Pequeña empresa;157681
+2019;Lago Agrio;Sucumbíos;Grande empresa;5578676
+2019;Quito;Pichincha;"Mediana empresa ""A""";1136618
+2019;Lago Agrio;Sucumbíos;"Mediana empresa ""A""";1801235
+2019;Orellana;Orellana;"Mediana empresa ""A""";1018634
+2019;Quito;Pichincha;"Mediana empresa ""A""";1286672
+2019;La Joya de los Sachas;Orellana;"Mediana empresa ""B""";2767689
+2019;Cascales;Sucumbíos;Microempresa;44777
+2019;Gonzalo Pizarro;Sucumbíos;Microempresa;35
+2019;Lago Agrio;Sucumbíos;Microempresa;111
+2019;Lago Agrio;Sucumbíos;Microempresa;10
+2019;Lago Agrio;Sucumbíos;Microempresa;3755
+2019;Shushufindi;Sucumbíos;Microempresa;16371
+2019;Aguarico;Orellana;Microempresa;10
+2019;Aguarico;Orellana;Microempresa;10
+2019;La Joya de los Sachas;Orellana;Microempresa;27453
+2019;Loreto;Orellana;Microempresa;47386
+2019;Loreto;Orellana;Microempresa;100
+2019;Orellana;Orellana;Microempresa;162297
+2019;Cayambe;Pichincha;Microempresa;136
+2019;Tena;Napo;Microempresa;1864
+2019;Archidona;Napo;Microempresa;76580
+2019;Tena;Napo;Microempresa;233154
+2019;Tena;Napo;Microempresa;63111
+2019;San Lorenzo;Esmeraldas;Pequeña empresa;395425
+2019;Atacames;Esmeraldas;Pequeña empresa;1675876
+2019;Esmeraldas;Esmeraldas;Pequeña empresa;1552347
+2019;Muisne;Esmeraldas;Pequeña empresa;338121
+2019;Quinindé;Esmeraldas;Pequeña empresa;114172
+2019;Atacames;Esmeraldas;Pequeña empresa;273044
+2019;Esmeraldas;Esmeraldas;Pequeña empresa;1986122
+2019;Esmeraldas;Esmeraldas;Pequeña empresa;822540
+2019;Quinindé;Esmeraldas;Pequeña empresa;230390
+2019;Archidona;Napo;Pequeña empresa;325602
+2019;Quijos;Napo;Pequeña empresa;198193
+2019;Tena;Napo;Pequeña empresa;382913
+2019;Quijos;Napo;Pequeña empresa;100960
+2019;Montúfar;Carchi;Microempresa;6150
+2019;Alausí;Chimborazo;Microempresa;5
+2019;Riobamba;Chimborazo;Microempresa;5591
+2019;Riobamba;Chimborazo;Microempresa;2428
+2019;Alausí;Chimborazo;Microempresa;36722
+2019;Alausí;Chimborazo;Microempresa;258
+2019;Chambo;Chimborazo;Microempresa;42047
+2019;Colta;Chimborazo;Microempresa;204
+2019;Riobamba;Chimborazo;Microempresa;70
+2019;Riobamba;Chimborazo;Microempresa;73175
+2019;La Maná;Cotopaxi;Microempresa;8688
+2019;La Maná;Cotopaxi;Microempresa;13
+2019;Latacunga;Cotopaxi;Microempresa;813
+2019;Latacunga;Cotopaxi;Microempresa;141269
+2019;Latacunga;Cotopaxi;Microempresa;126695
+2019;Pujilí;Cotopaxi;Microempresa;128284
+2019;Saquisilí;Cotopaxi;Microempresa;42105
+2019;Guaranda;Bolívar;Microempresa;195
+2019;Guaranda;Bolívar;Microempresa;64307
+2019;Guaranda;Bolívar;Microempresa;220632
+2019;San Miguel;Bolívar;Microempresa;16834
+2019;Camilo Ponce Enríquez;Azuay;Microempresa;41931
+2019;Camilo Ponce Enríquez;Azuay;Microempresa;9504
+2019;Cuenca;Azuay;Microempresa;3935
+2019;Cuenca;Azuay;Microempresa;14450
+2019;Guachapala;Azuay;Microempresa;26328
+2019;Gualaceo;Azuay;Microempresa;6330
+2019;Paute;Azuay;Microempresa;4428
+2019;Sevilla de Oro;Azuay;Microempresa;61996
+2019;La Troncal;Cañar;Microempresa;290
+2019;La Troncal;Cañar;Microempresa;1065
+2019;Riobamba;Chimborazo;Microempresa;66702
+2019;Riobamba;Chimborazo;Microempresa;29460
+2019;Latacunga;Cotopaxi;Microempresa;13355
+2019;La Troncal;Cañar;Microempresa;64069
+2019;Riobamba;Chimborazo;Pequeña empresa;119757
+2019;Latacunga;Cotopaxi;Pequeña empresa;123709
+2019;Guaranda;Bolívar;Pequeña empresa;122988
+2019;Cuenca;Azuay;Pequeña empresa;106197
+2019;Cuenca;Azuay;Pequeña empresa;107356
+2019;Riobamba;Chimborazo;Pequeña empresa;342293
+2019;Cuenca;Azuay;Pequeña empresa;491400
+2019;Guayaquil;Guayas;Grande empresa;159440497
+2019;Guayaquil;Guayas;Grande empresa;119672382
+2019;Guayaquil;Guayas;Grande empresa;31135175
+2019;Guayaquil;Guayas;"Mediana empresa ""A""";1092935
+2019;Guayaquil;Guayas;"Mediana empresa ""B""";4421445
+2019;Guayaquil;Guayas;Grande empresa;8170578
+2019;Guayaquil;Guayas;Grande empresa;5130551
+2019;Naranjal;Guayas;"Mediana empresa ""A""";1234758
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;1000
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;1604262
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;1674250
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;222240
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;512228
+2019;Manta;Manabí;"Mediana empresa ""B""";5770035
+2019;Manta;Manabí;"Mediana empresa ""B""";2704771
+2019;Salinas;Santa Elena;"Mediana empresa ""B""";3927904
+2019;Guayaquil;Guayas;Grande empresa;5229822
+2019;Manta;Manabí;"Mediana empresa ""A""";3443085
+2019;Manta;Manabí;"Mediana empresa ""A""";1152227
+2019;Portoviejo;Manabí;"Mediana empresa ""A""";1264317
+2019;Playas;Guayas;"Mediana empresa ""A""";1294657
+2019;La Libertad;Santa Elena;"Mediana empresa ""A""";1472237
+2019;Santa Elena;Santa Elena;"Mediana empresa ""A""";1011677
+2019;Guayaquil;Guayas;"Mediana empresa ""A""";8578686
+2019;Manta;Manabí;"Mediana empresa ""B""";2664470
+2019;Manta;Manabí;"Mediana empresa ""B""";2093538
+2019;La Libertad;Santa Elena;"Mediana empresa ""B""";4477428
+2019;Guayaquil;Guayas;"Mediana empresa ""B""";22915326
+2019;Manta;Manabí;Microempresa;110520
+2019;Pedernales;Manabí;Microempresa;38
+2019;Pichincha;Manabí;Microempresa;2350
+2019;Portoviejo;Manabí;Microempresa;17411
+2019;Portoviejo;Manabí;Microempresa;119335
+2019;Portoviejo;Manabí;Microempresa;36916
+2019;Puerto López;Manabí;Microempresa;6659
+2019;Rocafuerte;Manabí;Microempresa;7888
+2019;San Vicente;Manabí;Microempresa;2011
+2019;El Empalme;Guayas;Microempresa;16875
+2019;Isidro Ayora;Guayas;Microempresa;16347
+2019;Milagro;Guayas;Microempresa;18
+2019;Milagro;Guayas;Microempresa;14472
+2019;Naranjal;Guayas;Microempresa;4658
+2019;Naranjito;Guayas;Microempresa;35614
+2019;Pedro Carbo;Guayas;Microempresa;54604
+2019;Salitre (Urbina Jado);Guayas;Microempresa;7397
+2019;San Jacinto de Yaguachi;Guayas;Microempresa;56898
+2019;San Jacinto de Yaguachi;Guayas;Microempresa;55268
+2019;Simón Bolívar;Guayas;Microempresa;40571
+2019;Durán;Guayas;Microempresa;85739
+2019;Guayaquil;Guayas;Microempresa;12348
+2019;Guayaquil;Guayas;Microempresa;91764
+2019;Guayaquil;Guayas;Microempresa;2153
+2019;Guayaquil;Guayas;Microempresa;52469
+2019;Samborondón;Guayas;Microempresa;4365
+2019;Portoviejo;Manabí;Microempresa;47406
+2019;Gualaceo;Azuay;Microempresa;15876
+2019;Durán;Guayas;Microempresa;17786
+2019;Guayaquil;Guayas;Microempresa;68636
+2019;Guayaquil;Guayas;Microempresa;80895
+2019;Pastaza;Pastaza;Pequeña empresa;115486
+2019;Guayaquil;Guayas;Pequeña empresa;277024
+2019;Portoviejo;Manabí;Pequeña empresa;788883
+2019;Sucre;Manabí;Pequeña empresa;274867
+2019;El Empalme;Guayas;Pequeña empresa;357843
+2019;Milagro;Guayas;Pequeña empresa;320198
+2019;Durán;Guayas;Pequeña empresa;209845
+2019;Guayaquil;Guayas;Pequeña empresa;649768
+2019;Guayaquil;Guayas;Pequeña empresa;108276
+2019;Guayaquil;Guayas;"Mediana empresa ""B""";9016552
+2019;Guayaquil;Guayas;"Mediana empresa ""A""";1033388
+2019;Guayaquil;Guayas;"Mediana empresa ""A""";37078582
+2019;Guayaquil;Guayas;"Mediana empresa ""A""";6506546
+2019;Samborondón;Guayas;"Mediana empresa ""A""";17080904
+2019;Samborondón;Guayas;"Mediana empresa ""A""";1299166
+2019;Guayaquil;Guayas;"Mediana empresa ""B""";23757568
+2019;Guayaquil;Guayas;"Mediana empresa ""B""";7780367
+2019;Guayaquil;Guayas;"Mediana empresa ""B""";2336354
+2019;Samborondón;Guayas;"Mediana empresa ""B""";7170781
+2019;Guayaquil;Guayas;Microempresa;13080
+2019;Guayaquil;Guayas;Microempresa;1000
+2019;Guayaquil;Guayas;Microempresa;642916
+2019;Guayaquil;Guayas;Microempresa;16721
+2019;Guayaquil;Guayas;Microempresa;57807
+2019;Guayaquil;Guayas;Microempresa;104108
+2019;Samborondón;Guayas;Microempresa;435
+2019;Samborondón;Guayas;Microempresa;68758
+2019;Guayaquil;Guayas;Microempresa;203
+2019;Samborondón;Guayas;Microempresa;990
+2019;Guayaquil;Guayas;Microempresa;30
+2019;Guayaquil;Guayas;Microempresa;81967
+2019;Guayaquil;Guayas;Microempresa;1445
+2019;Muisne;Esmeraldas;Microempresa;28048
+2019;Esmeraldas;Esmeraldas;Microempresa;58950
+2019;Esmeraldas;Esmeraldas;Microempresa;52468
+2019;Ambato;Tungurahua;Microempresa;7582
+2019;El Carmen;Manabí;Microempresa;19939
+2019;Pedernales;Manabí;Microempresa;18457
+2019;Manta;Manabí;Microempresa;22440
+2019;Manta;Manabí;Microempresa;1333
+2019;Portoviejo;Manabí;Microempresa;88039
+2019;Puerto López;Manabí;Microempresa;76509
+2019;Atacames;Esmeraldas;Microempresa;622825
+2019;Esmeraldas;Esmeraldas;Microempresa;422110
+2019;Quinindé;Esmeraldas;Microempresa;185934
+2019;San Lorenzo;Esmeraldas;Microempresa;68633
+2019;Atacames;Esmeraldas;Microempresa;72261
+2019;Esmeraldas;Esmeraldas;Microempresa;270438
+2019;Quinindé;Esmeraldas;Microempresa;77786
+2019;San Lorenzo;Esmeraldas;Microempresa;142078
+2019;Pastaza;Pastaza;Microempresa;114579
+2019;Pastaza;Pastaza;Microempresa;164746
+2019;El Carmen;Manabí;Microempresa;27514
+2019;Manta;Manabí;Microempresa;416601
+2019;Montecristi;Manabí;Microempresa;72162
+2019;Portoviejo;Manabí;Microempresa;197507
+2019;San Vicente;Manabí;Microempresa;82449
+2019;Bolivar;Manabí;Microempresa;39907
+2019;Chone;Manabí;Microempresa;53108
+2019;Manta;Manabí;Microempresa;164906
+2019;Manta;Manabí;Microempresa;114266
+2019;Montecristi;Manabí;Microempresa;29323
+2019;Portoviejo;Manabí;Microempresa;126229
+2019;Portoviejo;Manabí;Microempresa;10015
+2019;General Antonio Elizalde;Guayas;Microempresa;53036
+2019;Milagro;Guayas;Microempresa;57301
+2019;Durán;Guayas;Microempresa;53629
+2019;Guayaquil;Guayas;Microempresa;105126
+2019;Samborondón;Guayas;Microempresa;82329
+2019;Jipijapa;Manabí;Pequeña empresa;204550
+2019;Manta;Manabí;Pequeña empresa;2152079
+2019;Pedernales;Manabí;Pequeña empresa;374720
+2019;Portoviejo;Manabí;Pequeña empresa;907350
+2019;Puerto López;Manabí;Pequeña empresa;350727
+2019;San Vicente;Manabí;Pequeña empresa;150809
+2019;Santa Ana;Manabí;Pequeña empresa;104246
+2019;Cotacachi;Imbabura;Pequeña empresa;136918
+2019;Ibarra;Imbabura;Pequeña empresa;8989087
+2019;Ibarra;Imbabura;Pequeña empresa;121730
+2019;Otavalo;Imbabura;Pequeña empresa;1511217
+2019;Otavalo;Imbabura;Pequeña empresa;226994
+2019;San Miguel de Urcuqui;Imbabura;Pequeña empresa;313017
+2019;La Libertad;Santa Elena;Pequeña empresa;281581
+2019;Salinas;Santa Elena;Pequeña empresa;771837
+2019;Santa Elena;Santa Elena;Pequeña empresa;857656
+2019;La Libertad;Santa Elena;Pequeña empresa;1232020
+2019;Salinas;Santa Elena;Pequeña empresa;730545
+2019;Santa Elena;Santa Elena;Pequeña empresa;1745090
+2019;Catamayo;Loja;Pequeña empresa;121077
+2019;Loja;Loja;Pequeña empresa;2091455
+2019;Paltas;Loja;Pequeña empresa;273776
+2019;Puyango;Loja;Pequeña empresa;324185
+2019;Loja;Loja;Pequeña empresa;6175531
+2019;Loja;Loja;Pequeña empresa;167689
+2019;Santa Elena;Santa Elena;Microempresa;1
+2019;La Libertad;Santa Elena;Microempresa;1006
+2019;La Libertad;Santa Elena;Microempresa;65591
+2019;La Libertad;Santa Elena;Microempresa;23
+2019;Salinas;Santa Elena;Microempresa;519
+2019;Salinas;Santa Elena;Microempresa;51965
+2019;Santa Elena;Santa Elena;Microempresa;7282
+2019;Santa Elena;Santa Elena;Microempresa;67368
+2019;La Libertad;Santa Elena;Pequeña empresa;165176
+2019;La Libertad;Santa Elena;Pequeña empresa;229773
+2019;Santa Elena;Santa Elena;Pequeña empresa;283247
+2019;Guayaquil;Guayas;Grande empresa;58321688
+2019;Guayaquil;Guayas;Grande empresa;9656015
+2019;Loja;Loja;Pequeña empresa;150216
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;"Mediana empresa ""A""";1060071
+2019;Loja;Loja;"Mediana empresa ""B""";3175492
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;9875
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;15187
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;576
+2019;Antonio Ante;Imbabura;Microempresa;77910
+2019;Ibarra;Imbabura;Microempresa;248283
+2019;Antonio Ante;Imbabura;Microempresa;153430
+2019;Cotacachi;Imbabura;Microempresa;10625
+2019;Ibarra;Imbabura;Microempresa;6857
+2019;Ibarra;Imbabura;Microempresa;1250
+2019;Otavalo;Imbabura;Microempresa;45076
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;765842
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;63308
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;10147
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;118940
+2019;La Concordia;Santo Domingo de los Tsáchilas;Pequeña empresa;160361
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;3206286
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;797763
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;5716936
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;208306
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;1295379
+2019;Rioverde;Esmeraldas;Microempresa;18303
+2019;Quinindé;Esmeraldas;Microempresa;18339
+2019;Buena Fé;Los Ríos;Pequeña empresa;112745
+2019;Guayaquil;Guayas;Pequeña empresa;125308
+2019;Guayaquil;Guayas;Pequeña empresa;988865
+2019;Guayaquil;Guayas;Pequeña empresa;390039
+2019;Quito;Pichincha;Pequeña empresa;326873
+2019;Quito;Pichincha;Pequeña empresa;469127
+2019;Samborondón;Guayas;"Mediana empresa ""B""";3193067
+2019;Quito;Pichincha;Pequeña empresa;656674
+2019;Quito;Pichincha;Pequeña empresa;689941
+2019;Quito;Pichincha;Pequeña empresa;593054
+2019;Lago Agrio;Sucumbíos;Pequeña empresa;1128644
+2019;Shushufindi;Sucumbíos;Pequeña empresa;789534
+2019;Cayambe;Pichincha;Pequeña empresa;694594
+2019;Mejía;Pichincha;Pequeña empresa;1150139
+2019;Pedro Moncayo;Pichincha;Pequeña empresa;333023
+2019;Rumiñahui;Pichincha;Pequeña empresa;390299
+2019;San Miguel de los Bancos;Pichincha;Pequeña empresa;172443
+2019;Cayambe;Pichincha;Pequeña empresa;876172
+2019;Mejía;Pichincha;Pequeña empresa;731640
+2019;Rumiñahui;Pichincha;Pequeña empresa;2252517
+2019;Rumiñahui;Pichincha;Pequeña empresa;157714
+2019;Ambato;Tungurahua;Pequeña empresa;1121535
+2019;Baños de Agua Santa;Tungurahua;Pequeña empresa;408064
+2019;Baños de Agua Santa;Tungurahua;Pequeña empresa;487544
+2019;Patate;Tungurahua;Pequeña empresa;152791
+2019;Ambato;Tungurahua;Pequeña empresa;1206746
+2019;Ambato;Tungurahua;Pequeña empresa;208646
+2019;Ambato;Tungurahua;Pequeña empresa;360298
+2019;Baños de Agua Santa;Tungurahua;Pequeña empresa;655148
+2019;Daule;Guayas;Pequeña empresa;297769
+2019;Naranjal;Guayas;Pequeña empresa;234624
+2019;Naranjito;Guayas;Pequeña empresa;538302
+2019;San Jacinto de Yaguachi;Guayas;Pequeña empresa;117522
+2019;Quevedo;Los Ríos;Pequeña empresa;1227185
+2019;Vinces;Los Ríos;Pequeña empresa;192580
+2019;Babahoyo;Los Ríos;Pequeña empresa;122292
+2019;Cuenca;Azuay;Pequeña empresa;6966462
+2019;Gualaceo;Azuay;Pequeña empresa;576530
+2019;Santa Isabel;Azuay;Pequeña empresa;394259
+2019;Cuenca;Azuay;Pequeña empresa;8973284
+2019;Cuenca;Azuay;Pequeña empresa;472178
+2019;Cuenca;Azuay;Pequeña empresa;874878
+2019;Cuenca;Azuay;Pequeña empresa;235040
+2019;Cuenca;Azuay;Pequeña empresa;848741
+2019;Quito;Pichincha;Pequeña empresa;23487944
+2019;Quito;Pichincha;Pequeña empresa;157015
+2019;Guayaquil;Guayas;Microempresa;5
+2019;Guayaquil;Guayas;Microempresa;255312
+2019;Tulcán;Carchi;Pequeña empresa;319237
+2019;Orellana;Orellana;"Mediana empresa ""A""";1015852
+2019;San Cristóbal;Galápagos;"Mediana empresa ""A""";1948465
+2019;Santa Cruz;Galápagos;"Mediana empresa ""A""";1228469
+2019;Isabela;Galápagos;"Mediana empresa ""B""";2804327
+2019;El Guabo;El Oro;Pequeña empresa;323305
+2019;Huaquillas;El Oro;Pequeña empresa;266274
+2019;Ibarra;Imbabura;Microempresa;62510
+2019;Ibarra;Imbabura;Microempresa;10
+2019;Ibarra;Imbabura;Microempresa;31899
+2019;Otavalo;Imbabura;Microempresa;23486
+2019;Otavalo;Imbabura;Microempresa;1218
+2019;Otavalo;Imbabura;Microempresa;100
+2019;La Concordia;Santo Domingo de los Tsáchilas;Microempresa;52465
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;6582
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;48708
+2019;Catamayo;Loja;Microempresa;68
+2019;Loja;Loja;Microempresa;32200
+2019;Loja;Loja;Microempresa;49851
+2019;Macará;Loja;Microempresa;10592
+2019;Ibarra;Imbabura;Microempresa;39159
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;21249
+2019;Coronel Marcelino Maridueña;Guayas;Microempresa;38098
+2019;Lomas de Sargentillo;Guayas;Microempresa;43553
+2019;Catamayo;Loja;Microempresa;52482
+2019;Macará;Loja;Microempresa;51477
+2019;Antonio Ante;Imbabura;Pequeña empresa;118566
+2019;Ibarra;Imbabura;Pequeña empresa;124097
+2019;Otavalo;Imbabura;Pequeña empresa;254962
+2019;Cotacachi;Imbabura;Pequeña empresa;128124
+2019;Ibarra;Imbabura;Pequeña empresa;119914
+2019;Ibarra;Imbabura;Pequeña empresa;160634
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;176259
+2019;Loja;Loja;Pequeña empresa;105264
+2019;Loja;Loja;Pequeña empresa;110744
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;"Mediana empresa ""A""";1314709
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;78
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;100
+2019;Ibarra;Imbabura;Microempresa;4500
+2019;Otavalo;Imbabura;Microempresa;88314
+2019;Otavalo;Imbabura;Microempresa;594
+2019;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;114944
+2019;Catamayo;Loja;Microempresa;88961
+2019;Loja;Loja;Microempresa;150857
+2019;Loja;Loja;Microempresa;40458
+2019;Loja;Loja;Microempresa;90199
+2019;Cayambe;Pichincha;Microempresa;34388
+2019;Pedro Moncayo;Pichincha;Microempresa;12
+2019;Rumiñahui;Pichincha;Microempresa;1
+2019;San Miguel de los Bancos;Pichincha;Microempresa;3
+2019;San Miguel de los Bancos;Pichincha;Microempresa;69591
+2019;Urdaneta;Los Ríos;Microempresa;30656
+2019;Huaquillas;El Oro;Microempresa;1270
+2019;Machala;El Oro;Microempresa;84957
+2019;Machala;El Oro;Microempresa;15131
+2019;Quito;Pichincha;Microempresa;3183
+2019;Quito;Pichincha;Microempresa;112522
+2019;Quito;Pichincha;Microempresa;159164
+2019;Quito;Pichincha;Microempresa;125193
+2019;Gonzalo Pizarro;Sucumbíos;Microempresa;35839
+2019;Lago Agrio;Sucumbíos;Microempresa;27636
+2019;Shushufindi;Sucumbíos;Microempresa;24122
+2019;Ambato;Tungurahua;Microempresa;20372
+2019;Ambato;Tungurahua;Microempresa;10946
+2019;Huaquillas;El Oro;Microempresa;1000
+2019;Zaruma;El Oro;Microempresa;32209
+2019;Chinchipe;Zamora Chinchipe;Microempresa;68791
+2019;Quito;Pichincha;Microempresa;45556
+2019;Quito;Pichincha;Microempresa;61524
+2019;Quito;Pichincha;Microempresa;28839
+2019;Orellana;Orellana;Pequeña empresa;245288
+2019;Machala;El Oro;Pequeña empresa;117554
+2019;Santa Cruz;Galápagos;Grande empresa;6301902
+2019;Arenillas;El Oro;Grande empresa;6480044
+2019;Machala;El Oro;"Mediana empresa ""B""";3876848
+2019;Quito;Pichincha;Pequeña empresa;1340901
+2019;Quito;Pichincha;Grande empresa;7966053
+2019;Orellana;Orellana;"Mediana empresa ""A""";2152885
+2019;Rumiñahui;Pichincha;"Mediana empresa ""A""";1376134
+2019;Isabela;Galápagos;"Mediana empresa ""A""";2972946
+2019;San Cristóbal;Galápagos;"Mediana empresa ""A""";1445755
+2019;Santa Cruz;Galápagos;"Mediana empresa ""A""";5689437
+2019;Quito;Pichincha;"Mediana empresa ""A""";16584957
+2019;Quito;Pichincha;"Mediana empresa ""A""";42496256
+2019;Quito;Pichincha;"Mediana empresa ""A""";4005662
+2019;Quito;Pichincha;"Mediana empresa ""A""";1923323
+2019;La Joya de los Sachas;Orellana;"Mediana empresa ""A""";1753522
+2019;Orellana;Orellana;"Mediana empresa ""B""";2291775
+2019;Riobamba;Chimborazo;"Mediana empresa ""B""";2584649
+2019;Orellana;Orellana;"Mediana empresa ""B""";4800831
+2019;Isabela;Galápagos;Microempresa;220
+2019;Santa Cruz;Galápagos;Microempresa;32338
+2019;Machala;El Oro;Microempresa;15
+2019;Machala;El Oro;Microempresa;19065
+2019;Yantzaza (Yanzatza);Zamora Chinchipe;Microempresa;1907
+2019;Santa Cruz;Galápagos;Microempresa;36373
+2019;Nangaritza;Zamora Chinchipe;Microempresa;6300
+2019;Tulcán;Carchi;Microempresa;3370
+2019;Tulcán;Carchi;Microempresa;27428
+2019;La Joya de los Sachas;Orellana;Microempresa;29919
+2019;Orellana;Orellana;Microempresa;17546
+2019;Orellana;Orellana;Microempresa;1000
+2019;Orellana;Orellana;Microempresa;3636
+2019;Cayambe;Pichincha;Microempresa;168967
+2019;Pedro Moncayo;Pichincha;Microempresa;17360
+2019;Pedro Vicente Maldonado;Pichincha;Microempresa;57683
+2019;Rumiñahui;Pichincha;Microempresa;71435
+2019;San Miguel de los Bancos;Pichincha;Microempresa;23662
+2019;Latacunga;Cotopaxi;Microempresa;66571
+2019;Quevedo;Los Ríos;Microempresa;110380
+2019;Loja;Loja;Microempresa;5672
+2019;Antonio Ante;Imbabura;Microempresa;37209
+2019;Ibarra;Imbabura;Microempresa;98208
+2019;Ibarra;Imbabura;Microempresa;58950
+2019;Ibarra;Imbabura;Microempresa;113469
+2019;Otavalo;Imbabura;Microempresa;64669
+2019;Otavalo;Imbabura;Microempresa;15253
+2019;Ibarra;Imbabura;Microempresa;32143
+2019;Otavalo;Imbabura;Microempresa;100
+2019;Orellana;Orellana;Microempresa;2209
+2019;Aguarico;Orellana;Microempresa;73581
+2019;Cuenca;Azuay;Microempresa;25431
+2019;Cuenca;Azuay;Microempresa;34850
+2019;Cuenca;Azuay;Microempresa;40
+2019;Aguarico;Orellana;Microempresa;16721
+2019;Loreto;Orellana;Microempresa;18697
+2019;Aguarico;Orellana;Microempresa;690
+2019;Loreto;Orellana;Microempresa;4639
+2019;Nabón;Azuay;Microempresa;4659
+2019;Cuenca;Azuay;Microempresa;13422
+2019;Cuenca;Azuay;Microempresa;575
+2019;La Joya de los Sachas;Orellana;Microempresa;9417
+2019;El Triunfo;Guayas;Microempresa;50000
+2019;El Triunfo;Guayas;Microempresa;1297
+2019;Milagro;Guayas;Microempresa;38508
+2019;Naranjal;Guayas;Microempresa;42931
+2019;Pedro Carbo;Guayas;Microempresa;465
+2019;Simón Bolívar;Guayas;Microempresa;32026
+2019;Cuenca;Azuay;Microempresa;7513
+2019;Girón;Azuay;Microempresa;1721
+2019;Balao;Guayas;Microempresa;34503
+2019;Milagro;Guayas;Microempresa;67410
+2019;Cuenca;Azuay;Microempresa;447582
+2019;Girón;Azuay;Microempresa;39440
+2019;Gualaceo;Azuay;Microempresa;64747
+2019;Cuenca;Azuay;Microempresa;513590
+2019;Cuenca;Azuay;Microempresa;52276
+2019;Durán;Guayas;Microempresa;55450
+2019;Durán;Guayas;Microempresa;1
+2019;Guayaquil;Guayas;Microempresa;4280558
+2019;Guayaquil;Guayas;Microempresa;146513
+2019;Guayaquil;Guayas;Microempresa;107718
+2019;Guayaquil;Guayas;Microempresa;483985
+2019;Guayaquil;Guayas;Microempresa;27500
+2019;Samborondón;Guayas;Microempresa;319946
+2019;Cuenca;Azuay;Microempresa;40430
+2019;Guayaquil;Guayas;Microempresa;30270
+2019;El Empalme;Guayas;Microempresa;7519
+2019;Guayaquil;Guayas;Microempresa;3658
+2019;Guayaquil;Guayas;Microempresa;23824
+2019;Loreto;Orellana;Pequeña empresa;106423
+2019;Orellana;Orellana;Pequeña empresa;154968
+2019;Orellana;Orellana;Pequeña empresa;1085797
+2019;La Joya de los Sachas;Orellana;Pequeña empresa;722182
+2019;Orellana;Orellana;Pequeña empresa;146628
+2019;Latacunga;Cotopaxi;Pequeña empresa;1159170
+2019;Isabela;Galápagos;Pequeña empresa;1454980
+2019;San Cristóbal;Galápagos;Pequeña empresa;1002793
+2019;Santa Cruz;Galápagos;Pequeña empresa;3581322
+2019;Santa Cruz;Galápagos;Pequeña empresa;1393659
+2019;Azogues;Cañar;Pequeña empresa;274043
+2019;Yantzaza (Yanzatza);Zamora Chinchipe;Pequeña empresa;140356
+2019;Chone;Manabí;Pequeña empresa;446364
+2019;El Carmen;Manabí;Pequeña empresa;235606
+2019;Manta;Manabí;Pequeña empresa;3041496
+2019;Manta;Manabí;Pequeña empresa;516007
+2019;Manta;Manabí;Pequeña empresa;117548
+2019;Montecristi;Manabí;Pequeña empresa;228303
+2019;Paján;Manabí;Pequeña empresa;320105
+2019;Pedernales;Manabí;Pequeña empresa;485325
+2019;Pedernales;Manabí;Pequeña empresa;395665
+2019;Portoviejo;Manabí;Pequeña empresa;3244964
+2019;Portoviejo;Manabí;Pequeña empresa;111107
+2019;Sucre;Manabí;Pequeña empresa;107603
+2019;Ambato;Tungurahua;Microempresa;39739
+2019;Patate;Tungurahua;Microempresa;36884
+2019;Patate;Tungurahua;Microempresa;57166
+2019;San Pedro de Pelileo;Tungurahua;Microempresa;25
+2019;San Pedro de Pelileo;Tungurahua;Microempresa;68413
+2019;Cayambe;Pichincha;Pequeña empresa;272197
+2019;Mejía;Pichincha;Pequeña empresa;304196
+2019;Pedro Moncayo;Pichincha;Pequeña empresa;849473
+2019;Rumiñahui;Pichincha;Pequeña empresa;139438
+2019;Ambato;Tungurahua;Pequeña empresa;124491
+2019;Buena Fé;Los Ríos;Pequeña empresa;157996
+2019;Urdaneta;Los Ríos;Pequeña empresa;176692
+2019;Ventanas;Los Ríos;Pequeña empresa;103064
+2019;Quito;Pichincha;Pequeña empresa;238266
+2019;Cayambe;Pichincha;Pequeña empresa;240364
+2019;Ambato;Tungurahua;Pequeña empresa;167315
+2019;Baños de Agua Santa;Tungurahua;Pequeña empresa;157741
+2019;Babahoyo;Los Ríos;Pequeña empresa;105282
+2019;Quevedo;Los Ríos;Pequeña empresa;362180
+2019;Quito;Pichincha;Pequeña empresa;244199
+2019;Quito;Pichincha;Pequeña empresa;127386
+2019;Quito;Pichincha;Pequeña empresa;240968
+2019;Quito;Pichincha;Grande empresa;66237068
+2019;Quito;Pichincha;Grande empresa;549544513
+2019;Quito;Pichincha;Grande empresa;54414283
+2019;Quito;Pichincha;Grande empresa;41490945
+2019;Lago Agrio;Sucumbíos;"Mediana empresa ""A""";1470061
+2019;Ambato;Tungurahua;"Mediana empresa ""A""";1887701
+2019;Quito;Pichincha;"Mediana empresa ""A""";1974934
+2019;Ambato;Tungurahua;"Mediana empresa ""B""";2153929
+2019;Quito;Pichincha;"Mediana empresa ""B""";10536380
+2019;Quito;Pichincha;"Mediana empresa ""B""";14058564
+2019;Isabela;Galápagos;Microempresa;81194
+2019;Cuenca;Azuay;Microempresa;124295
+2019;Guaranda;Bolívar;Microempresa;45233
+2019;San Miguel;Bolívar;Microempresa;21536
+2019;Cuenca;Azuay;Microempresa;12844
+2019;Cuenca;Azuay;Microempresa;96243
+2019;Riobamba;Chimborazo;Pequeña empresa;427600
+2019;Pastaza;Pastaza;Microempresa;630
+2019;El Carmen;Manabí;Microempresa;4509
+2019;Jama;Manabí;Microempresa;19347
+2019;Manta;Manabí;Microempresa;1385
+2019;Puerto López;Manabí;Microempresa;9445
+2019;Sucre;Manabí;Microempresa;853
+2019;Manta;Manabí;Microempresa;2251
+2019;Portoviejo;Manabí;Microempresa;143
+2019;Portoviejo;Manabí;Microempresa;10872
+2019;Puerto López;Manabí;Microempresa;1518
+2019;Playas;Guayas;Microempresa;14318
+2019;Santa Elena;Santa Elena;Microempresa;90
+2019;Salinas;Santa Elena;Microempresa;65213
+2019;Guayaquil;Guayas;Microempresa;143166
+2019;Pastaza;Pastaza;Microempresa;6382
+2019;Manta;Manabí;Microempresa;83670
+2019;Naranjal;Guayas;Microempresa;19214
+2019;Santa Elena;Santa Elena;Microempresa;2070
+2019;Guayaquil;Guayas;Microempresa;267
+2019;El Carmen;Manabí;Microempresa;80771
+2019;Paján;Manabí;Microempresa;87720
+2019;Pichincha;Manabí;Microempresa;23264
+2019;Portoviejo;Manabí;Microempresa;43387
+2019;Santa Ana;Manabí;Microempresa;95420
+2019;Sucre;Manabí;Microempresa;20
+2019;La Libertad;Santa Elena;Microempresa;7906
+2019;Salinas;Santa Elena;Microempresa;200
+2019;Santa Elena;Santa Elena;Microempresa;72887
+2019;Pastaza;Pastaza;Microempresa;71488
+2019;Chone;Manabí;Microempresa;94819
+2019;Manta;Manabí;Microempresa;329913
+2019;Montecristi;Manabí;Microempresa;30810
+2019;Pedernales;Manabí;Microempresa;91671
+2019;Puerto López;Manabí;Microempresa;48497
+2019;San Vicente;Manabí;Microempresa;34697
+2019;Sucre;Manabí;Microempresa;101159
+2019;Jipijapa;Manabí;Microempresa;9285
+2019;Manta;Manabí;Microempresa;218713
+2019;Manta;Manabí;Microempresa;3136
+2019;Manta;Manabí;Microempresa;49156
+2019;Portoviejo;Manabí;Microempresa;50091
+2019;Milagro;Guayas;Microempresa;39004
+2019;Playas;Guayas;Microempresa;61707
+2019;La Libertad;Santa Elena;Microempresa;41095
+2019;Salinas;Santa Elena;Microempresa;56496
+2019;Santa Elena;Santa Elena;Microempresa;110616
+2019;Santa Elena;Santa Elena;Microempresa;7164
+2019;Guayaquil;Guayas;Microempresa;1679280
+2019;Guayaquil;Guayas;Microempresa;66192
+2019;Guayaquil;Guayas;Microempresa;57743
+2019;Montecristi;Manabí;Microempresa;71213
+2019;Portoviejo;Manabí;Microempresa;58210
+2019;Manta;Manabí;Microempresa;94223
+2019;Portoviejo;Manabí;Microempresa;3244
+2019;Manta;Manabí;Pequeña empresa;126159
+2019;Guayaquil;Guayas;Pequeña empresa;420000
+2019;Pastaza;Pastaza;Pequeña empresa;260081
+2019;Jipijapa;Manabí;Pequeña empresa;108888
+2019;Jipijapa;Manabí;Pequeña empresa;816286
+2019;Manta;Manabí;Pequeña empresa;2640554
+2019;Montecristi;Manabí;Pequeña empresa;299303
+2019;Pedernales;Manabí;Pequeña empresa;219161
+2019;Portoviejo;Manabí;Pequeña empresa;855072
+2019;Puerto López;Manabí;Pequeña empresa;358304
+2019;San Vicente;Manabí;Pequeña empresa;127661
+2019;Sucre;Manabí;Pequeña empresa;910974
+2019;Chone;Manabí;Pequeña empresa;177740
+2019;Manta;Manabí;Pequeña empresa;2458569
+2019;Manta;Manabí;Pequeña empresa;799547
+2019;Manta;Manabí;Pequeña empresa;568217
+2019;Montecristi;Manabí;Pequeña empresa;285933
+2019;Portoviejo;Manabí;Pequeña empresa;118862
+2019;Portoviejo;Manabí;Pequeña empresa;347129
+2019;Daule;Guayas;Pequeña empresa;121358
+2019;El Triunfo;Guayas;Pequeña empresa;200038
+2019;Milagro;Guayas;Pequeña empresa;347260
+2019;Playas;Guayas;Pequeña empresa;1056929
+2019;Salinas;Santa Elena;Pequeña empresa;382945
+2019;Santa Elena;Santa Elena;Pequeña empresa;1631936
+2019;La Libertad;Santa Elena;Pequeña empresa;108879
+2019;Santa Elena;Santa Elena;Pequeña empresa;240000
+2019;Durán;Guayas;Pequeña empresa;583685
+2019;Guayaquil;Guayas;Pequeña empresa;19182066
+2019;Samborondón;Guayas;Pequeña empresa;145539
+2019;Pastaza;Pastaza;Pequeña empresa;361215
+2019;Manta;Manabí;Pequeña empresa;226928
+2019;Santiago de Píllaro;Tungurahua;Microempresa;40008
+2019;Portoviejo;Manabí;Microempresa;5
+2019;Quevedo;Los Ríos;Microempresa;11284
+2019;Machala;El Oro;Microempresa;5
+2019;Quito;Pichincha;Microempresa;273
+2019;Ibarra;Imbabura;Microempresa;30008
+2019;Rumiñahui;Pichincha;Microempresa;37543
+2019;Pedro Moncayo;Pichincha;Microempresa;99381
+2019;Ambato;Tungurahua;Microempresa;97071
+2019;Manta;Manabí;Microempresa;40054
+2019;Santa Rosa;El Oro;Microempresa;84375
+2019;Quito;Pichincha;Microempresa;83668
+2019;Quito;Pichincha;Microempresa;243217
+2019;Portoviejo;Manabí;Pequeña empresa;104871
+2019;Portoviejo;Manabí;Pequeña empresa;172123
+2019;Guayaquil;Guayas;Pequeña empresa;340857
+2019;Riobamba;Chimborazo;"Mediana empresa ""A""";1340374
+2019;Quito;Pichincha;Pequeña empresa;352660
+2019;Quito;Pichincha;Pequeña empresa;98545634
+2019;Quito;Pichincha;Pequeña empresa;244117
+2019;Quito;Pichincha;Pequeña empresa;4996697
+2019;Quito;Pichincha;Pequeña empresa;310208
+2019;Quito;Pichincha;Pequeña empresa;2011799
+2019;Quito;Pichincha;Pequeña empresa;346572
+2019;Quito;Pichincha;Pequeña empresa;8431872
+2019;Cuenca;Azuay;Pequeña empresa;131317
+2019;Quito;Pichincha;Pequeña empresa;155804
+2019;Quito;Pichincha;Pequeña empresa;405232
+2019;Quito;Pichincha;Pequeña empresa;176836
+2019;Lago Agrio;Sucumbíos;Pequeña empresa;293343
+2019;Putumayo;Sucumbíos;Pequeña empresa;105925
+2019;Cuenca;Azuay;Pequeña empresa;388226
+2019;Quito;Pichincha;Pequeña empresa;244444
+2019;Quito;Pichincha;Pequeña empresa;263484
+2019;Quito;Pichincha;Pequeña empresa;1103411
+2019;Orellana;Orellana;Pequeña empresa;677996
+2019;Tulcán;Carchi;Microempresa;26390
+2019;Tulcán;Carchi;Microempresa;44559
+2019;La Maná;Cotopaxi;Microempresa;25420
+2019;Latacunga;Cotopaxi;Microempresa;33380
+2019;Latacunga;Cotopaxi;Microempresa;317076
+2019;Salcedo;Cotopaxi;Microempresa;94672
+2019;Latacunga;Cotopaxi;Microempresa;173459
+2019;Salcedo;Cotopaxi;Microempresa;89503
+2019;Guaranda;Bolívar;Microempresa;37788
+2019;Camilo Ponce Enríquez;Azuay;Microempresa;53614
+2019;Cuenca;Azuay;Microempresa;424654
+2019;Girón;Azuay;Microempresa;62095
+2019;Cuenca;Azuay;Microempresa;840880
+2019;Cuenca;Azuay;Microempresa;91864
+2019;Cuenca;Azuay;Microempresa;48918
+2019;Gualaceo;Azuay;Microempresa;38237
+2019;La Troncal;Cañar;Microempresa;126298
+2019;Azogues;Cañar;Microempresa;60797
+2019;Guayaquil;Guayas;Microempresa;1206638
+2019;Guayaquil;Guayas;Microempresa;58098
+2019;Guayaquil;Guayas;Microempresa;420389
+2019;Samborondón;Guayas;Microempresa;87254
+2019;Tulcán;Carchi;Pequeña empresa;1350891
+2019;Tulcán;Carchi;Pequeña empresa;1031548
+2019;Cumandá;Chimborazo;Pequeña empresa;104523
+2019;Riobamba;Chimborazo;Pequeña empresa;760776
+2019;Chambo;Chimborazo;Pequeña empresa;186701
+2019;Riobamba;Chimborazo;Pequeña empresa;4328467
+2019;Riobamba;Chimborazo;Pequeña empresa;492655
+2019;La Maná;Cotopaxi;Pequeña empresa;724815
+2019;Latacunga;Cotopaxi;Pequeña empresa;172659
+2019;Pangua;Cotopaxi;Pequeña empresa;340000
+2019;Pujilí;Cotopaxi;Pequeña empresa;135546
+2019;Latacunga;Cotopaxi;Pequeña empresa;193803
+2019;Latacunga;Cotopaxi;Pequeña empresa;2951236
+2019;Latacunga;Cotopaxi;Pequeña empresa;109059
+2019;Pangua;Cotopaxi;Pequeña empresa;222639
+2019;Pujilí;Cotopaxi;Pequeña empresa;165352
+2019;Guaranda;Bolívar;Pequeña empresa;299692
+2019;Daule;Guayas;Pequeña empresa;624004
+2019;Daule;Guayas;Pequeña empresa;860240
+2019;Daule;Guayas;Pequeña empresa;551377
+2019;El Triunfo;Guayas;Pequeña empresa;534583
+2019;Milagro;Guayas;Pequeña empresa;1764481
+2019;Naranjal;Guayas;Pequeña empresa;299157
+2019;Playas;Guayas;Pequeña empresa;215474
+2019;Durán;Guayas;Pequeña empresa;1004227
+2019;Durán;Guayas;Pequeña empresa;492291
+2019;Durán;Guayas;Pequeña empresa;128848
+2019;Guayaquil;Guayas;Pequeña empresa;33335403
+2019;Guayaquil;Guayas;Pequeña empresa;746546
+2019;Guayaquil;Guayas;Pequeña empresa;941632
+2019;Guayaquil;Guayas;Pequeña empresa;1162778
+2019;Samborondón;Guayas;Pequeña empresa;3907464
+2019;Samborondón;Guayas;Pequeña empresa;113528
+2019;Montúfar;Carchi;"Mediana empresa ""A""";1014248
+2019;Alausí;Chimborazo;"Mediana empresa ""A""";1429188
+2019;Salcedo;Cotopaxi;"Mediana empresa ""A""";2745249
+2019;Latacunga;Cotopaxi;"Mediana empresa ""A""";1245782
+2019;Cuenca;Azuay;"Mediana empresa ""A""";3673511
+2019;Cuenca;Azuay;"Mediana empresa ""A""";6257966
+2019;Durán;Guayas;"Mediana empresa ""A""";1122151
+2019;Guayaquil;Guayas;"Mediana empresa ""A""";6264012
+2019;Guayaquil;Guayas;"Mediana empresa ""A""";2443888
+2019;Samborondón;Guayas;"Mediana empresa ""A""";1283904
+2019;Yantzaza (Yanzatza);Zamora Chinchipe;Pequeña empresa;492725
+2019;Zamora;Zamora Chinchipe;Pequeña empresa;197447
+2019;El pangui;Zamora Chinchipe;Pequeña empresa;462819
+2019;Quito;Pichincha;Pequeña empresa;8247708
+2019;Quito;Pichincha;Pequeña empresa;401231
+2019;Quito;Pichincha;Pequeña empresa;277250
+2019;Quito;Pichincha;Pequeña empresa;71989151
+2019;Quito;Pichincha;Pequeña empresa;132350
+2019;Quito;Pichincha;Pequeña empresa;3479909
+2019;Quito;Pichincha;Pequeña empresa;111425
+2019;Quito;Pichincha;Pequeña empresa;978407
+2019;Quito;Pichincha;Pequeña empresa;630798
+2019;Quito;Pichincha;Pequeña empresa;3436326
+2019;Durán;Guayas;Pequeña empresa;346584
+2019;Guayaquil;Guayas;Pequeña empresa;2228345
+2019;Samborondón;Guayas;Pequeña empresa;993681
+2019;Guayaquil;Guayas;Pequeña empresa;592821
+2019;Guayaquil;Guayas;Pequeña empresa;140303
+2019;Guayaquil;Guayas;Pequeña empresa;53604584
+2019;Guayaquil;Guayas;Pequeña empresa;429380
+2019;Guayaquil;Guayas;Pequeña empresa;839957
+2019;Guayaquil;Guayas;Pequeña empresa;773480
+2019;Guayaquil;Guayas;Pequeña empresa;4518908
+2019;Guayaquil;Guayas;Pequeña empresa;298257
+2019;Guayaquil;Guayas;Pequeña empresa;3252544
+2019;Samborondón;Guayas;Pequeña empresa;11186171
+2019;Samborondón;Guayas;Pequeña empresa;1182324
+2019;Samborondón;Guayas;Pequeña empresa;1662464
+2019;Guayaquil;Guayas;Pequeña empresa;314023
+2019;Guayaquil;Guayas;Pequeña empresa;108168
+2019;Quito;Pichincha;Microempresa;87057
+2019;Yantzaza (Yanzatza);Zamora Chinchipe;Grande empresa;11715600
+2019;Ambato;Tungurahua;"Mediana empresa ""A""";1179307
+2019;Baños de Agua Santa;Tungurahua;"Mediana empresa ""A""";2087587
+2019;Ambato;Tungurahua;"Mediana empresa ""A""";2951216
+2019;Ambato;Tungurahua;"Mediana empresa ""A""";1603462
+2019;Shushufindi;Sucumbíos;"Mediana empresa ""B""";3186890
+2019;Mejía;Pichincha;"Mediana empresa ""B""";3231038
+2019;Quito;Pichincha;"Mediana empresa ""B""";31777857
+2019;Quito;Pichincha;"Mediana empresa ""B""";65017510
+2019;Quito;Pichincha;"Mediana empresa ""B""";2754988
+2019;Quito;Pichincha;"Mediana empresa ""B""";2917254
+2019;Quito;Pichincha;"Mediana empresa ""B""";2036019
+2019;Chambo;Chimborazo;Microempresa;339
+2019;Riobamba;Chimborazo;Microempresa;2679
+2019;Riobamba;Chimborazo;Microempresa;2112
+2019;Riobamba;Chimborazo;Microempresa;71752
+2019;Colta;Chimborazo;Microempresa;734
+2019;Latacunga;Cotopaxi;Microempresa;18
+2019;Latacunga;Cotopaxi;Microempresa;62
+2019;Saquisilí;Cotopaxi;Microempresa;28982
+2019;Lago Agrio;Sucumbíos;Microempresa;123272
+2019;Shushufindi;Sucumbíos;Microempresa;10348
+2019;Alausí;Chimborazo;Microempresa;53010
+2019;Riobamba;Chimborazo;Microempresa;22933
+2019;Riobamba;Chimborazo;Microempresa;362136
+2019;Ambato;Tungurahua;Microempresa;69827
+2019;Ambato;Tungurahua;Microempresa;252939
+2019;Santiago de Píllaro;Tungurahua;Microempresa;11239
+2019;Isabela;Galápagos;Microempresa;153392
+2019;San Cristóbal;Galápagos;Microempresa;90831
+2019;Santa Cruz;Galápagos;Microempresa;211323
+2019;Santa Cruz;Galápagos;Microempresa;177590
+2019;Yantzaza (Yanzatza);Zamora Chinchipe;Microempresa;84419
+2019;Lago Agrio;Sucumbíos;Microempresa;13626
+2019;Lago Agrio;Sucumbíos;Microempresa;60749
+2019;Alfredo Baquerizo Moreno (Juján);Guayas;Pequeña empresa;475242
+2019;Daule;Guayas;Pequeña empresa;305632
+2019;Naranjal;Guayas;Pequeña empresa;104445
+2019;Guayaquil;Guayas;Pequeña empresa;2260789
+2019;Guayaquil;Guayas;Pequeña empresa;191146
+2019;Guayaquil;Guayas;Pequeña empresa;600055
+2019;Samborondón;Guayas;Pequeña empresa;114276
+2019;Guayaquil;Guayas;"Mediana empresa ""B""";2166082
+2019;Valencia;Los Ríos;Microempresa;41746
+2019;Vinces;Los Ríos;Microempresa;5696
+2019;Quevedo;Los Ríos;Microempresa;27867
+2019;El Guabo;El Oro;Microempresa;92576
+2019;Machala;El Oro;Microempresa;106637
+2019;Pasaje;El Oro;Microempresa;43340
+2019;Machala;El Oro;Microempresa;59779
+2019;Machala;El Oro;Microempresa;184262
+2019;Machala;El Oro;Microempresa;8330
+2019;Quito;Pichincha;Microempresa;1761302
+2019;Quito;Pichincha;Microempresa;4581479
+2019;Quito;Pichincha;Microempresa;490476
+2019;Quito;Pichincha;Microempresa;43412
+2019;Quito;Pichincha;Microempresa;384837
+2019;Montalvo;Los Ríos;Microempresa;55179
+2019;Machala;El Oro;Microempresa;36643
+2019;Quito;Pichincha;Microempresa;118726
+2019;Quito;Pichincha;Microempresa;8000
+2019;Quito;Pichincha;Microempresa;61180
+2019;Tulcán;Carchi;Pequeña empresa;213411
+2019;Tulcán;Carchi;Pequeña empresa;342794
+2019;Machala;El Oro;Pequeña empresa;3744631
+2019;Machala;El Oro;Pequeña empresa;557067
+2019;Montúfar;Carchi;Pequeña empresa;180871
+2019;Lago Agrio;Sucumbíos;Microempresa;67741
+2019;Putumayo;Sucumbíos;Microempresa;2545
+2019;Santa Cruz;Galápagos;Microempresa;67465
+2019;Buena Fé;Los Ríos;Microempresa;70669
+2019;Quevedo;Los Ríos;Microempresa;60872
+2019;El pangui;Zamora Chinchipe;Microempresa;22904
+2019;Quito;Pichincha;Microempresa;136138
+2019;Quito;Pichincha;Microempresa;120
+2019;Quito;Pichincha;Microempresa;274805
+2019;Quito;Pichincha;Microempresa;3402
+2019;Quito;Pichincha;Microempresa;14621
+2019;Quito;Pichincha;Microempresa;97444
+2019;Cuyabeno;Sucumbíos;Microempresa;44672
+2019;Gonzalo Pizarro;Sucumbíos;Microempresa;57188
+2019;Lago Agrio;Sucumbíos;Microempresa;28572
+2019;Shushufindi;Sucumbíos;Microempresa;93619
+2019;Lago Agrio;Sucumbíos;Microempresa;3170
+2019;Mejía;Pichincha;Microempresa;45610
+2019;Rumiñahui;Pichincha;Microempresa;68817
+2019;Cayambe;Pichincha;Microempresa;148105
+2019;Cayambe;Pichincha;Microempresa;93916
+2019;Cayambe;Pichincha;Microempresa;5790
+2019;Mejía;Pichincha;Microempresa;43562
+2019;Rumiñahui;Pichincha;Microempresa;55400
+2019;Ambato;Tungurahua;Microempresa;447278
+2019;Baños de Agua Santa;Tungurahua;Microempresa;106386
+2019;Ambato;Tungurahua;Microempresa;240579
+2019;Ambato;Tungurahua;Microempresa;11435
+2019;Baños de Agua Santa;Tungurahua;Microempresa;49139
+2019;Patate;Tungurahua;Microempresa;97082
+2019;San Pedro de Pelileo;Tungurahua;Microempresa;92910
+2019;Quito;Pichincha;Microempresa;1226905
+2019;Quito;Pichincha;Microempresa;79281
+2019;Quito;Pichincha;Microempresa;2836073
+2019;Quito;Pichincha;Microempresa;123461
+2019;Quito;Pichincha;Microempresa;215623
+2019;Quito;Pichincha;Microempresa;15
+2019;Orellana;Orellana;Pequeña empresa;806378
+2019;La Joya de los Sachas;Orellana;Pequeña empresa;287053
+2019;La Joya de los Sachas;Orellana;Pequeña empresa;175933
+2019;Orellana;Orellana;Pequeña empresa;242376
+2019;Ambato;Tungurahua;Pequeña empresa;132683
+2019;Lago Agrio;Sucumbíos;Pequeña empresa;3270228
+2019;Shushufindi;Sucumbíos;Pequeña empresa;2245506
+2019;Lago Agrio;Sucumbíos;Pequeña empresa;1092917
+2019;Lago Agrio;Sucumbíos;Pequeña empresa;224964
+2019;Shushufindi;Sucumbíos;Pequeña empresa;482952
+2019;Shushufindi;Sucumbíos;Pequeña empresa;482470
+2019;Shushufindi;Sucumbíos;Pequeña empresa;168758
+2019;Shushufindi;Sucumbíos;Pequeña empresa;223443
+2019;Cayambe;Pichincha;Pequeña empresa;222552
+2019;Mejía;Pichincha;Pequeña empresa;274260
+2019;Pedro Moncayo;Pichincha;Pequeña empresa;168786
+2019;Rumiñahui;Pichincha;Pequeña empresa;325146
+2019;San Miguel de los Bancos;Pichincha;Pequeña empresa;676640
+2019;Cayambe;Pichincha;Pequeña empresa;1288981
+2019;Cayambe;Pichincha;Pequeña empresa;855312
+2019;Cayambe;Pichincha;Pequeña empresa;705040
+2019;Cayambe;Pichincha;Pequeña empresa;325734
+2019;Mejía;Pichincha;Pequeña empresa;184926
+2019;Mejía;Pichincha;Pequeña empresa;327508
+2019;Mejía;Pichincha;Pequeña empresa;1113268
+2019;Pedro Moncayo;Pichincha;Pequeña empresa;387974
+2019;Pedro Moncayo;Pichincha;Pequeña empresa;173506
+2019;Pedro Vicente Maldonado;Pichincha;Pequeña empresa;561929
+2019;Rumiñahui;Pichincha;Pequeña empresa;5056097
+2019;Rumiñahui;Pichincha;Pequeña empresa;119929
+2019;Rumiñahui;Pichincha;Pequeña empresa;147154
+2019;San Miguel de los Bancos;Pichincha;Pequeña empresa;369713
+2019;Ambato;Tungurahua;Pequeña empresa;3054646
+2019;Baños de Agua Santa;Tungurahua;Pequeña empresa;1437065
+2019;Cevallos;Tungurahua;Pequeña empresa;270902
+2019;Patate;Tungurahua;Pequeña empresa;112996
+2019;Santiago de Píllaro;Tungurahua;Pequeña empresa;103402
+2019;Ambato;Tungurahua;Pequeña empresa;13165340
+2019;Ambato;Tungurahua;Pequeña empresa;628368
+2019;Ambato;Tungurahua;Pequeña empresa;100068
+2019;Baños de Agua Santa;Tungurahua;Pequeña empresa;644305
+2019;Baños de Agua Santa;Tungurahua;Pequeña empresa;246303
+2019;Mocha;Tungurahua;Pequeña empresa;199468
+2019;Isabela;Galápagos;Pequeña empresa;818575
+2019;San Cristóbal;Galápagos;Pequeña empresa;929788
+2019;Santa Cruz;Galápagos;Pequeña empresa;2752408
+2019;San Cristóbal;Galápagos;Pequeña empresa;386283
+2019;Santa Cruz;Galápagos;Pequeña empresa;3350674
+2019;Santa Cruz;Galápagos;Pequeña empresa;1032433
+2019;Quevedo;Los Ríos;Pequeña empresa;1127461
+2019;Valencia;Los Ríos;Pequeña empresa;312955
+2019;Ventanas;Los Ríos;Pequeña empresa;665882
+2019;Babahoyo;Los Ríos;Pequeña empresa;1032900
+2019;Buena Fé;Los Ríos;Pequeña empresa;259047
+2019;Quevedo;Los Ríos;Pequeña empresa;3133619
+2019;Ventanas;Los Ríos;Pequeña empresa;273526
+2019;Machala;El Oro;Pequeña empresa;248356
+2019;Huaquillas;El Oro;Pequeña empresa;2007563
+2019;Machala;El Oro;Pequeña empresa;1725387
+2019;Pasaje;El Oro;Pequeña empresa;891757
+2019;Arenillas;El Oro;Pequeña empresa;271998
+2019;Machala;El Oro;Pequeña empresa;9106437
+2019;Machala;El Oro;Pequeña empresa;459923
+2019;Machala;El Oro;Pequeña empresa;196200
+2019;Pasaje;El Oro;Pequeña empresa;445294
+2019;Piñas;El Oro;Pequeña empresa;115961
+2019;Piñas;El Oro;Pequeña empresa;136465
+2019;Santa Rosa;El Oro;Pequeña empresa;1186721
+2019;Archidona;Napo;Microempresa;2902
+2019;El chaco;Napo;Microempresa;11339
+2019;Tena;Napo;Microempresa;1045
+2019;Tena;Napo;Microempresa;4464
+2019;Archidona;Napo;Microempresa;97595
+2019;Archidona;Napo;Pequeña empresa;326235
+2019;Tena;Napo;Pequeña empresa;547343
+2019;El chaco;Napo;Pequeña empresa;470198
+2019;Tena;Napo;Pequeña empresa;108864
+2019;Tena;Napo;Pequeña empresa;332056
+2019;Riobamba;Chimborazo;Microempresa;48130
+2019;Daule;Guayas;Microempresa;74412
+2019;El Triunfo;Guayas;Microempresa;65269
+2019;Durán;Guayas;Microempresa;41814
+2019;Guayaquil;Guayas;Microempresa;237465
+2019;Guayaquil;Guayas;Microempresa;83709
+2019;Guayaquil;Guayas;Microempresa;55983
+2019;Samborondón;Guayas;Microempresa;130312
+2019;Samborondón;Guayas;Microempresa;21552
+2019;Azogues;Cañar;Pequeña empresa;127129
+2019;Riobamba;Chimborazo;Microempresa;83396
+2019;Colta;Chimborazo;Microempresa;27399
+2019;Riobamba;Chimborazo;Microempresa;350841
+2019;Riobamba;Chimborazo;Microempresa;80150
+2019;Daule;Guayas;Microempresa;126028
+2019;El Triunfo;Guayas;Microempresa;82935
+2019;Camilo Ponce Enríquez;Azuay;Pequeña empresa;147082
+2019;Cuenca;Azuay;Pequeña empresa;4855672
+2019;Cuenca;Azuay;Pequeña empresa;503056
+2019;Gualaceo;Azuay;Pequeña empresa;221669
+2019;Camilo Ponce Enríquez;Azuay;Pequeña empresa;1347066
+2019;Cuenca;Azuay;Pequeña empresa;22226619
+2019;Cuenca;Azuay;Pequeña empresa;255164
+2019;Cuenca;Azuay;Pequeña empresa;1030786
+2019;Cuenca;Azuay;Pequeña empresa;868044
+2019;Gualaceo;Azuay;Pequeña empresa;245758
+2019;Paute;Azuay;Pequeña empresa;395522
+2019;Santa Isabel;Azuay;Pequeña empresa;183704
+2019;Azogues;Cañar;Pequeña empresa;167973
+2019;Biblián;Cañar;Pequeña empresa;202581
+2019;La Troncal;Cañar;Pequeña empresa;399019
+2019;Azogues;Cañar;Pequeña empresa;825195
+2019;La Troncal;Cañar;Pequeña empresa;133615
+2020;Atacames;Esmeraldas;Microempresa;160
+2020;Atacames;Esmeraldas;Microempresa;10
+2020;Esmeraldas;Esmeraldas;Microempresa;32810
+2020;San Lorenzo;Esmeraldas;Microempresa;10
+2020;Archidona;Napo;Microempresa;48622
+2020;El chaco;Napo;Microempresa;11862
+2020;El chaco;Napo;Microempresa;37573
+2020;Tena;Napo;Microempresa;7027
+2020;Tena;Napo;Microempresa;32559
+2020;Tiwintza;Morona Santiago;Microempresa;7538
+2020;Morona;Morona Santiago;Microempresa;238
+2020;Atacames;Esmeraldas;Microempresa;4620
+2020;Esmeraldas;Esmeraldas;Microempresa;1723
+2020;Baños de Agua Santa;Tungurahua;"Mediana empresa ""A""";1471774
+2020;Patate;Tungurahua;"Mediana empresa ""A""";1343611
+2020;Ambato;Tungurahua;"Mediana empresa ""A""";1112691
+2020;Quito;Pichincha;"Mediana empresa ""A""";3007843
+2020;Quito;Pichincha;"Mediana empresa ""A""";3113130
+2020;Quito;Pichincha;"Mediana empresa ""A""";1349714
+2020;Ventanas;Los Ríos;"Mediana empresa ""B""";4600772
+2020;Quito;Pichincha;"Mediana empresa ""B""";6253079
+2020;Atacames;Esmeraldas;Microempresa;21057
+2020;Esmeraldas;Esmeraldas;Microempresa;14695
+2020;Eloy Alfaro;Esmeraldas;Microempresa;1245
+2020;Atacames;Esmeraldas;Microempresa;130
+2020;Esmeraldas;Esmeraldas;Microempresa;36
+2020;Esmeraldas;Esmeraldas;Microempresa;45077
+2020;Atacames;Esmeraldas;Microempresa;174965
+2020;Esmeraldas;Esmeraldas;Microempresa;71565
+2020;Tena;Napo;Microempresa;153254
+2020;El chaco;Napo;Microempresa;31782
+2020;Morona;Morona Santiago;Microempresa;14200
+2020;Rioverde;Esmeraldas;Pequeña empresa;132971
+2020;La Libertad;Santa Elena;Pequeña empresa;157080
+2020;La Libertad;Santa Elena;"Mediana empresa ""B""";2118579
+2020;Salinas;Santa Elena;Microempresa;21400
+2020;Loja;Loja;Microempresa;3348
+2020;Loja;Loja;Microempresa;8650
+2020;Salinas;Santa Elena;Microempresa;146365
+2020;Loja;Loja;Microempresa;336913
+2020;Macará;Loja;Microempresa;26703
+2020;Paltas;Loja;Microempresa;95956
+2020;Loja;Loja;Microempresa;291690
+2020;Otavalo;Imbabura;Pequeña empresa;467030
+2020;Salinas;Santa Elena;Pequeña empresa;745649
+2020;Santa Elena;Santa Elena;Pequeña empresa;376627
+2020;Loja;Loja;Pequeña empresa;193588
+2020;Ibarra;Imbabura;Pequeña empresa;1574505
+2020;Otavalo;Imbabura;Pequeña empresa;277295
+2020;Antonio Ante;Imbabura;Pequeña empresa;790764
+2020;Antonio Ante;Imbabura;Pequeña empresa;477357
+2020;Ibarra;Imbabura;Pequeña empresa;5103147
+2020;Otavalo;Imbabura;Pequeña empresa;771462
+2020;Otavalo;Imbabura;Pequeña empresa;192157
+2020;San Miguel de Urcuqui;Imbabura;Pequeña empresa;108517
+2020;La Libertad;Santa Elena;Pequeña empresa;102752
+2020;Salinas;Santa Elena;Pequeña empresa;312752
+2020;Pastaza;Pastaza;Pequeña empresa;389759
+2020;Cuenca;Azuay;"Mediana empresa ""A""";1120562
+2020;Cuenca;Azuay;Pequeña empresa;736398
+2020;Cuenca;Azuay;"Mediana empresa ""A""";1102041
+2020;Cuenca;Azuay;"Mediana empresa ""A""";1624997
+2020;Cuenca;Azuay;"Mediana empresa ""B""";3158186
+2020;Rumiñahui;Pichincha;Microempresa;61499
+2020;Babahoyo;Los Ríos;Grande empresa;6442414
+2020;Pedro Moncayo;Pichincha;"Mediana empresa ""A""";1927561
+2020;Orellana;Orellana;Pequeña empresa;399101
+2020;La Joya de los Sachas;Orellana;Pequeña empresa;133558
+2020;Rumiñahui;Pichincha;Pequeña empresa;129286
+2020;Calvas;Loja;Pequeña empresa;701379
+2020;Loja;Loja;Pequeña empresa;502931
+2020;Loja;Loja;Pequeña empresa;799313
+2020;Loja;Loja;"Mediana empresa ""A""";1936307
+2020;Esmeraldas;Esmeraldas;Microempresa;97081
+2020;Tena;Napo;Microempresa;36513
+2020;Tena;Napo;Microempresa;71088
+2020;Morona;Morona Santiago;Microempresa;51098
+2020;Morona;Morona Santiago;Microempresa;22719
+2020;San Juan Bosco;Morona Santiago;Microempresa;42446
+2020;Esmeraldas;Esmeraldas;Pequeña empresa;476990
+2020;Atacames;Esmeraldas;Pequeña empresa;660663
+2020;Tena;Napo;Pequeña empresa;885917
+2020;Esmeraldas;Esmeraldas;"Mediana empresa ""A""";2427414
+2020;Rioverde;Esmeraldas;"Mediana empresa ""B""";3785082
+2020;Tena;Napo;Microempresa;293
+2020;Archidona;Napo;Microempresa;32930
+2020;Tena;Napo;Microempresa;125612
+2020;Quijos;Napo;Microempresa;17648
+2020;Tena;Napo;Microempresa;893
+2020;San Lorenzo;Esmeraldas;Pequeña empresa;203389
+2020;Atacames;Esmeraldas;Pequeña empresa;376113
+2020;Esmeraldas;Esmeraldas;Pequeña empresa;1017744
+2020;Atacames;Esmeraldas;Pequeña empresa;189049
+2020;Esmeraldas;Esmeraldas;Pequeña empresa;668628
+2020;Antonio Ante;Imbabura;Microempresa;22062
+2020;Cotacachi;Imbabura;Microempresa;64
+2020;Cotacachi;Imbabura;Microempresa;5217
+2020;Ibarra;Imbabura;Microempresa;2609
+2020;Ibarra;Imbabura;Microempresa;17782
+2020;Ibarra;Imbabura;Microempresa;3464
+2020;Otavalo;Imbabura;Microempresa;51717
+2020;Otavalo;Imbabura;Microempresa;212
+2020;Catamayo;Loja;Microempresa;28
+2020;Loja;Loja;Microempresa;16427
+2020;Loja;Loja;Microempresa;11865
+2020;Macará;Loja;Microempresa;1360
+2020;Coronel Marcelino Maridueña;Guayas;Microempresa;11432
+2020;Lomas de Sargentillo;Guayas;Microempresa;16012
+2020;Catamayo;Loja;Microempresa;22099
+2020;Loja;Loja;Microempresa;74414
+2020;Loja;Loja;Microempresa;21069
+2020;Loja;Loja;Microempresa;9718
+2020;Macará;Loja;Microempresa;15071
+2020;Ambato;Tungurahua;Microempresa;21087
+2020;Ambato;Tungurahua;Microempresa;12565
+2020;Urdaneta;Los Ríos;Microempresa;230
+2020;Quito;Pichincha;Microempresa;200571
+2020;Quito;Pichincha;Microempresa;296693
+2020;Quito;Pichincha;Microempresa;106950
+2020;Quito;Pichincha;Microempresa;389
+2020;Quito;Pichincha;Microempresa;98428
+2020;Cascales;Sucumbíos;Microempresa;175
+2020;Guaranda;Bolívar;Microempresa;35021
+2020;Quito;Pichincha;Microempresa;2073
+2020;Lago Agrio;Sucumbíos;Microempresa;5989
+2020;San Pedro de Pelileo;Tungurahua;Microempresa;1135
+2020;Guaranda;Bolívar;Microempresa;20364
+2020;Quevedo;Los Ríos;Microempresa;9980
+2020;Quito;Pichincha;Microempresa;132870
+2020;Quito;Pichincha;Microempresa;31113
+2020;Guaranda;Bolívar;Microempresa;10959
+2020;El Tambo;Cañar;Microempresa;650
+2020;La Troncal;Cañar;Microempresa;69996
+2020;Azogues;Cañar;Microempresa;85134
+2020;Guano;Chimborazo;Pequeña empresa;399259
+2020;Riobamba;Chimborazo;Pequeña empresa;1002192
+2020;Riobamba;Chimborazo;Pequeña empresa;679871
+2020;Latacunga;Cotopaxi;Pequeña empresa;165360
+2020;Pujilí;Cotopaxi;Pequeña empresa;189362
+2020;Loreto;Orellana;Microempresa;14979
+2020;Orellana;Orellana;Microempresa;81926
+2020;Machala;El Oro;Microempresa;3221
+2020;Orellana;Orellana;Microempresa;172409
+2020;Orellana;Orellana;Microempresa;146901
+2020;Orellana;Orellana;Microempresa;36743
+2020;Isabela;Galápagos;Microempresa;196980
+2020;San Cristóbal;Galápagos;Microempresa;96939
+2020;Santa Cruz;Galápagos;Microempresa;178674
+2020;San Cristóbal;Galápagos;Microempresa;141718
+2020;Santa Cruz;Galápagos;Microempresa;63442
+2020;Huaquillas;El Oro;Microempresa;77256
+2020;Machala;El Oro;Microempresa;145913
+2020;Pasaje;El Oro;Microempresa;22000
+2020;Piñas;El Oro;Microempresa;30067
+2020;Santa Rosa;El Oro;Microempresa;45617
+2020;Zaruma;El Oro;Microempresa;18339
+2020;Arenillas;El Oro;Microempresa;26617
+2020;Machala;El Oro;Microempresa;354208
+2020;Piñas;El Oro;Microempresa;1
+2020;Yantzaza (Yanzatza);Zamora Chinchipe;Microempresa;24508
+2020;Quito;Pichincha;Pequeña empresa;645955
+2020;La Joya de los Sachas;Orellana;Pequeña empresa;1311730
+2020;Orellana;Orellana;Pequeña empresa;3221346
+2020;La Joya de los Sachas;Orellana;Pequeña empresa;698059
+2020;Orellana;Orellana;Pequeña empresa;703940
+2020;Orellana;Orellana;Pequeña empresa;111714
+2020;Lago Agrio;Sucumbíos;Grande empresa;5021235
+2020;Lago Agrio;Sucumbíos;"Mediana empresa ""A""";1187559
+2020;La Joya de los Sachas;Orellana;"Mediana empresa ""A""";1257258
+2020;Orellana;Orellana;"Mediana empresa ""A""";1377464
+2020;Quito;Pichincha;"Mediana empresa ""A""";1172188
+2020;Cascales;Sucumbíos;Microempresa;19813
+2020;Gonzalo Pizarro;Sucumbíos;Microempresa;5203
+2020;Lago Agrio;Sucumbíos;Microempresa;1953
+2020;Lago Agrio;Sucumbíos;Microempresa;9612
+2020;Aguarico;Orellana;Microempresa;39
+2020;Aguarico;Orellana;Microempresa;37
+2020;La Joya de los Sachas;Orellana;Microempresa;38194
+2020;Loreto;Orellana;Microempresa;100
+2020;Loreto;Orellana;Microempresa;260
+2020;Loreto;Orellana;Microempresa;101
+2020;Orellana;Orellana;Microempresa;38928
+2020;Orellana;Orellana;Microempresa;18329
+2020;Cayambe;Pichincha;Microempresa;47848
+2020;Cayambe;Pichincha;Microempresa;72629
+2020;Cayambe;Pichincha;Microempresa;5340
+2020;Mejía;Pichincha;Microempresa;51178
+2020;Pedro Moncayo;Pichincha;Microempresa;91485
+2020;Rumiñahui;Pichincha;Microempresa;20055
+2020;Buena Fé;Los Ríos;Microempresa;5882
+2020;Quevedo;Los Ríos;Microempresa;44980
+2020;Urdaneta;Los Ríos;Microempresa;87
+2020;Ventanas;Los Ríos;Microempresa;10084
+2020;Machala;El Oro;Microempresa;12872
+2020;Machala;El Oro;Microempresa;4476
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;7000
+2020;Santiago;Morona Santiago;"Mediana empresa ""A""";1372972
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;253
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;2360
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;654925
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;255315
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;20516
+2020;Morona;Morona Santiago;Microempresa;27404
+2020;La Concordia;Santo Domingo de los Tsáchilas;Pequeña empresa;105321
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;1360633
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;3308441
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;434568
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;708662
+2020;Morona;Morona Santiago;Pequeña empresa;133012
+2020;Palora;Morona Santiago;Pequeña empresa;851963
+2020;Guayaquil;Guayas;"Mediana empresa ""A""";1743617
+2020;Portoviejo;Manabí;"Mediana empresa ""B""";2250315
+2020;Loja;Loja;Microempresa;30
+2020;Loja;Loja;Microempresa;3870
+2020;Loja;Loja;Microempresa;63
+2020;Jipijapa;Manabí;Pequeña empresa;221537
+2020;Manta;Manabí;Pequeña empresa;2892363
+2020;Puerto López;Manabí;Pequeña empresa;149653
+2020;Sucre;Manabí;Pequeña empresa;286226
+2020;Manta;Manabí;Pequeña empresa;1867911
+2020;Manta;Manabí;Pequeña empresa;583270
+2020;Manta;Manabí;Pequeña empresa;441059
+2020;Montecristi;Manabí;Pequeña empresa;294169
+2020;Salinas;Santa Elena;Pequeña empresa;111407
+2020;Santa Elena;Santa Elena;Pequeña empresa;1698222
+2020;Pastaza;Pastaza;Pequeña empresa;254156
+2020;Santa Elena;Santa Elena;Pequeña empresa;424170
+2020;La Libertad;Santa Elena;Pequeña empresa;762884
+2020;Salinas;Santa Elena;Pequeña empresa;735247
+2020;Santa Elena;Santa Elena;Pequeña empresa;1432875
+2020;Loja;Loja;Pequeña empresa;853511
+2020;Paltas;Loja;Pequeña empresa;288562
+2020;Puyango;Loja;Pequeña empresa;153964
+2020;Loja;Loja;Pequeña empresa;2115969
+2020;Loja;Loja;Pequeña empresa;157219
+2020;La Libertad;Santa Elena;Microempresa;3413
+2020;La Libertad;Santa Elena;Microempresa;45899
+2020;Salinas;Santa Elena;Microempresa;11928
+2020;Santa Elena;Santa Elena;Microempresa;102836
+2020;Santa Elena;Santa Elena;Microempresa;300
+2020;La Libertad;Santa Elena;Microempresa;9818
+2020;La Libertad;Santa Elena;Microempresa;85040
+2020;Santa Elena;Santa Elena;Pequeña empresa;107953
+2020;Manta;Manabí;"Mediana empresa ""A""";1307747
+2020;Manta;Manabí;"Mediana empresa ""B""";2961536
+2020;Manta;Manabí;Pequeña empresa;562060
+2020;Salinas;Santa Elena;Pequeña empresa;877664
+2020;Manta;Manabí;"Mediana empresa ""A""";1053093
+2020;Portoviejo;Manabí;"Mediana empresa ""A""";1367260
+2020;La Libertad;Santa Elena;"Mediana empresa ""A""";1477639
+2020;La Libertad;Santa Elena;"Mediana empresa ""B""";2380595
+2020;Pastaza;Pastaza;Microempresa;250
+2020;Pindal;Loja;"Mediana empresa ""A""";1905922
+2020;Loja;Loja;"Mediana empresa ""B""";2273129
+2020;Ibarra;Imbabura;Microempresa;70
+2020;Antonio Ante;Imbabura;Microempresa;148995
+2020;Ibarra;Imbabura;Microempresa;309954
+2020;Otavalo;Imbabura;Microempresa;64620
+2020;San Miguel de Urcuqui;Imbabura;Microempresa;101385
+2020;Antonio Ante;Imbabura;Microempresa;166399
+2020;Cotacachi;Imbabura;Microempresa;6387
+2020;Ibarra;Imbabura;Microempresa;303895
+2020;Ibarra;Imbabura;Microempresa;550
+2020;Otavalo;Imbabura;Microempresa;36531
+2020;Otavalo;Imbabura;Microempresa;21676
+2020;Catamayo;Loja;Microempresa;10280
+2020;Loja;Loja;Microempresa;176742
+2020;Loja;Loja;Microempresa;5392
+2020;Loja;Loja;Microempresa;22377
+2020;Ambato;Tungurahua;Pequeña empresa;174698
+2020;Quevedo;Los Ríos;Pequeña empresa;171020
+2020;Guayaquil;Guayas;Pequeña empresa;130046
+2020;Quito;Pichincha;Pequeña empresa;217281
+2020;Quito;Pichincha;Pequeña empresa;358134
+2020;Mera;Pastaza;Microempresa;60
+2020;Mera;Pastaza;Microempresa;1600
+2020;Pastaza;Pastaza;Microempresa;11
+2020;Pastaza;Pastaza;Microempresa;3375
+2020;Chone;Manabí;Microempresa;38016
+2020;Jipijapa;Manabí;Microempresa;45114
+2020;Manta;Manabí;Microempresa;1
+2020;Manta;Manabí;Microempresa;37253
+2020;Pedernales;Manabí;Microempresa;374
+2020;Pichincha;Manabí;Microempresa;14467
+2020;Portoviejo;Manabí;Microempresa;43210
+2020;Portoviejo;Manabí;Microempresa;92325
+2020;Portoviejo;Manabí;Microempresa;10083
+2020;Puerto López;Manabí;Microempresa;4111
+2020;Rocafuerte;Manabí;Microempresa;200
+2020;La Concordia;Santo Domingo de los Tsáchilas;Microempresa;10
+2020;Balzar;Guayas;Microempresa;47229
+2020;El Empalme;Guayas;Microempresa;8185
+2020;Milagro;Guayas;Microempresa;14
+2020;Milagro;Guayas;Microempresa;10115
+2020;Pedro Carbo;Guayas;Microempresa;3619
+2020;San Jacinto de Yaguachi;Guayas;Microempresa;914
+2020;San Jacinto de Yaguachi;Guayas;Microempresa;4978
+2020;Simón Bolívar;Guayas;Microempresa;27961
+2020;Guayaquil;Guayas;Microempresa;9754
+2020;Guayaquil;Guayas;Microempresa;78518
+2020;Guayaquil;Guayas;Microempresa;14692
+2020;Portoviejo;Manabí;Microempresa;9544
+2020;Gualaceo;Azuay;Microempresa;2636
+2020;Durán;Guayas;Microempresa;32509
+2020;Guayaquil;Guayas;Microempresa;91509
+2020;Guayaquil;Guayas;Microempresa;3257
+2020;Manta;Manabí;Pequeña empresa;214935
+2020;Jaramijó;Manabí;Pequeña empresa;111362
+2020;Portoviejo;Manabí;Pequeña empresa;684396
+2020;Sucre;Manabí;Pequeña empresa;196792
+2020;Milagro;Guayas;Pequeña empresa;428932
+2020;Salitre (Urbina Jado);Guayas;Pequeña empresa;901434
+2020;Durán;Guayas;Pequeña empresa;314941
+2020;Guayaquil;Guayas;Pequeña empresa;533917
+2020;Guayaquil;Guayas;Pequeña empresa;896321
+2020;Guayaquil;Guayas;Pequeña empresa;168220
+2020;Guayaquil;Guayas;"Mediana empresa ""A""";9045606
+2020;Samborondón;Guayas;"Mediana empresa ""A""";1432283
+2020;Guayaquil;Guayas;"Mediana empresa ""A""";18027375
+2020;Guayaquil;Guayas;"Mediana empresa ""A""";1178948
+2020;Guayaquil;Guayas;"Mediana empresa ""A""";1864611
+2020;Samborondón;Guayas;"Mediana empresa ""A""";9411169
+2020;Guayaquil;Guayas;"Mediana empresa ""B""";3581140
+2020;Guayaquil;Guayas;"Mediana empresa ""B""";2090214
+2020;Guayaquil;Guayas;"Mediana empresa ""B""";6477279
+2020;Guayaquil;Guayas;"Mediana empresa ""B""";4748042
+2020;Coronel Marcelino Maridueña;Guayas;Microempresa;710
+2020;Cuenca;Azuay;Microempresa;69411
+2020;Riobamba;Chimborazo;Microempresa;26784
+2020;Esmeraldas;Esmeraldas;Pequeña empresa;577631
+2020;Archidona;Napo;Pequeña empresa;1059404
+2020;Quijos;Napo;Pequeña empresa;119363
+2020;Tena;Napo;Pequeña empresa;106215
+2020;Riobamba;Chimborazo;Microempresa;551
+2020;Riobamba;Chimborazo;Microempresa;10
+2020;Chambo;Chimborazo;Microempresa;4413
+2020;Riobamba;Chimborazo;Microempresa;18225
+2020;La Maná;Cotopaxi;Microempresa;1909
+2020;Latacunga;Cotopaxi;Microempresa;214
+2020;Latacunga;Cotopaxi;Microempresa;59830
+2020;Latacunga;Cotopaxi;Microempresa;42552
+2020;Pujilí;Cotopaxi;Microempresa;30392
+2020;Guaranda;Bolívar;Microempresa;220
+2020;Guaranda;Bolívar;Microempresa;58274
+2020;Guaranda;Bolívar;Microempresa;25257
+2020;San Miguel;Bolívar;Microempresa;6524
+2020;Camilo Ponce Enríquez;Azuay;Microempresa;7276
+2020;Camilo Ponce Enríquez;Azuay;Microempresa;359
+2020;Cuenca;Azuay;Microempresa;37182
+2020;Guachapala;Azuay;Microempresa;6054
+2020;Gualaceo;Azuay;Microempresa;1326
+2020;Paute;Azuay;Microempresa;289
+2020;Sevilla de Oro;Azuay;Microempresa;17587
+2020;La Troncal;Cañar;Microempresa;290
+2020;Riobamba;Chimborazo;Microempresa;131570
+2020;Riobamba;Chimborazo;Microempresa;14992
+2020;Guaranda;Bolívar;Microempresa;17822
+2020;Riobamba;Chimborazo;Pequeña empresa;177406
+2020;Saquisilí;Cotopaxi;Pequeña empresa;121615
+2020;Cuenca;Azuay;Pequeña empresa;118350
+2020;Guayaquil;Guayas;Grande empresa;12497670
+2020;Guayaquil;Guayas;Grande empresa;119242691
+2020;Guayaquil;Guayas;Grande empresa;71722027
+2020;Guayaquil;Guayas;Grande empresa;20339081
+2020;Guayaquil;Guayas;"Mediana empresa ""A""";1465527
+2020;Guayaquil;Guayas;"Mediana empresa ""B""";12684252
+2020;Guayaquil;Guayas;"Mediana empresa ""B""";3452363
+2020;Guayaquil;Guayas;"Mediana empresa ""B""";4948368
+2020;Guayaquil;Guayas;"Mediana empresa ""B""";3560669
+2020;Guayaquil;Guayas;Pequeña empresa;838020
+2020;Guayaquil;Guayas;Grande empresa;5596125
+2020;Naranjal;Guayas;"Mediana empresa ""A""";1180150
+2020;Piñas;El Oro;"Mediana empresa ""A""";1220502
+2020;Quito;Pichincha;Pequeña empresa;295204
+2020;Quito;Pichincha;Pequeña empresa;158846
+2020;Lago Agrio;Sucumbíos;Pequeña empresa;788030
+2020;Shushufindi;Sucumbíos;Pequeña empresa;673333
+2020;Cayambe;Pichincha;Pequeña empresa;255857
+2020;Mejía;Pichincha;Pequeña empresa;167549
+2020;Pedro Moncayo;Pichincha;Pequeña empresa;172067
+2020;Rumiñahui;Pichincha;Pequeña empresa;181856
+2020;San Miguel de los Bancos;Pichincha;Pequeña empresa;141053
+2020;Cayambe;Pichincha;Pequeña empresa;803281
+2020;Mejía;Pichincha;Pequeña empresa;1247013
+2020;Rumiñahui;Pichincha;Pequeña empresa;1684496
+2020;Ambato;Tungurahua;Pequeña empresa;985529
+2020;Baños de Agua Santa;Tungurahua;Pequeña empresa;1255165
+2020;Baños de Agua Santa;Tungurahua;Pequeña empresa;116177
+2020;Ambato;Tungurahua;Pequeña empresa;1434324
+2020;Ambato;Tungurahua;Pequeña empresa;886780
+2020;Lago Agrio;Sucumbíos;Microempresa;16485
+2020;Santa Cruz;Galápagos;Microempresa;5435
+2020;Buena Fé;Los Ríos;Microempresa;69230
+2020;Quevedo;Los Ríos;Microempresa;30654
+2020;Quito;Pichincha;Microempresa;95794
+2020;Quito;Pichincha;Microempresa;252388
+2020;Quito;Pichincha;Microempresa;42171
+2020;Lago Agrio;Sucumbíos;Microempresa;58980
+2020;Shushufindi;Sucumbíos;Microempresa;37310
+2020;Lago Agrio;Sucumbíos;Microempresa;18580
+2020;Shushufindi;Sucumbíos;Microempresa;82465
+2020;Rumiñahui;Pichincha;Microempresa;80798
+2020;Cayambe;Pichincha;Microempresa;47022
+2020;Cayambe;Pichincha;Microempresa;84138
+2020;Mejía;Pichincha;Microempresa;59667
+2020;Rumiñahui;Pichincha;Microempresa;239337
+2020;Rumiñahui;Pichincha;Microempresa;77442
+2020;Rumiñahui;Pichincha;Microempresa;85814
+2020;Ambato;Tungurahua;Microempresa;382788
+2020;Baños de Agua Santa;Tungurahua;Microempresa;15194
+2020;Patate;Tungurahua;Microempresa;6000
+2020;Ambato;Tungurahua;Microempresa;962094
+2020;Baños de Agua Santa;Tungurahua;Microempresa;24747
+2020;Patate;Tungurahua;Microempresa;44540
+2020;Quevedo;Los Ríos;Microempresa;72431
+2020;Ventanas;Los Ríos;Microempresa;83568
+2020;Babahoyo;Los Ríos;Microempresa;67771
+2020;Quevedo;Los Ríos;Microempresa;50333
+2020;Quito;Pichincha;Microempresa;1033040
+2020;Quito;Pichincha;Microempresa;3041805
+2020;Quito;Pichincha;Microempresa;148026
+2020;Quito;Pichincha;Microempresa;54858
+2020;Quito;Pichincha;Microempresa;164887
+2020;Gonzalo Pizarro;Sucumbíos;Pequeña empresa;605947
+2020;Lago Agrio;Sucumbíos;Pequeña empresa;1185536
+2020;Shushufindi;Sucumbíos;Pequeña empresa;1405931
+2020;Lago Agrio;Sucumbíos;Pequeña empresa;561768
+2020;Shushufindi;Sucumbíos;Pequeña empresa;684122
+2020;Shushufindi;Sucumbíos;Pequeña empresa;288824
+2020;Shushufindi;Sucumbíos;Pequeña empresa;117047
+2020;Mejía;Pichincha;Pequeña empresa;125913
+2020;Rumiñahui;Pichincha;Pequeña empresa;376552
+2020;San Miguel de los Bancos;Pichincha;Pequeña empresa;380275
+2020;Cayambe;Pichincha;Pequeña empresa;689856
+2020;Cayambe;Pichincha;Pequeña empresa;384423
+2020;Cayambe;Pichincha;Pequeña empresa;346185
+2020;Cayambe;Pichincha;Pequeña empresa;379428
+2020;Mejía;Pichincha;Pequeña empresa;388611
+2020;Mejía;Pichincha;Pequeña empresa;1442658
+2020;Pedro Moncayo;Pichincha;Pequeña empresa;320755
+2020;Rumiñahui;Pichincha;Pequeña empresa;3163129
+2020;Ambato;Tungurahua;Pequeña empresa;951933
+2020;Baños de Agua Santa;Tungurahua;Pequeña empresa;587601
+2020;Paquisha;Zamora Chinchipe;Microempresa;41
+2020;Quito;Pichincha;Microempresa;3041
+2020;Quito;Pichincha;Microempresa;48799
+2020;Quito;Pichincha;Microempresa;16031
+2020;Quito;Pichincha;Microempresa;19334
+2020;Shushufindi;Sucumbíos;Microempresa;69604
+2020;Baños de Agua Santa;Tungurahua;Microempresa;61225
+2020;Machala;El Oro;Microempresa;26743
+2020;Zaruma;El Oro;Microempresa;16679
+2020;Chinchipe;Zamora Chinchipe;Microempresa;80923
+2020;Quito;Pichincha;Microempresa;11352
+2020;Quito;Pichincha;Microempresa;83037
+2020;Quito;Pichincha;Microempresa;5443
+2020;La Joya de los Sachas;Orellana;Pequeña empresa;151743
+2020;Machala;El Oro;"Mediana empresa ""A""";1872310
+2020;Arenillas;El Oro;"Mediana empresa ""B""";3499621
+2020;Ambato;Tungurahua;Pequeña empresa;717260
+2020;Quito;Pichincha;Pequeña empresa;1680763
+2020;Quito;Pichincha;Pequeña empresa;1106326
+2020;Quito;Pichincha;Grande empresa;5556114
+2020;Shushufindi;Sucumbíos;"Mediana empresa ""A""";1297477
+2020;Riobamba;Chimborazo;"Mediana empresa ""A""";1756541
+2020;Quito;Pichincha;"Mediana empresa ""A""";6145531
+2020;Quito;Pichincha;"Mediana empresa ""A""";26818073
+2020;Orellana;Orellana;"Mediana empresa ""B""";4104689
+2020;Isabela;Galápagos;Microempresa;105
+2020;Santa Cruz;Galápagos;Microempresa;23975
+2020;Machala;El Oro;Microempresa;48111
+2020;Montúfar;Carchi;Microempresa;20
+2020;Tulcán;Carchi;Microempresa;38317
+2020;Zamora;Zamora Chinchipe;Microempresa;606
+2020;Tulcán;Carchi;Microempresa;53261
+2020;Tulcán;Carchi;Microempresa;5605
+2020;La Joya de los Sachas;Orellana;Microempresa;48910
+2020;Orellana;Orellana;Microempresa;29264
+2020;Orellana;Orellana;Microempresa;51046
+2020;Orellana;Orellana;Microempresa;62259
+2020;Cayambe;Pichincha;Microempresa;116946
+2020;Mejía;Pichincha;Microempresa;107683
+2020;Pedro Moncayo;Pichincha;Microempresa;2501
+2020;San Miguel de los Bancos;Pichincha;Microempresa;7047
+2020;Rumiñahui;Pichincha;Microempresa;84213
+2020;Rumiñahui;Pichincha;Microempresa;15632
+2020;Quevedo;Los Ríos;Microempresa;158939
+2020;Valencia;Los Ríos;Microempresa;21840
+2020;Vinces;Los Ríos;Microempresa;29759
+2020;Babahoyo;Los Ríos;Microempresa;3476
+2020;El Guabo;El Oro;Microempresa;22976
+2020;Machala;El Oro;Microempresa;380307
+2020;Pasaje;El Oro;Microempresa;20810
+2020;Machala;El Oro;Microempresa;59989
+2020;Machala;El Oro;Microempresa;21019
+2020;Quito;Pichincha;Microempresa;2040081
+2020;Quito;Pichincha;Microempresa;5130072
+2020;Quito;Pichincha;Microempresa;144265
+2020;Quito;Pichincha;Microempresa;117142
+2020;Quito;Pichincha;Microempresa;733174
+2020;Orellana;Orellana;Microempresa;1500
+2020;Quito;Pichincha;Microempresa;71574
+2020;Quito;Pichincha;Microempresa;15573
+2020;Machala;El Oro;Pequeña empresa;1578450
+2020;Machala;El Oro;Pequeña empresa;867216
+2020;Antonio Ante;Imbabura;Microempresa;20600
+2020;Cotacachi;Imbabura;Microempresa;51325
+2020;Cotacachi;Imbabura;Microempresa;26799
+2020;Ibarra;Imbabura;Microempresa;311581
+2020;Ibarra;Imbabura;Microempresa;4192
+2020;Ibarra;Imbabura;Microempresa;69483
+2020;Otavalo;Imbabura;Microempresa;106696
+2020;Otavalo;Imbabura;Microempresa;32216
+2020;Antonio Ante;Imbabura;Microempresa;2250
+2020;Ibarra;Imbabura;Microempresa;32143
+2020;Ibarra;Imbabura;Microempresa;122
+2020;Otavalo;Imbabura;Microempresa;3740
+2020;Otavalo;Imbabura;Microempresa;3845
+2020;Otavalo;Imbabura;Microempresa;37543
+2020;Cotacachi;Imbabura;Pequeña empresa;249999
+2020;Ibarra;Imbabura;Pequeña empresa;1593501
+2020;Ibarra;Imbabura;Pequeña empresa;138680
+2020;Otavalo;Imbabura;Pequeña empresa;1877603
+2020;San Miguel de Urcuqui;Imbabura;Pequeña empresa;420845
+2020;Yantzaza (Yanzatza);Zamora Chinchipe;Pequeña empresa;510442
+2020;El pangui;Zamora Chinchipe;Pequeña empresa;262911
+2020;Quito;Pichincha;Pequeña empresa;3167214
+2020;Quito;Pichincha;Pequeña empresa;360110
+2020;Quito;Pichincha;Pequeña empresa;40262887
+2020;Quito;Pichincha;Pequeña empresa;504256
+2020;Quito;Pichincha;Pequeña empresa;818564
+2020;Quito;Pichincha;Pequeña empresa;1652344
+2020;El Carmen;Manabí;Microempresa;24024
+2020;Portoviejo;Manabí;Microempresa;8790
+2020;Portoviejo;Manabí;Microempresa;570
+2020;Puerto López;Manabí;Microempresa;30565
+2020;Alausí;Chimborazo;Microempresa;1
+2020;Riobamba;Chimborazo;Microempresa;1786
+2020;Riobamba;Chimborazo;Microempresa;17
+2020;Riobamba;Chimborazo;Microempresa;4778
+2020;Pangua;Cotopaxi;Microempresa;13
+2020;Latacunga;Cotopaxi;Microempresa;66800
+2020;Saquisilí;Cotopaxi;Microempresa;69649
+2020;Lago Agrio;Sucumbíos;Microempresa;29627
+2020;Shushufindi;Sucumbíos;Microempresa;14962
+2020;Alausí;Chimborazo;Microempresa;3383
+2020;Riobamba;Chimborazo;Microempresa;91204
+2020;Riobamba;Chimborazo;Microempresa;429788
+2020;Latacunga;Cotopaxi;Microempresa;173341
+2020;Ambato;Tungurahua;Microempresa;130922
+2020;Baños de Agua Santa;Tungurahua;Microempresa;29788
+2020;Ambato;Tungurahua;Microempresa;46536
+2020;Ambato;Tungurahua;Microempresa;55969
+2020;Ambato;Tungurahua;Microempresa;48710
+2020;Baños de Agua Santa;Tungurahua;Microempresa;130455
+2020;Santiago de Píllaro;Tungurahua;Microempresa;5811
+2020;Isabela;Galápagos;Microempresa;152439
+2020;San Cristóbal;Galápagos;Microempresa;86883
+2020;Santa Cruz;Galápagos;Microempresa;224134
+2020;Santa Cruz;Galápagos;Microempresa;95247
+2020;Lago Agrio;Sucumbíos;Microempresa;38215
+2020;Guayaquil;Guayas;Microempresa;78176
+2020;Guayaquil;Guayas;Microempresa;2455
+2020;Latacunga;Cotopaxi;Pequeña empresa;178746
+2020;Orellana;Orellana;"Mediana empresa ""B""";2643962
+2020;Huaquillas;El Oro;"Mediana empresa ""B""";3911908
+2020;Huaquillas;El Oro;Pequeña empresa;122859
+2020;El Guabo;El Oro;Pequeña empresa;235734
+2020;Huaquillas;El Oro;Pequeña empresa;1281669
+2020;Machala;El Oro;Pequeña empresa;1039063
+2020;Pasaje;El Oro;Pequeña empresa;685172
+2020;Machala;El Oro;Pequeña empresa;5189909
+2020;Machala;El Oro;Pequeña empresa;425793
+2020;Pasaje;El Oro;Pequeña empresa;518948
+2020;Santa Rosa;El Oro;Pequeña empresa;721686
+2020;Tena;Napo;Microempresa;2154
+2020;El chaco;Napo;Microempresa;5500
+2020;Archidona;Napo;Microempresa;19651
+2020;Tena;Napo;Microempresa;8
+2020;Archidona;Napo;Pequeña empresa;169673
+2020;Tena;Napo;Pequeña empresa;163340
+2020;Tena;Napo;Pequeña empresa;303363
+2020;San Miguel;Bolívar;Microempresa;11353
+2020;Cuenca;Azuay;Microempresa;70188
+2020;Cuenca;Azuay;Microempresa;66105
+2020;Riobamba;Chimborazo;Pequeña empresa;144243
+2020;Daule;Guayas;Pequeña empresa;286389
+2020;Guayaquil;Guayas;Pequeña empresa;310808
+2020;Guayaquil;Guayas;Pequeña empresa;1078157
+2020;Guayaquil;Guayas;Pequeña empresa;178396
+2020;Tulcán;Carchi;Microempresa;84907
+2020;Tulcán;Carchi;Microempresa;190061
+2020;La Maná;Cotopaxi;Microempresa;77280
+2020;Latacunga;Cotopaxi;Microempresa;265138
+2020;Pangua;Cotopaxi;Microempresa;45000
+2020;Salcedo;Cotopaxi;Microempresa;43983
+2020;La Maná;Cotopaxi;Microempresa;21028
+2020;Latacunga;Cotopaxi;Microempresa;44580
+2020;Pujilí;Cotopaxi;Microempresa;67212
+2020;Guaranda;Bolívar;Microempresa;4667
+2020;Camilo Ponce Enríquez;Azuay;Microempresa;49590
+2020;Cuenca;Azuay;Microempresa;631836
+2020;Girón;Azuay;Microempresa;48408
+2020;Cuenca;Azuay;Microempresa;1388281
+2020;Cuenca;Azuay;Microempresa;59725
+2020;Cuenca;Azuay;Microempresa;123024
+2020;Gualaceo;Azuay;Microempresa;35701
+2020;Paute;Azuay;Microempresa;37154
+2020;Azogues;Cañar;Microempresa;70424
+2020;La Troncal;Cañar;Microempresa;34997
+2020;La Troncal;Cañar;Microempresa;84374
+2020;Guayaquil;Guayas;Microempresa;648877
+2020;Samborondón;Guayas;Microempresa;62293
+2020;Guayaquil;Guayas;Microempresa;1552465
+2020;Guayaquil;Guayas;Microempresa;37895
+2020;Guayaquil;Guayas;Microempresa;215688
+2020;Samborondón;Guayas;Microempresa;64210
+2020;Samborondón;Guayas;Microempresa;24635
+2020;Tulcán;Carchi;Pequeña empresa;898632
+2020;Montúfar;Carchi;Pequeña empresa;669875
+2020;Tulcán;Carchi;Pequeña empresa;525207
+2020;Cumandá;Chimborazo;Pequeña empresa;311769
+2020;Alausí;Chimborazo;Pequeña empresa;987000
+2020;Riobamba;Chimborazo;Pequeña empresa;1528185
+2020;La Maná;Cotopaxi;Pequeña empresa;483833
+2020;Latacunga;Cotopaxi;Pequeña empresa;139465
+2020;Salcedo;Cotopaxi;Pequeña empresa;305692
+2020;Latacunga;Cotopaxi;Pequeña empresa;2624354
+2020;Pangua;Cotopaxi;Pequeña empresa;211944
+2020;Guaranda;Bolívar;Pequeña empresa;127159
+2020;General Antonio Elizalde;Guayas;Pequeña empresa;624963
+2020;Milagro;Guayas;Pequeña empresa;430236
+2020;Daule;Guayas;Pequeña empresa;862325
+2020;Daule;Guayas;Pequeña empresa;527964
+2020;Daule;Guayas;Pequeña empresa;333902
+2020;El Triunfo;Guayas;Pequeña empresa;383669
+2020;Atacames;Esmeraldas;Microempresa;145111
+2020;Esmeraldas;Esmeraldas;Microempresa;189778
+2020;Muisne;Esmeraldas;Microempresa;94830
+2020;Quinindé;Esmeraldas;Microempresa;145294
+2020;San Lorenzo;Esmeraldas;Microempresa;53701
+2020;Esmeraldas;Esmeraldas;Microempresa;35589
+2020;Quinindé;Esmeraldas;Microempresa;87027
+2020;Pastaza;Pastaza;Microempresa;131141
+2020;Pastaza;Pastaza;Microempresa;56239
+2020;El Carmen;Manabí;Microempresa;8899
+2020;Manta;Manabí;Microempresa;546907
+2020;Pedernales;Manabí;Microempresa;54361
+2020;Portoviejo;Manabí;Microempresa;90328
+2020;Puerto López;Manabí;Microempresa;58159
+2020;San Vicente;Manabí;Microempresa;26896
+2020;Chone;Manabí;Microempresa;51125
+2020;El Carmen;Manabí;Microempresa;5208
+2020;Manta;Manabí;Microempresa;166377
+2020;Pedernales;Manabí;Microempresa;59496
+2020;Portoviejo;Manabí;Microempresa;273428
+2020;Portoviejo;Manabí;Microempresa;5557
+2020;Jipijapa;Manabí;Pequeña empresa;490906
+2020;Manta;Manabí;Pequeña empresa;540905
+2020;Portoviejo;Manabí;Pequeña empresa;1301392
+2020;Santa Ana;Manabí;Pequeña empresa;126278
+2020;Tosagua;Manabí;Pequeña empresa;286421
+2020;Manta;Manabí;Pequeña empresa;3438905
+2020;Manta;Manabí;Pequeña empresa;453643
+2020;Montecristi;Manabí;Pequeña empresa;154354
+2020;Paján;Manabí;Pequeña empresa;142575
+2020;Pedernales;Manabí;Pequeña empresa;377928
+2020;Portoviejo;Manabí;Pequeña empresa;1677842
+2020;Portoviejo;Manabí;Pequeña empresa;385125
+2020;Ambato;Tungurahua;Microempresa;10
+2020;Ambato;Tungurahua;Microempresa;13334
+2020;Ambato;Tungurahua;Microempresa;1832
+2020;Patate;Tungurahua;Microempresa;4491
+2020;San Pedro de Pelileo;Tungurahua;Microempresa;80
+2020;Lago Agrio;Sucumbíos;Microempresa;17144
+2020;Cotacachi;Imbabura;Microempresa;89311
+2020;Machala;El Oro;Microempresa;58842
+2020;Quito;Pichincha;Microempresa;99218
+2020;Quito;Pichincha;Microempresa;53487
+2020;Manta;Manabí;Pequeña empresa;100452
+2020;Riobamba;Chimborazo;"Mediana empresa ""A""";1121382
+2020;Aguarico;Orellana;Microempresa;28939
+2020;Orellana;Orellana;Microempresa;2
+2020;Playas;Guayas;Microempresa;9567
+2020;Daule;Guayas;Microempresa;240
+2020;Cuenca;Azuay;Microempresa;24999
+2020;Cuenca;Azuay;Microempresa;3751
+2020;Cuenca;Azuay;Microempresa;7
+2020;Aguarico;Orellana;Microempresa;8638
+2020;La Joya de los Sachas;Orellana;Microempresa;11693
+2020;Loreto;Orellana;Microempresa;4829
+2020;Loreto;Orellana;Microempresa;4987
+2020;Orellana;Orellana;Microempresa;30
+2020;Loreto;Orellana;Microempresa;5178
+2020;Orellana;Orellana;Microempresa;35511
+2020;Naranjal;Guayas;Microempresa;45633
+2020;Salitre (Urbina Jado);Guayas;Microempresa;32965
+2020;Simón Bolívar;Guayas;Microempresa;1990
+2020;Cuenca;Azuay;Microempresa;374
+2020;Girón;Azuay;Microempresa;5104
+2020;Milagro;Guayas;Microempresa;82174
+2020;Playas;Guayas;Microempresa;30189
+2020;Balao;Guayas;Microempresa;11952
+2020;Daule;Guayas;Microempresa;12796
+2020;Cuenca;Azuay;Microempresa;795943
+2020;Gualaceo;Azuay;Microempresa;47789
+2020;Paute;Azuay;Microempresa;13786
+2020;Santa Isabel;Azuay;Microempresa;29276
+2020;Cuenca;Azuay;Microempresa;758332
+2020;Cuenca;Azuay;Microempresa;84518
+2020;Guayaquil;Guayas;Microempresa;1720338
+2020;Guayaquil;Guayas;Microempresa;47252
+2020;Guayaquil;Guayas;Microempresa;29498
+2020;Samborondón;Guayas;Microempresa;38484
+2020;Durán;Guayas;Microempresa;90494
+2020;Durán;Guayas;Microempresa;1
+2020;Guayaquil;Guayas;Microempresa;3047305
+2020;Guayaquil;Guayas;Microempresa;160470
+2020;Guayaquil;Guayas;Microempresa;124982
+2020;Guayaquil;Guayas;Microempresa;511130
+2020;Samborondón;Guayas;Microempresa;344408
+2020;Samborondón;Guayas;Microempresa;89150
+2020;Guayaquil;Guayas;Microempresa;48707
+2020;Guayaquil;Guayas;Microempresa;15867
+2020;Pastaza;Pastaza;Microempresa;111
+2020;Sucre;Manabí;Microempresa;70
+2020;Portoviejo;Manabí;Microempresa;18208
+2020;Salinas;Santa Elena;Microempresa;11942
+2020;Santa Elena;Santa Elena;Microempresa;127
+2020;Salinas;Santa Elena;Microempresa;53446
+2020;Santa Elena;Santa Elena;Microempresa;27172
+2020;Pastaza;Pastaza;Microempresa;60153
+2020;Jipijapa;Manabí;Microempresa;12153
+2020;Paján;Manabí;Microempresa;12590
+2020;Pichincha;Manabí;Microempresa;2343
+2020;Portoviejo;Manabí;Microempresa;10926
+2020;Santa Ana;Manabí;Microempresa;30321
+2020;La Libertad;Santa Elena;Microempresa;503
+2020;Salinas;Santa Elena;Microempresa;300
+2020;Santa Elena;Santa Elena;Microempresa;11205
+2020;Santa Elena;Santa Elena;Microempresa;100
+2020;Pastaza;Pastaza;Microempresa;20212
+2020;El Carmen;Manabí;Microempresa;55247
+2020;Manta;Manabí;Microempresa;115408
+2020;Montecristi;Manabí;Microempresa;108988
+2020;Pedernales;Manabí;Microempresa;28739
+2020;Portoviejo;Manabí;Microempresa;234067
+2020;Puerto López;Manabí;Microempresa;40561
+2020;San Vicente;Manabí;Microempresa;80124
+2020;Sucre;Manabí;Microempresa;133353
+2020;Jipijapa;Manabí;Microempresa;28470
+2020;Manta;Manabí;Microempresa;63317
+2020;Manta;Manabí;Microempresa;3820
+2020;Portoviejo;Manabí;Microempresa;696
+2020;Salinas;Santa Elena;Microempresa;47825
+2020;Santa Elena;Santa Elena;Microempresa;23842
+2020;Santa Elena;Santa Elena;Microempresa;3173
+2020;Santa Elena;Santa Elena;Microempresa;99000
+2020;Montecristi;Manabí;Microempresa;39961
+2020;Manta;Manabí;Pequeña empresa;124137
+2020;Pastaza;Pastaza;Pequeña empresa;215720
+2020;Manta;Manabí;Pequeña empresa;111444
+2020;Orellana;Orellana;Pequeña empresa;2075305
+2020;La Joya de los Sachas;Orellana;Pequeña empresa;447399
+2020;Orellana;Orellana;Pequeña empresa;344398
+2020;Isabela;Galápagos;Pequeña empresa;618330
+2020;San Cristóbal;Galápagos;Pequeña empresa;770198
+2020;Santa Cruz;Galápagos;Pequeña empresa;1775416
+2020;Santa Cruz;Galápagos;Pequeña empresa;345744
+2020;Azogues;Cañar;Pequeña empresa;105047
+2020;Yantzaza (Yanzatza);Zamora Chinchipe;Pequeña empresa;107389
+2020;La Joya de los Sachas;Orellana;Pequeña empresa;231669
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;12718
+2020;Durán;Guayas;Microempresa;100
+2020;Guayaquil;Guayas;Microempresa;185823
+2020;Guayaquil;Guayas;Microempresa;666817
+2020;Guayaquil;Guayas;Microempresa;32043
+2020;Guayaquil;Guayas;Microempresa;420
+2020;Guayaquil;Guayas;Microempresa;100772
+2020;Samborondón;Guayas;Microempresa;61818
+2020;Guayaquil;Guayas;Microempresa;67
+2020;Guayaquil;Guayas;Microempresa;17695
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;71922
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;133810
+2020;Guayaquil;Guayas;Pequeña empresa;533000
+2020;Durán;Guayas;Pequeña empresa;135960
+2020;Guayaquil;Guayas;Pequeña empresa;858559
+2020;Samborondón;Guayas;Pequeña empresa;886521
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;1210494
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;849217
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;199783
+2020;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;483841
+2020;Durán;Guayas;Pequeña empresa;465275
+2020;Guayaquil;Guayas;Pequeña empresa;13311710
+2020;Guayaquil;Guayas;Pequeña empresa;41774914
+2020;Guayaquil;Guayas;Pequeña empresa;3447179
+2020;Guayaquil;Guayas;Pequeña empresa;4411850
+2020;Guayaquil;Guayas;Pequeña empresa;660015
+2020;Samborondón;Guayas;Pequeña empresa;12643988
+2020;Samborondón;Guayas;Pequeña empresa;784420
+2020;Samborondón;Guayas;Pequeña empresa;848477
+2020;Baños de Agua Santa;Tungurahua;Pequeña empresa;129214
+2020;Daule;Guayas;Pequeña empresa;224009
+2020;El Triunfo;Guayas;Pequeña empresa;102447
+2020;Milagro;Guayas;Pequeña empresa;233160
+2020;Playas;Guayas;Pequeña empresa;1151871
+2020;Daule;Guayas;Pequeña empresa;661975
+2020;Naranjal;Guayas;Pequeña empresa;272711
+2020;Naranjito;Guayas;Pequeña empresa;459360
+2020;Quevedo;Los Ríos;Pequeña empresa;544027
+2020;Cuenca;Azuay;Pequeña empresa;3587880
+2020;Santa Isabel;Azuay;Pequeña empresa;334735
+2020;Cuenca;Azuay;Pequeña empresa;8282822
+2020;Cuenca;Azuay;Pequeña empresa;458557
+2020;Cuenca;Azuay;Pequeña empresa;515612
+2020;Cuenca;Azuay;Pequeña empresa;315939
+2020;Quito;Pichincha;Pequeña empresa;19325427
+2020;Quito;Pichincha;Pequeña empresa;67230300
+2020;Quito;Pichincha;Pequeña empresa;3830486
+2020;Quito;Pichincha;Pequeña empresa;2132679
+2020;Quito;Pichincha;Pequeña empresa;5054077
+2020;Lago Agrio;Sucumbíos;Pequeña empresa;248104
+2020;Putumayo;Sucumbíos;Pequeña empresa;156734
+2020;Cuenca;Azuay;Pequeña empresa;147143
+2020;San Pedro de Pelileo;Tungurahua;Microempresa;10477
+2020;Santiago de Píllaro;Tungurahua;Microempresa;12
+2020;Putumayo;Sucumbíos;Pequeña empresa;154590
+2020;Lago Agrio;Sucumbíos;Pequeña empresa;232984
+2020;Cayambe;Pichincha;Pequeña empresa;104661
+2020;Babahoyo;Los Ríos;Pequeña empresa;410920
+2020;Quevedo;Los Ríos;Pequeña empresa;204423
+2020;Quito;Pichincha;Pequeña empresa;269253
+2020;Quito;Pichincha;Pequeña empresa;242009
+2020;Quito;Pichincha;Grande empresa;379954996
+2020;Quito;Pichincha;Grande empresa;32335925
+2020;Quito;Pichincha;Grande empresa;12761369
+2020;Lago Agrio;Sucumbíos;"Mediana empresa ""A""";1531506
+2020;Ambato;Tungurahua;"Mediana empresa ""A""";1284849
+2020;Quito;Pichincha;"Mediana empresa ""A""";1099615
+2020;Quito;Pichincha;"Mediana empresa ""A""";1650472
+2020;Santa Cruz;Galápagos;"Mediana empresa ""B""";2204222
+2020;Quito;Pichincha;"Mediana empresa ""B""";19313126
+2020;Quito;Pichincha;"Mediana empresa ""B""";12849908
+2020;Quito;Pichincha;"Mediana empresa ""B""";6280288
+2020;Quito;Pichincha;"Mediana empresa ""B""";9309519
+2020;Quito;Pichincha;"Mediana empresa ""B""";3222047
+2020;Quito;Pichincha;Microempresa;73103
+2020;Quito;Pichincha;Microempresa;10316
+2020;Yantzaza (Yanzatza);Zamora Chinchipe;Grande empresa;7581689
+2020;Ambato;Tungurahua;"Mediana empresa ""A""";1382045
+2020;Quito;Pichincha;"Mediana empresa ""B""";2087715
+2020;Quito;Pichincha;"Mediana empresa ""B""";20411871
+2020;Quito;Pichincha;"Mediana empresa ""B""";2477636
+2020;Machala;El Oro;Pequeña empresa;466277
+2020;Cevallos;Tungurahua;Pequeña empresa;187414
+2020;Ambato;Tungurahua;Pequeña empresa;6474036
+2020;Baños de Agua Santa;Tungurahua;Pequeña empresa;138263
+2020;Mocha;Tungurahua;Pequeña empresa;135005
+2020;San Cristóbal;Galápagos;Pequeña empresa;1022336
+2020;Santa Cruz;Galápagos;Pequeña empresa;731891
+2020;San Cristóbal;Galápagos;Pequeña empresa;592619
+2020;Santa Cruz;Galápagos;Pequeña empresa;798579
+2020;Santa Cruz;Galápagos;Pequeña empresa;261285
+2020;Quevedo;Los Ríos;Pequeña empresa;636580
+2020;Valencia;Los Ríos;Pequeña empresa;864887
+2020;Ventanas;Los Ríos;Pequeña empresa;194096
+2020;Babahoyo;Los Ríos;Pequeña empresa;519854
+2020;Buena Fé;Los Ríos;Pequeña empresa;212767
+2020;Quevedo;Los Ríos;Pequeña empresa;1199233
+2020;Ventanas;Los Ríos;Pequeña empresa;178926
+2020;Milagro;Guayas;Pequeña empresa;1044398
+2020;Guayaquil;Guayas;Pequeña empresa;2037052
+2020;Durán;Guayas;Pequeña empresa;1384971
+2020;Durán;Guayas;Pequeña empresa;590377
+2020;Guayaquil;Guayas;Pequeña empresa;17930561
+2020;Guayaquil;Guayas;Pequeña empresa;555131
+2020;Guayaquil;Guayas;Pequeña empresa;705848
+2020;Samborondón;Guayas;Pequeña empresa;2431035
+2020;Samborondón;Guayas;Pequeña empresa;823536
+2020;Riobamba;Chimborazo;"Mediana empresa ""A""";1738791
+2020;Salcedo;Cotopaxi;"Mediana empresa ""A""";1433426
+2020;Cuenca;Azuay;"Mediana empresa ""A""";3229193
+2020;Cuenca;Azuay;"Mediana empresa ""A""";1165665
+2020;Guayaquil;Guayas;"Mediana empresa ""A""";2137064
+2020;Guayaquil;Guayas;"Mediana empresa ""A""";1628555
+2020;Guayaquil;Guayas;Microempresa;21000
+2020;Durán;Guayas;Microempresa;72
+2020;Guayaquil;Guayas;Microempresa;242075
+2020;Guayaquil;Guayas;Microempresa;63684
+2020;Guayaquil;Guayas;Microempresa;1890
+2020;Samborondón;Guayas;Microempresa;58104
+2020;Samborondón;Guayas;Microempresa;86880
+2020;Chambo;Chimborazo;Microempresa;73731
+2020;Riobamba;Chimborazo;Microempresa;348170
+2020;Riobamba;Chimborazo;Microempresa;3009
+2020;Daule;Guayas;Microempresa;9415
+2020;El Triunfo;Guayas;Microempresa;86267
+2020;Milagro;Guayas;Microempresa;65359
+2020;Camilo Ponce Enríquez;Azuay;Pequeña empresa;172802
+2020;Cuenca;Azuay;Pequeña empresa;1291331
+2020;Camilo Ponce Enríquez;Azuay;Pequeña empresa;1138788
+2020;Cuenca;Azuay;Pequeña empresa;13932399
+2020;Cuenca;Azuay;Pequeña empresa;273523
+2020;Gualaceo;Azuay;Pequeña empresa;232198
+2020;Santa Isabel;Azuay;Pequeña empresa;103691
+2020;Azogues;Cañar;Pequeña empresa;350565
+2020;Azogues;Cañar;Microempresa;26590
+2021;Atacames;Esmeraldas;Microempresa;3920
+2021;Muisne;Esmeraldas;Microempresa;4886
+2021;Atacames;Esmeraldas;Microempresa;196
+2021;Eloy Alfaro;Esmeraldas;Microempresa;536060
+2021;Esmeraldas;Esmeraldas;Microempresa;10206
+2021;Esmeraldas;Esmeraldas;Microempresa;931196
+2021;Muisne;Esmeraldas;Microempresa;560
+2021;Quinindé;Esmeraldas;Microempresa;128086
+2021;Rioverde;Esmeraldas;Microempresa;720902
+2021;San Lorenzo;Esmeraldas;Microempresa;18074
+2021;Archidona;Napo;Microempresa;165914
+2021;Tena;Napo;Microempresa;895874
+2021;Tena;Napo;Microempresa;155190
+2021;Tiwintza;Morona Santiago;Microempresa;565642
+2021;Huamboya;Morona Santiago;Microempresa;196980
+2021;Cuenca;Azuay;Pequeña empresa;2835854
+2021;Babahoyo;Los Ríos;Grande empresa;72257122
+2021;Quito;Pichincha;Grande empresa;81668160
+2021;Pedro Moncayo;Pichincha;"Mediana empresa ""A""";27980344
+2021;Rumiñahui;Pichincha;"Mediana empresa ""A""";16971150
+2021;Guayaquil;Guayas;"Mediana empresa ""A""";14099372
+2021;Quito;Pichincha;"Mediana empresa ""A""";146408864
+2021;Quito;Pichincha;"Mediana empresa ""A""";26125344
+2021;Quito;Pichincha;"Mediana empresa ""A""";20018138
+2021;Quito;Pichincha;"Mediana empresa ""A""";25789792
+2021;Ambato;Tungurahua;"Mediana empresa ""A""";18159036
+2021;Shushufindi;Sucumbíos;"Mediana empresa ""A""";15551998
+2021;Baños de Agua Santa;Tungurahua;"Mediana empresa ""A""";26510554
+2021;Patate;Tungurahua;"Mediana empresa ""A""";22790530
+2021;Quito;Pichincha;"Mediana empresa ""B""";136514602
+2021;Loreto;Orellana;Microempresa;720804
+2021;Orellana;Orellana;Microempresa;208866
+2021;Orellana;Orellana;Microempresa;1276114
+2021;Orellana;Orellana;Microempresa;48972
+2021;El Guabo;El Oro;Microempresa;1064630
+2021;Orellana;Orellana;Microempresa;3475990
+2021;Orellana;Orellana;Microempresa;1192212
+2021;San Cristóbal;Galápagos;Microempresa;2447018
+2021;Morona;Morona Santiago;Microempresa;286664
+2021;Rioverde;Esmeraldas;"Mediana empresa ""B""";33478900
+2021;Atacames;Esmeraldas;Microempresa;905562
+2021;Esmeraldas;Esmeraldas;Microempresa;560
+2021;Esmeraldas;Esmeraldas;Microempresa;4200
+2021;Esmeraldas;Esmeraldas;Microempresa;179424
+2021;Rioverde;Esmeraldas;Microempresa;868
+2021;Taisha;Morona Santiago;Microempresa;10836
+2021;Atacames;Esmeraldas;Microempresa;4073622
+2021;Tena;Napo;Microempresa;1177358
+2021;Morona;Morona Santiago;Microempresa;850780
+2021;Tena;Napo;Microempresa;262934
+2021;Atacames;Esmeraldas;Pequeña empresa;2754640
+2021;Esmeraldas;Esmeraldas;Pequeña empresa;2057720
+2021;Esmeraldas;Esmeraldas;Pequeña empresa;4360286
+2021;Pastaza;Pastaza;Pequeña empresa;8133860
+2021;Pastaza;Pastaza;Pequeña empresa;7429142
+2021;Cuenca;Azuay;"Mediana empresa ""B""";68523420
+2021;Cuenca;Azuay;"Mediana empresa ""A""";17764502
+2021;Cuenca;Azuay;"Mediana empresa ""A""";38777592
+2021;Cuenca;Azuay;"Mediana empresa ""A""";14975842
+2021;Cuenca;Azuay;"Mediana empresa ""B""";130331460
+2021;Cuenca;Azuay;"Mediana empresa ""B""";65307662
+2021;Rumiñahui;Pichincha;Microempresa;543536
+2021;Ambato;Tungurahua;Microempresa;316624
+2021;Morona;Morona Santiago;Microempresa;32242
+2021;Atacames;Esmeraldas;Pequeña empresa;1643012
+2021;Esmeraldas;Esmeraldas;Pequeña empresa;1890868
+2021;Esmeraldas;Esmeraldas;Microempresa;1260280
+2021;Esmeraldas;Esmeraldas;Microempresa;1255450
+2021;Tena;Napo;Microempresa;2298870
+2021;Logroño;Morona Santiago;Microempresa;1089032
+2021;San Juan Bosco;Morona Santiago;Microempresa;969094
+2021;Rioverde;Esmeraldas;Pequeña empresa;5216274
+2021;Archidona;Napo;Pequeña empresa;2262008
+2021;Quijos;Napo;Pequeña empresa;5807928
+2021;Tena;Napo;Pequeña empresa;2203292
+2021;Morona;Morona Santiago;Pequeña empresa;2052960
+2021;Morona;Morona Santiago;Pequeña empresa;1405320
+2021;Atacames;Esmeraldas;"Mediana empresa ""A""";25527698
+2021;Tena;Napo;"Mediana empresa ""B""";35309456
+2021;Archidona;Napo;"Mediana empresa ""A""";19983656
+2021;Santiago;Morona Santiago;"Mediana empresa ""A""";18494378
+2021;Morona;Morona Santiago;Microempresa;520394
+2021;Morona;Morona Santiago;Microempresa;1277906
+2021;Morona;Morona Santiago;Microempresa;154560
+2021;Morona;Morona Santiago;Pequeña empresa;1404018
+2021;Morona;Morona Santiago;Pequeña empresa;4775988
+2021;Guayaquil;Guayas;"Mediana empresa ""A""";17671276
+2021;Guayaquil;Guayas;"Mediana empresa ""A""";16367526
+2021;Portoviejo;Manabí;"Mediana empresa ""B""";31360714
+2021;Mera;Pastaza;Microempresa;2100
+2021;Pastaza;Pastaza;Microempresa;994
+2021;Mera;Pastaza;Microempresa;75600
+2021;Pastaza;Pastaza;Microempresa;8694
+2021;Chone;Manabí;Microempresa;250124
+2021;Chone;Manabí;Microempresa;600138
+2021;Flavio Alfaro;Manabí;Microempresa;117992
+2021;Jaramijó;Manabí;Microempresa;280
+2021;Jipijapa;Manabí;Microempresa;1284584
+2021;Manta;Manabí;Microempresa;7000
+2021;Ambato;Tungurahua;Microempresa;136556
+2021;Quevedo;Los Ríos;Microempresa;560
+2021;Urdaneta;Los Ríos;Microempresa;756
+2021;Quito;Pichincha;Microempresa;1497244
+2021;Quito;Pichincha;Microempresa;5380732
+2021;Quito;Pichincha;Microempresa;210
+2021;Quito;Pichincha;Microempresa;1455048
+2021;Quito;Pichincha;Microempresa;154896
+2021;Quito;Pichincha;Microempresa;832930
+2021;Guaranda;Bolívar;Microempresa;88452
+2021;Quito;Pichincha;Microempresa;206920
+2021;Quito;Pichincha;Microempresa;401352
+2021;Lago Agrio;Sucumbíos;Microempresa;308
+2021;Puerto Quito;Pichincha;Microempresa;11200
+2021;San Pedro de Pelileo;Tungurahua;Microempresa;47390
+2021;Guaranda;Bolívar;Microempresa;94920
+2021;Babahoyo;Los Ríos;Microempresa;2114
+2021;Buena Fé;Los Ríos;Microempresa;749042
+2021;Quevedo;Los Ríos;Microempresa;560252
+2021;Quito;Pichincha;Microempresa;593026
+2021;Quito;Pichincha;Microempresa;1562652
+2021;Guaranda;Bolívar;Microempresa;798182
+2021;El Tambo;Cañar;Microempresa;148876
+2021;La Troncal;Cañar;Microempresa;1388310
+2021;Azogues;Cañar;Microempresa;1126342
+2021;Ambato;Tungurahua;Microempresa;580328
+2021;Latacunga;Cotopaxi;Pequeña empresa;4595556
+2021;Guano;Chimborazo;Pequeña empresa;10805788
+2021;Riobamba;Chimborazo;Pequeña empresa;38969644
+2021;Riobamba;Chimborazo;Pequeña empresa;16279522
+2021;Salcedo;Cotopaxi;Pequeña empresa;7251944
+2021;Pujilí;Cotopaxi;Pequeña empresa;2800966
+2021;Saquisilí;Cotopaxi;Pequeña empresa;6452054
+2021;Santa Elena;Santa Elena;Microempresa;159740
+2021;Santa Elena;Santa Elena;Pequeña empresa;1405026
+2021;La Libertad;Santa Elena;Pequeña empresa;4271008
+2021;Antonio Ante;Imbabura;"Mediana empresa ""A""";18921952
+2021;La Libertad;Santa Elena;"Mediana empresa ""B""";33338088
+2021;Salinas;Santa Elena;Microempresa;324380
+2021;Santa Elena;Santa Elena;Microempresa;963018
+2021;Salinas;Santa Elena;Microempresa;2442958
+2021;La Libertad;Santa Elena;Microempresa;1126468
+2021;Loja;Loja;Microempresa;2024624
+2021;Macará;Loja;Microempresa;855148
+2021;Paltas;Loja;Microempresa;1121064
+2021;Loja;Loja;Microempresa;1379756
+2021;Loja;Loja;Microempresa;1397522
+2021;Salinas;Santa Elena;Pequeña empresa;11516148
+2021;Antonio Ante;Imbabura;Pequeña empresa;6363770
+2021;Ibarra;Imbabura;Pequeña empresa;34446874
+2021;Otavalo;Imbabura;Pequeña empresa;14752654
+2021;San Miguel de Urcuqui;Imbabura;Pequeña empresa;3452736
+2021;Antonio Ante;Imbabura;Pequeña empresa;13190310
+2021;Antonio Ante;Imbabura;Pequeña empresa;10922268
+2021;Santa Cruz;Galápagos;Microempresa;2217194
+2021;Santa Cruz;Galápagos;Microempresa;414456
+2021;Babahoyo;Los Ríos;Microempresa;995134
+2021;Montalvo;Los Ríos;Microempresa;201432
+2021;Quevedo;Los Ríos;Microempresa;868616
+2021;Huaquillas;El Oro;Microempresa;1253000
+2021;Machala;El Oro;Microempresa;3619924
+2021;Pasaje;El Oro;Microempresa;619416
+2021;Piñas;El Oro;Microempresa;249606
+2021;Santa Rosa;El Oro;Microempresa;1138914
+2021;Zaruma;El Oro;Microempresa;1254078
+2021;El Guabo;El Oro;Microempresa;583730
+2021;Machala;El Oro;Microempresa;1658566
+2021;Portovelo;El Oro;Microempresa;14000
+2021;Yantzaza (Yanzatza);Zamora Chinchipe;Microempresa;823802
+2021;Otavalo;Imbabura;Microempresa;8050
+2021;Cotacachi;Imbabura;Microempresa;140
+2021;Otavalo;Imbabura;Microempresa;8582
+2021;Cotacachi;Imbabura;Pequeña empresa;10123442
+2021;Cotacachi;Imbabura;Pequeña empresa;1679286
+2021;Ibarra;Imbabura;Pequeña empresa;24851372
+2021;Ibarra;Imbabura;Pequeña empresa;4885230
+2021;Otavalo;Imbabura;Pequeña empresa;6536054
+2021;Otavalo;Imbabura;Pequeña empresa;1541162
+2021;Otavalo;Imbabura;Pequeña empresa;4401026
+2021;Otavalo;Imbabura;Pequeña empresa;3580038
+2021;Ibarra;Imbabura;"Mediana empresa ""A""";37288258
+2021;Otavalo;Imbabura;"Mediana empresa ""A""";35394688
+2021;San Miguel de Urcuqui;Imbabura;"Mediana empresa ""A""";15984234
+2021;Loja;Loja;Microempresa;194320
+2021;Saraguro;Loja;Microempresa;2044
+2021;Loja;Loja;Microempresa;369348
+2021;Puyango;Loja;Microempresa;140
+2021;Calvas;Loja;Pequeña empresa;9786322
+2021;Loja;Loja;Pequeña empresa;14763770
+2021;Loja;Loja;Pequeña empresa;15037148
+2021;Loja;Loja;"Mediana empresa ""B""";29258838
+2021;Antonio Ante;Imbabura;Microempresa;259042
+2021;Cotacachi;Imbabura;Microempresa;672
+2021;Cotacachi;Imbabura;Microempresa;114422
+2021;Portoviejo;Manabí;"Mediana empresa ""A""";34762014
+2021;Manta;Manabí;"Mediana empresa ""A""";16623810
+2021;Guayaquil;Guayas;Microempresa;2269092
+2021;Rumiñahui;Pichincha;Pequeña empresa;5425896
+2021;Guayaquil;Guayas;Pequeña empresa;2559200
+2021;Quito;Pichincha;Pequeña empresa;24353280
+2021;La Joya de los Sachas;Orellana;Pequeña empresa;21508480
+2021;Orellana;Orellana;Pequeña empresa;51860340
+2021;La Joya de los Sachas;Orellana;Pequeña empresa;12539128
+2021;Orellana;Orellana;Pequeña empresa;33674816
+2021;Orellana;Orellana;Pequeña empresa;6460328
+2021;Naranjal;Guayas;Pequeña empresa;2777516
+2021;Guayaquil;Guayas;Pequeña empresa;65538606
+2021;Guayaquil;Guayas;Pequeña empresa;2207534
+2021;Lago Agrio;Sucumbíos;Grande empresa;78101464
+2021;Quito;Pichincha;"Mediana empresa ""A""";15912652
+2021;Lago Agrio;Sucumbíos;"Mediana empresa ""A""";25217290
+2021;Orellana;Orellana;"Mediana empresa ""A""";14260876
+2021;Quito;Pichincha;"Mediana empresa ""A""";18013408
+2021;La Joya de los Sachas;Orellana;"Mediana empresa ""B""";38747646
+2021;Cascales;Sucumbíos;Microempresa;626878
+2021;Gonzalo Pizarro;Sucumbíos;Microempresa;490
+2021;Lago Agrio;Sucumbíos;Microempresa;1554
+2021;Lago Agrio;Sucumbíos;Microempresa;140
+2021;Lago Agrio;Sucumbíos;Microempresa;52570
+2021;Shushufindi;Sucumbíos;Microempresa;229194
+2021;Aguarico;Orellana;Microempresa;140
+2021;Aguarico;Orellana;Microempresa;140
+2021;La Joya de los Sachas;Orellana;Microempresa;384342
+2021;Loreto;Orellana;Microempresa;663404
+2021;Loreto;Orellana;Microempresa;1400
+2021;Orellana;Orellana;Microempresa;2272158
+2021;Cayambe;Pichincha;Microempresa;1904
+2021;Tena;Napo;Microempresa;26096
+2021;Archidona;Napo;Microempresa;1072120
+2021;Tena;Napo;Microempresa;3264156
+2021;Tena;Napo;Microempresa;883554
+2021;San Lorenzo;Esmeraldas;Pequeña empresa;5535950
+2021;Atacames;Esmeraldas;Pequeña empresa;23462264
+2021;Esmeraldas;Esmeraldas;Pequeña empresa;21732858
+2021;Muisne;Esmeraldas;Pequeña empresa;4733694
+2021;Quinindé;Esmeraldas;Pequeña empresa;1598408
+2021;Atacames;Esmeraldas;Pequeña empresa;3822616
+2021;Esmeraldas;Esmeraldas;Pequeña empresa;27805708
+2021;Esmeraldas;Esmeraldas;Pequeña empresa;11515560
+2021;Quinindé;Esmeraldas;Pequeña empresa;3225460
+2021;Archidona;Napo;Pequeña empresa;4558428
+2021;Quijos;Napo;Pequeña empresa;2774702
+2021;Tena;Napo;Pequeña empresa;5360782
+2021;Quijos;Napo;Pequeña empresa;1413440
+2021;Montúfar;Carchi;Microempresa;86100
+2021;Alausí;Chimborazo;Microempresa;70
+2021;Riobamba;Chimborazo;Microempresa;78274
+2021;Riobamba;Chimborazo;Microempresa;33992
+2021;Alausí;Chimborazo;Microempresa;514108
+2021;Alausí;Chimborazo;Microempresa;3612
+2021;Chambo;Chimborazo;Microempresa;588658
+2021;Colta;Chimborazo;Microempresa;2856
+2021;Riobamba;Chimborazo;Microempresa;980
+2021;Riobamba;Chimborazo;Microempresa;1024450
+2021;La Maná;Cotopaxi;Microempresa;121632
+2021;La Maná;Cotopaxi;Microempresa;182
+2021;Latacunga;Cotopaxi;Microempresa;11382
+2021;Latacunga;Cotopaxi;Microempresa;1977766
+2021;Latacunga;Cotopaxi;Microempresa;1773730
+2021;Pujilí;Cotopaxi;Microempresa;1795976
+2021;Saquisilí;Cotopaxi;Microempresa;589470
+2021;Guaranda;Bolívar;Microempresa;2730
+2021;Guaranda;Bolívar;Microempresa;900298
+2021;Guaranda;Bolívar;Microempresa;3088848
+2021;San Miguel;Bolívar;Microempresa;235676
+2021;Camilo Ponce Enríquez;Azuay;Microempresa;587034
+2021;Camilo Ponce Enríquez;Azuay;Microempresa;133056
+2021;Cuenca;Azuay;Microempresa;55090
+2021;Cuenca;Azuay;Microempresa;202300
+2021;Guachapala;Azuay;Microempresa;368592
+2021;Gualaceo;Azuay;Microempresa;88620
+2021;Paute;Azuay;Microempresa;61992
+2021;Sevilla de Oro;Azuay;Microempresa;867944
+2021;La Troncal;Cañar;Microempresa;4060
+2021;La Troncal;Cañar;Microempresa;14910
+2021;Riobamba;Chimborazo;Microempresa;933828
+2021;Riobamba;Chimborazo;Microempresa;412440
+2021;Latacunga;Cotopaxi;Microempresa;186970
+2021;La Troncal;Cañar;Microempresa;896966
+2021;Riobamba;Chimborazo;Pequeña empresa;1676598
+2021;Latacunga;Cotopaxi;Pequeña empresa;1731926
+2021;Guaranda;Bolívar;Pequeña empresa;1721832
+2021;Cuenca;Azuay;Pequeña empresa;1486758
+2021;Cuenca;Azuay;Pequeña empresa;1502984
+2021;Riobamba;Chimborazo;Pequeña empresa;4792102
+2021;Cuenca;Azuay;Pequeña empresa;6879600
+2021;Guayaquil;Guayas;Grande empresa;2232166958
+2021;Guayaquil;Guayas;Grande empresa;1675413348
+2021;Guayaquil;Guayas;Grande empresa;435892450
+2021;Guayaquil;Guayas;"Mediana empresa ""A""";15301090
+2021;Guayaquil;Guayas;"Mediana empresa ""B""";61900230
+2021;Guayaquil;Guayas;Grande empresa;114388092
+2021;Guayaquil;Guayas;Grande empresa;71827714
+2021;Naranjal;Guayas;"Mediana empresa ""A""";17286612
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;14000
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;22459668
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;23439500
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;3111360
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;7171192
+2021;Manta;Manabí;"Mediana empresa ""B""";80780490
+2021;Manta;Manabí;"Mediana empresa ""B""";37866794
+2021;Salinas;Santa Elena;"Mediana empresa ""B""";54990656
+2021;Guayaquil;Guayas;Grande empresa;73217508
+2021;Manta;Manabí;"Mediana empresa ""A""";48203190
+2021;Manta;Manabí;"Mediana empresa ""A""";16131178
+2021;Portoviejo;Manabí;"Mediana empresa ""A""";17700438
+2021;Playas;Guayas;"Mediana empresa ""A""";18125198
+2021;La Libertad;Santa Elena;"Mediana empresa ""A""";20611318
+2021;Santa Elena;Santa Elena;"Mediana empresa ""A""";14163478
+2021;Guayaquil;Guayas;"Mediana empresa ""A""";120101604
+2021;Manta;Manabí;"Mediana empresa ""B""";37302580
+2021;Manta;Manabí;"Mediana empresa ""B""";29309532
+2021;La Libertad;Santa Elena;"Mediana empresa ""B""";62683992
+2021;Guayaquil;Guayas;"Mediana empresa ""B""";320814564
+2021;Manta;Manabí;Microempresa;1547280
+2021;Pedernales;Manabí;Microempresa;532
+2021;Pichincha;Manabí;Microempresa;32900
+2021;Portoviejo;Manabí;Microempresa;243754
+2021;Portoviejo;Manabí;Microempresa;1670690
+2021;Portoviejo;Manabí;Microempresa;516824
+2021;Puerto López;Manabí;Microempresa;93226
+2021;Rocafuerte;Manabí;Microempresa;110432
+2021;San Vicente;Manabí;Microempresa;28154
+2021;El Empalme;Guayas;Microempresa;236250
+2021;Isidro Ayora;Guayas;Microempresa;228858
+2021;Milagro;Guayas;Microempresa;252
+2021;Milagro;Guayas;Microempresa;202608
+2021;Naranjal;Guayas;Microempresa;65212
+2021;Naranjito;Guayas;Microempresa;498596
+2021;Pedro Carbo;Guayas;Microempresa;764456
+2021;Salitre (Urbina Jado);Guayas;Microempresa;103558
+2021;San Jacinto de Yaguachi;Guayas;Microempresa;796572
+2021;San Jacinto de Yaguachi;Guayas;Microempresa;773752
+2021;Simón Bolívar;Guayas;Microempresa;567994
+2021;Durán;Guayas;Microempresa;1200346
+2021;Guayaquil;Guayas;Microempresa;172872
+2021;Guayaquil;Guayas;Microempresa;1284696
+2021;Guayaquil;Guayas;Microempresa;30142
+2021;Guayaquil;Guayas;Microempresa;734566
+2021;Samborondón;Guayas;Microempresa;61110
+2021;Portoviejo;Manabí;Microempresa;663684
+2021;Gualaceo;Azuay;Microempresa;222264
+2021;Durán;Guayas;Microempresa;249004
+2021;Guayaquil;Guayas;Microempresa;960904
+2021;Guayaquil;Guayas;Microempresa;1132530
+2021;Pastaza;Pastaza;Pequeña empresa;1616804
+2021;Guayaquil;Guayas;Pequeña empresa;3878336
+2021;Portoviejo;Manabí;Pequeña empresa;11044362
+2021;Sucre;Manabí;Pequeña empresa;3848138
+2021;El Empalme;Guayas;Pequeña empresa;5009802
+2021;Milagro;Guayas;Pequeña empresa;4482772
+2021;Durán;Guayas;Pequeña empresa;2937830
+2021;Guayaquil;Guayas;Pequeña empresa;9096752
+2021;Guayaquil;Guayas;Pequeña empresa;1515864
+2021;Guayaquil;Guayas;"Mediana empresa ""B""";126231728
+2021;Guayaquil;Guayas;"Mediana empresa ""A""";14467432
+2021;Guayaquil;Guayas;"Mediana empresa ""A""";519100148
+2021;Guayaquil;Guayas;"Mediana empresa ""A""";91091644
+2021;Samborondón;Guayas;"Mediana empresa ""A""";239132656
+2021;Samborondón;Guayas;"Mediana empresa ""A""";18188324
+2021;Guayaquil;Guayas;"Mediana empresa ""B""";332605952
+2021;Guayaquil;Guayas;"Mediana empresa ""B""";108925138
+2021;Guayaquil;Guayas;"Mediana empresa ""B""";32708956
+2021;Samborondón;Guayas;"Mediana empresa ""B""";100390934
+2021;Guayaquil;Guayas;Microempresa;183120
+2021;Guayaquil;Guayas;Microempresa;14000
+2021;Guayaquil;Guayas;Microempresa;9000824
+2021;Guayaquil;Guayas;Microempresa;234094
+2021;Guayaquil;Guayas;Microempresa;809298
+2021;Guayaquil;Guayas;Microempresa;1457512
+2021;Samborondón;Guayas;Microempresa;6090
+2021;Samborondón;Guayas;Microempresa;962612
+2021;Guayaquil;Guayas;Microempresa;2842
+2021;Samborondón;Guayas;Microempresa;13860
+2021;Guayaquil;Guayas;Microempresa;420
+2021;Guayaquil;Guayas;Microempresa;1147538
+2021;Guayaquil;Guayas;Microempresa;20230
+2021;Muisne;Esmeraldas;Microempresa;392672
+2021;Esmeraldas;Esmeraldas;Microempresa;825300
+2021;Esmeraldas;Esmeraldas;Microempresa;734552
+2021;Ambato;Tungurahua;Microempresa;106148
+2021;El Carmen;Manabí;Microempresa;279146
+2021;Pedernales;Manabí;Microempresa;258398
+2021;Manta;Manabí;Microempresa;314160
+2021;Manta;Manabí;Microempresa;18662
+2021;Portoviejo;Manabí;Microempresa;1232546
+2021;Puerto López;Manabí;Microempresa;1071126
+2021;Atacames;Esmeraldas;Microempresa;8719550
+2021;Esmeraldas;Esmeraldas;Microempresa;5909540
+2021;Quinindé;Esmeraldas;Microempresa;2603076
+2021;San Lorenzo;Esmeraldas;Microempresa;960862
+2021;Atacames;Esmeraldas;Microempresa;1011654
+2021;Esmeraldas;Esmeraldas;Microempresa;3786132
+2021;Quinindé;Esmeraldas;Microempresa;1089004
+2021;San Lorenzo;Esmeraldas;Microempresa;1989092
+2021;Pastaza;Pastaza;Microempresa;1604106
+2021;Pastaza;Pastaza;Microempresa;2306444
+2021;El Carmen;Manabí;Microempresa;385196
+2021;Manta;Manabí;Microempresa;5832414
+2021;Montecristi;Manabí;Microempresa;1010268
+2021;Portoviejo;Manabí;Microempresa;2765098
+2021;San Vicente;Manabí;Microempresa;1154286
+2021;Bolivar;Manabí;Microempresa;558698
+2021;Chone;Manabí;Microempresa;743512
+2021;Manta;Manabí;Microempresa;2308684
+2021;Manta;Manabí;Microempresa;1599724
+2021;Montecristi;Manabí;Microempresa;410522
+2021;Portoviejo;Manabí;Microempresa;1767206
+2021;Portoviejo;Manabí;Microempresa;140210
+2021;General Antonio Elizalde;Guayas;Microempresa;742504
+2021;Milagro;Guayas;Microempresa;802214
+2021;Durán;Guayas;Microempresa;750806
+2021;Guayaquil;Guayas;Microempresa;1471764
+2021;Samborondón;Guayas;Microempresa;1152606
+2021;Jipijapa;Manabí;Pequeña empresa;2863700
+2021;Manta;Manabí;Pequeña empresa;30129106
+2021;Pedernales;Manabí;Pequeña empresa;5246080
+2021;Portoviejo;Manabí;Pequeña empresa;12702900
+2021;Puerto López;Manabí;Pequeña empresa;4910178
+2021;San Vicente;Manabí;Pequeña empresa;2111326
+2021;Santa Ana;Manabí;Pequeña empresa;1459444
+2021;Cotacachi;Imbabura;Pequeña empresa;1916852
+2021;Ibarra;Imbabura;Pequeña empresa;125847218
+2021;Ibarra;Imbabura;Pequeña empresa;1704220
+2021;Otavalo;Imbabura;Pequeña empresa;21157038
+2021;Otavalo;Imbabura;Pequeña empresa;3177916
+2021;San Miguel de Urcuqui;Imbabura;Pequeña empresa;4382238
+2021;La Libertad;Santa Elena;Pequeña empresa;3942134
+2021;Salinas;Santa Elena;Pequeña empresa;10805718
+2021;Santa Elena;Santa Elena;Pequeña empresa;12007184
+2021;La Libertad;Santa Elena;Pequeña empresa;17248280
+2021;Salinas;Santa Elena;Pequeña empresa;10227630
+2021;Santa Elena;Santa Elena;Pequeña empresa;24431260
+2021;Catamayo;Loja;Pequeña empresa;1695078
+2021;Loja;Loja;Pequeña empresa;29280370
+2021;Paltas;Loja;Pequeña empresa;3832864
+2021;Puyango;Loja;Pequeña empresa;4538590
+2021;Loja;Loja;Pequeña empresa;86457434
+2021;Loja;Loja;Pequeña empresa;2347646
+2021;Santa Elena;Santa Elena;Microempresa;14
+2021;La Libertad;Santa Elena;Microempresa;14084
+2021;La Libertad;Santa Elena;Microempresa;918274
+2021;La Libertad;Santa Elena;Microempresa;322
+2021;Salinas;Santa Elena;Microempresa;7266
+2021;Salinas;Santa Elena;Microempresa;727510
+2021;Santa Elena;Santa Elena;Microempresa;101948
+2021;Santa Elena;Santa Elena;Microempresa;943152
+2021;La Libertad;Santa Elena;Pequeña empresa;2312464
+2021;La Libertad;Santa Elena;Pequeña empresa;3216822
+2021;Santa Elena;Santa Elena;Pequeña empresa;3965458
+2021;Guayaquil;Guayas;Grande empresa;816503632
+2021;Guayaquil;Guayas;Grande empresa;135184210
+2021;Loja;Loja;Pequeña empresa;2103024
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;"Mediana empresa ""A""";14840994
+2021;Loja;Loja;"Mediana empresa ""B""";44456888
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;138250
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;212618
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;8064
+2021;Antonio Ante;Imbabura;Microempresa;1090740
+2021;Ibarra;Imbabura;Microempresa;3475962
+2021;Antonio Ante;Imbabura;Microempresa;2148020
+2021;Cotacachi;Imbabura;Microempresa;148750
+2021;Ibarra;Imbabura;Microempresa;95998
+2021;Ibarra;Imbabura;Microempresa;17500
+2021;Otavalo;Imbabura;Microempresa;631064
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;10721788
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;886312
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;142058
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;1665160
+2021;La Concordia;Santo Domingo de los Tsáchilas;Pequeña empresa;2245054
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;44888004
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;11168682
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;80037104
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;2916284
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;18135306
+2021;Rioverde;Esmeraldas;Microempresa;256242
+2021;Quinindé;Esmeraldas;Microempresa;256746
+2021;Buena Fé;Los Ríos;Pequeña empresa;1578430
+2021;Guayaquil;Guayas;Pequeña empresa;1754312
+2021;Guayaquil;Guayas;Pequeña empresa;13844110
+2021;Guayaquil;Guayas;Pequeña empresa;5460546
+2021;Quito;Pichincha;Pequeña empresa;4576222
+2021;Quito;Pichincha;Pequeña empresa;6567778
+2021;Samborondón;Guayas;"Mediana empresa ""B""";44702938
+2021;Quito;Pichincha;Pequeña empresa;9193436
+2021;Quito;Pichincha;Pequeña empresa;9659174
+2021;Quito;Pichincha;Pequeña empresa;8302756
+2021;Lago Agrio;Sucumbíos;Pequeña empresa;15801016
+2021;Shushufindi;Sucumbíos;Pequeña empresa;11053476
+2021;Cayambe;Pichincha;Pequeña empresa;9724316
+2021;Mejía;Pichincha;Pequeña empresa;16101946
+2021;Pedro Moncayo;Pichincha;Pequeña empresa;4662322
+2021;Rumiñahui;Pichincha;Pequeña empresa;5464186
+2021;San Miguel de los Bancos;Pichincha;Pequeña empresa;2414202
+2021;Cayambe;Pichincha;Pequeña empresa;12266408
+2021;Mejía;Pichincha;Pequeña empresa;10242960
+2021;Rumiñahui;Pichincha;Pequeña empresa;31535238
+2021;Rumiñahui;Pichincha;Pequeña empresa;2207996
+2021;Ambato;Tungurahua;Pequeña empresa;15701490
+2021;Baños de Agua Santa;Tungurahua;Pequeña empresa;5712896
+2021;Baños de Agua Santa;Tungurahua;Pequeña empresa;6825616
+2021;Patate;Tungurahua;Pequeña empresa;2139074
+2021;Ambato;Tungurahua;Pequeña empresa;16894444
+2021;Ambato;Tungurahua;Pequeña empresa;2921044
+2021;Ambato;Tungurahua;Pequeña empresa;5044172
+2021;Baños de Agua Santa;Tungurahua;Pequeña empresa;9172072
+2021;Daule;Guayas;Pequeña empresa;4168766
+2021;Naranjal;Guayas;Pequeña empresa;3284736
+2021;Naranjito;Guayas;Pequeña empresa;7536228
+2021;San Jacinto de Yaguachi;Guayas;Pequeña empresa;1645308
+2021;Quevedo;Los Ríos;Pequeña empresa;17180590
+2021;Vinces;Los Ríos;Pequeña empresa;2696120
+2021;Babahoyo;Los Ríos;Pequeña empresa;1712088
+2021;Cuenca;Azuay;Pequeña empresa;97530468
+2021;Gualaceo;Azuay;Pequeña empresa;8071420
+2021;Santa Isabel;Azuay;Pequeña empresa;5519626
+2021;Cuenca;Azuay;Pequeña empresa;125625976
+2021;Cuenca;Azuay;Pequeña empresa;6610492
+2021;Cuenca;Azuay;Pequeña empresa;12248292
+2021;Cuenca;Azuay;Pequeña empresa;3290560
+2021;Cuenca;Azuay;Pequeña empresa;11882374
+2021;Quito;Pichincha;Pequeña empresa;328831216
+2021;Quito;Pichincha;Pequeña empresa;2198210
+2021;Guayaquil;Guayas;Microempresa;70
+2021;Guayaquil;Guayas;Microempresa;3574368
+2021;Tulcán;Carchi;Pequeña empresa;4469318
+2021;Orellana;Orellana;"Mediana empresa ""A""";14221928
+2021;San Cristóbal;Galápagos;"Mediana empresa ""A""";27278510
+2021;Santa Cruz;Galápagos;"Mediana empresa ""A""";17198566
+2021;Isabela;Galápagos;"Mediana empresa ""B""";39260578
+2021;El Guabo;El Oro;Pequeña empresa;4526270
+2021;Huaquillas;El Oro;Pequeña empresa;3727836
+2021;Ibarra;Imbabura;Microempresa;875140
+2021;Ibarra;Imbabura;Microempresa;140
+2021;Ibarra;Imbabura;Microempresa;446586
+2021;Otavalo;Imbabura;Microempresa;328804
+2021;Otavalo;Imbabura;Microempresa;17052
+2021;Otavalo;Imbabura;Microempresa;1400
+2021;La Concordia;Santo Domingo de los Tsáchilas;Microempresa;734510
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;92148
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;681912
+2021;Catamayo;Loja;Microempresa;952
+2021;Loja;Loja;Microempresa;450800
+2021;Loja;Loja;Microempresa;697914
+2021;Macará;Loja;Microempresa;148288
+2021;Ibarra;Imbabura;Microempresa;548226
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;297486
+2021;Coronel Marcelino Maridueña;Guayas;Microempresa;533372
+2021;Lomas de Sargentillo;Guayas;Microempresa;609742
+2021;Catamayo;Loja;Microempresa;734748
+2021;Macará;Loja;Microempresa;720678
+2021;Antonio Ante;Imbabura;Pequeña empresa;1659924
+2021;Ibarra;Imbabura;Pequeña empresa;1737358
+2021;Otavalo;Imbabura;Pequeña empresa;3569468
+2021;Cotacachi;Imbabura;Pequeña empresa;1793736
+2021;Ibarra;Imbabura;Pequeña empresa;1678796
+2021;Ibarra;Imbabura;Pequeña empresa;2248876
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Pequeña empresa;2467626
+2021;Loja;Loja;Pequeña empresa;1473696
+2021;Loja;Loja;Pequeña empresa;1550416
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;"Mediana empresa ""A""";18405926
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;1092
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;1400
+2021;Ibarra;Imbabura;Microempresa;63000
+2021;Otavalo;Imbabura;Microempresa;1236396
+2021;Otavalo;Imbabura;Microempresa;8316
+2021;Santo Domingo;Santo Domingo de los Tsáchilas;Microempresa;1609216
+2021;Catamayo;Loja;Microempresa;1245454
+2021;Loja;Loja;Microempresa;2111998
+2021;Loja;Loja;Microempresa;566412
+2021;Loja;Loja;Microempresa;1262786
+2021;Cayambe;Pichincha;Microempresa;481432
+2021;Pedro Moncayo;Pichincha;Microempresa;168
+2021;Rumiñahui;Pichincha;Microempresa;14
+2021;San Miguel de los Bancos;Pichincha;Microempresa;42
+2021;San Miguel de los Bancos;Pichincha;Microempresa;974274
+2021;Urdaneta;Los Ríos;Microempresa;429184
+2021;Huaquillas;El Oro;Microempresa;17780
+2021;Machala;El Oro;Microempresa;1189398
+2021;Machala;El Oro;Microempresa;211834
+2021;Quito;Pichincha;Microempresa;44562
+2021;Quito;Pichincha;Microempresa;1575308
+2021;Quito;Pichincha;Microempresa;2228296
+2021;Quito;Pichincha;Microempresa;1752702
+2021;Gonzalo Pizarro;Sucumbíos;Microempresa;501746
+2021;Lago Agrio;Sucumbíos;Microempresa;386904
+2021;Shushufindi;Sucumbíos;Microempresa;337708
+2021;Ambato;Tungurahua;Microempresa;285208
+2021;Ambato;Tungurahua;Microempresa;153244
+2021;Huaquillas;El Oro;Microempresa;14000
+2021;Zaruma;El Oro;Microempresa;450926
+2021;Chinchipe;Zamora Chinchipe;Microempresa;963074
+2021;Quito;Pichincha;Microempresa;637784
+2021;Quito;Pichincha;Microempresa;861336
+2021;Quito;Pichincha;Microempresa;403746
+2021;Orellana;Orellana;Pequeña empresa;3434032
+2021;Machala;El Oro;Pequeña empresa;1645756
+2021;Santa Cruz;Galápagos;Grande empresa;88226628
+2021;Arenillas;El Oro;Grande empresa;90720616
+2021;Machala;El Oro;"Mediana empresa ""B""";54275872
+2021;Quito;Pichincha;Pequeña empresa;18772614
+2021;Quito;Pichincha;Grande empresa;111524742
+2021;Orellana;Orellana;"Mediana empresa ""A""";30140390
+2021;Rumiñahui;Pichincha;"Mediana empresa ""A""";19265876
+2021;Isabela;Galápagos;"Mediana empresa ""A""";41621244
+2021;San Cristóbal;Galápagos;"Mediana empresa ""A""";20240570
+2021;Santa Cruz;Galápagos;"Mediana empresa ""A""";79652118
+2021;Quito;Pichincha;"Mediana empresa ""A""";232189398
+2021;Quito;Pichincha;"Mediana empresa ""A""";594947584
+2021;Quito;Pichincha;"Mediana empresa ""A""";56079268
+2021;Quito;Pichincha;"Mediana empresa ""A""";26926522
+2021;La Joya de los Sachas;Orellana;"Mediana empresa ""A""";24549308
+2021;Orellana;Orellana;"Mediana empresa ""B""";32084850
+2021;Riobamba;Chimborazo;"Mediana empresa ""B""";36185086
+2021;Orellana;Orellana;"Mediana empresa ""B""";67211634
+2021;Isabela;Galápagos;Microempresa;3080
+2021;Santa Cruz;Galápagos;Microempresa;452732
+2021;Machala;El Oro;Microempresa;210
+2021;Machala;El Oro;Microempresa;266910
+2021;Yantzaza (Yanzatza);Zamora Chinchipe;Microempresa;26698
+2021;Santa Cruz;Galápagos;Microempresa;509222
+2021;Nangaritza;Zamora Chinchipe;Microempresa;88200
+2021;Tulcán;Carchi;Microempresa;47180
+2021;Tulcán;Carchi;Microempresa;383992
+2021;La Joya de los Sachas;Orellana;Microempresa;418866
+2021;Orellana;Orellana;Microempresa;245644
+2021;Orellana;Orellana;Microempresa;14000
+2021;Orellana;Orellana;Microempresa;50904
+2021;Cayambe;Pichincha;Microempresa;2365538
+2021;Pedro Moncayo;Pichincha;Microempresa;243040
+2021;Pedro Vicente Maldonado;Pichincha;Microempresa;807562
+2021;Rumiñahui;Pichincha;Microempresa;1000090
+2021;San Miguel de los Bancos;Pichincha;Microempresa;331268
+2021;Latacunga;Cotopaxi;Microempresa;931994
+2021;Quevedo;Los Ríos;Microempresa;1545320
+2021;Loja;Loja;Microempresa;79408
+2021;Antonio Ante;Imbabura;Microempresa;520926
+2021;Ibarra;Imbabura;Microempresa;1374912
+2021;Ibarra;Imbabura;Microempresa;825300
+2021;Ibarra;Imbabura;Microempresa;1588566
+2021;Otavalo;Imbabura;Microempresa;905366
+2021;Otavalo;Imbabura;Microempresa;213542
+2021;Ibarra;Imbabura;Microempresa;450002
+2021;Otavalo;Imbabura;Microempresa;1400
+2021;Orellana;Orellana;Microempresa;30926
+2021;Aguarico;Orellana;Microempresa;1030134
+2021;Cuenca;Azuay;Microempresa;356034
+2021;Cuenca;Azuay;Microempresa;487900
+2021;Cuenca;Azuay;Microempresa;560
+2021;Aguarico;Orellana;Microempresa;234094
+2021;Loreto;Orellana;Microempresa;261758
+2021;Aguarico;Orellana;Microempresa;9660
+2021;Loreto;Orellana;Microempresa;64946
+2021;Nabón;Azuay;Microempresa;65226
+2021;Cuenca;Azuay;Microempresa;187908
+2021;Cuenca;Azuay;Microempresa;8050
+2021;La Joya de los Sachas;Orellana;Microempresa;131838
+2021;El Triunfo;Guayas;Microempresa;700000
+2021;El Triunfo;Guayas;Microempresa;18158
+2021;Milagro;Guayas;Microempresa;539112
+2021;Naranjal;Guayas;Microempresa;601034
+2021;Pedro Carbo;Guayas;Microempresa;6510
+2021;Simón Bolívar;Guayas;Microempresa;448364
+2021;Cuenca;Azuay;Microempresa;105182
+2021;Girón;Azuay;Microempresa;24094
+2021;Balao;Guayas;Microempresa;483042
+2021;Milagro;Guayas;Microempresa;943740
+2021;Cuenca;Azuay;Microempresa;6266148
+2021;Girón;Azuay;Microempresa;552160
+2021;Gualaceo;Azuay;Microempresa;906458
+2021;Cuenca;Azuay;Microempresa;7190260
+2021;Cuenca;Azuay;Microempresa;731864
+2021;Durán;Guayas;Microempresa;776300
+2021;Durán;Guayas;Microempresa;14
+2021;Guayaquil;Guayas;Microempresa;59927812
+2021;Guayaquil;Guayas;Microempresa;2051182
+2021;Guayaquil;Guayas;Microempresa;1508052
+2021;Guayaquil;Guayas;Microempresa;6775790
+2021;Guayaquil;Guayas;Microempresa;385000
+2021;Samborondón;Guayas;Microempresa;4479244
+2021;Cuenca;Azuay;Microempresa;566020
+2021;Guayaquil;Guayas;Microempresa;423780
+2021;El Empalme;Guayas;Microempresa;105266
+2021;Guayaquil;Guayas;Microempresa;51212
+2021;Guayaquil;Guayas;Microempresa;333536
+2021;Loreto;Orellana;Pequeña empresa;1489922
+2021;Orellana;Orellana;Pequeña empresa;2169552
+2021;Orellana;Orellana;Pequeña empresa;15201158
+2021;La Joya de los Sachas;Orellana;Pequeña empresa;10110548
+2021;Orellana;Orellana;Pequeña empresa;2052792
+2021;Latacunga;Cotopaxi;Pequeña empresa;16228380
+2021;Isabela;Galápagos;Pequeña empresa;20369720
+2021;San Cristóbal;Galápagos;Pequeña empresa;14039102
+2021;Santa Cruz;Galápagos;Pequeña empresa;50138508
+2021;Santa Cruz;Galápagos;Pequeña empresa;19511226
+2021;Azogues;Cañar;Pequeña empresa;3836602
+2021;Yantzaza (Yanzatza);Zamora Chinchipe;Pequeña empresa;1964984
+2021;Chone;Manabí;Pequeña empresa;6249096
+2021;El Carmen;Manabí;Pequeña empresa;3298484
+2021;Manta;Manabí;Pequeña empresa;42580944
+2021;Manta;Manabí;Pequeña empresa;7224098
+2021;Manta;Manabí;Pequeña empresa;1645672
+2021;Montecristi;Manabí;Pequeña empresa;3196242
+2021;Paján;Manabí;Pequeña empresa;4481470
+2021;Pedernales;Manabí;Pequeña empresa;6794550
+2021;Pedernales;Manabí;Pequeña empresa;5539310
+2021;Portoviejo;Manabí;Pequeña empresa;45429496
+2021;Portoviejo;Manabí;Pequeña empresa;1555498
+2021;Sucre;Manabí;Pequeña empresa;1506442
+2021;Ambato;Tungurahua;Microempresa;556346
+2021;Patate;Tungurahua;Microempresa;516376
+2021;Patate;Tungurahua;Microempresa;800324
+2021;San Pedro de Pelileo;Tungurahua;Microempresa;350
+2021;San Pedro de Pelileo;Tungurahua;Microempresa;957782
+2021;Cayambe;Pichincha;Pequeña empresa;3810758
+2021;Mejía;Pichincha;Pequeña empresa;4258744
+2021;Pedro Moncayo;Pichincha;Pequeña empresa;11892622
+2021;Rumiñahui;Pichincha;Pequeña empresa;1952132
+2021;Ambato;Tungurahua;Pequeña empresa;1742874
+2021;Buena Fé;Los Ríos;Pequeña empresa;2211944
+2021;Urdaneta;Los Ríos;Pequeña empresa;2473688
+2021;Ventanas;Los Ríos;Pequeña empresa;1442896
+2021;Quito;Pichincha;Pequeña empresa;3335724
+2021;Cayambe;Pichincha;Pequeña empresa;3365096
+2021;Ambato;Tungurahua;Pequeña empresa;2342410
+2021;Baños de Agua Santa;Tungurahua;Pequeña empresa;2208374
+2021;Babahoyo;Los Ríos;Pequeña empresa;1473948
+2021;Quevedo;Los Ríos;Pequeña empresa;5070520
+2021;Quito;Pichincha;Pequeña empresa;3418786
+2021;Quito;Pichincha;Pequeña empresa;1783404
+2021;Quito;Pichincha;Pequeña empresa;3373552
+2021;Quito;Pichincha;Grande empresa;927318952
+2021;Quito;Pichincha;Grande empresa;7693623182
+2021;Quito;Pichincha;Grande empresa;761799962
+2021;Quito;Pichincha;Grande empresa;580873230
+2021;Lago Agrio;Sucumbíos;"Mediana empresa ""A""";20580854
+2021;Ambato;Tungurahua;"Mediana empresa ""A""";26427814
+2021;Quito;Pichincha;"Mediana empresa ""A""";27649076
+2021;Ambato;Tungurahua;"Mediana empresa ""B""";30155006
+2021;Quito;Pichincha;"Mediana empresa ""B""";147509320
+2021;Quito;Pichincha;"Mediana empresa ""B""";196819896
+2021;Isabela;Galápagos;Microempresa;1136716
+2021;Cuenca;Azuay;Microempresa;1740130
+2021;Guaranda;Bolívar;Microempresa;633262
+2021;San Miguel;Bolívar;Microempresa;301504
+2021;Cuenca;Azuay;Microempresa;179816
+2021;Cuenca;Azuay;Microempresa;1347402
+2021;Riobamba;Chimborazo;Pequeña empresa;5986400
+2021;Pastaza;Pastaza;Microempresa;8820
+2021;El Carmen;Manabí;Microempresa;63126
+2021;Jama;Manabí;Microempresa;270858
+2021;Manta;Manabí;Microempresa;19390
+2021;Puerto López;Manabí;Microempresa;132230
+2021;Sucre;Manabí;Microempresa;11942
+2021;Manta;Manabí;Microempresa;31514
+2021;Portoviejo;Manabí;Microempresa;2002
+2021;Portoviejo;Manabí;Microempresa;152208
+2021;Puerto López;Manabí;Microempresa;21252
+2021;Playas;Guayas;Microempresa;200452
+2021;Santa Elena;Santa Elena;Microempresa;1260
+2021;Salinas;Santa Elena;Microempresa;912982
+2021;Guayaquil;Guayas;Microempresa;2004324
+2021;Pastaza;Pastaza;Microempresa;89348
+2021;Manta;Manabí;Microempresa;1171380
+2021;Naranjal;Guayas;Microempresa;268996
+2021;Santa Elena;Santa Elena;Microempresa;28980
+2021;Guayaquil;Guayas;Microempresa;3738
+2021;El Carmen;Manabí;Microempresa;1130794
+2021;Paján;Manabí;Microempresa;1228080
+2021;Pichincha;Manabí;Microempresa;325696
+2021;Portoviejo;Manabí;Microempresa;607418
+2021;Santa Ana;Manabí;Microempresa;1335880
+2021;Sucre;Manabí;Microempresa;280
+2021;La Libertad;Santa Elena;Microempresa;110684
+2021;Salinas;Santa Elena;Microempresa;2800
+2021;Santa Elena;Santa Elena;Microempresa;1020418
+2021;Pastaza;Pastaza;Microempresa;1000832
+2021;Chone;Manabí;Microempresa;1327466
+2021;Manta;Manabí;Microempresa;4618782
+2021;Montecristi;Manabí;Microempresa;431340
+2021;Pedernales;Manabí;Microempresa;1283394
+2021;Puerto López;Manabí;Microempresa;678958
+2021;San Vicente;Manabí;Microempresa;485758
+2021;Sucre;Manabí;Microempresa;1416226
+2021;Jipijapa;Manabí;Microempresa;129990
+2021;Manta;Manabí;Microempresa;3061982
+2021;Manta;Manabí;Microempresa;43904
+2021;Manta;Manabí;Microempresa;688184
+2021;Portoviejo;Manabí;Microempresa;701274
+2021;Milagro;Guayas;Microempresa;546056
+2021;Playas;Guayas;Microempresa;863898
+2021;La Libertad;Santa Elena;Microempresa;575330
+2021;Salinas;Santa Elena;Microempresa;790944
+2021;Santa Elena;Santa Elena;Microempresa;1548624
+2021;Santa Elena;Santa Elena;Microempresa;100296
+2021;Guayaquil;Guayas;Microempresa;23509920
+2021;Guayaquil;Guayas;Microempresa;926688
+2021;Guayaquil;Guayas;Microempresa;808402
+2021;Montecristi;Manabí;Microempresa;996982
+2021;Portoviejo;Manabí;Microempresa;814940
+2021;Manta;Manabí;Microempresa;1319122
+2021;Portoviejo;Manabí;Microempresa;45416
+2021;Manta;Manabí;Pequeña empresa;1766226
+2021;Guayaquil;Guayas;Pequeña empresa;5880000
+2021;Pastaza;Pastaza;Pequeña empresa;3641134
+2021;Jipijapa;Manabí;Pequeña empresa;1524432
+2021;Jipijapa;Manabí;Pequeña empresa;11428004
+2021;Manta;Manabí;Pequeña empresa;36967756
+2021;Montecristi;Manabí;Pequeña empresa;4190242
+2021;Pedernales;Manabí;Pequeña empresa;3068254
+2021;Portoviejo;Manabí;Pequeña empresa;11971008
+2021;Puerto López;Manabí;Pequeña empresa;5016256
+2021;San Vicente;Manabí;Pequeña empresa;1787254
+2021;Sucre;Manabí;Pequeña empresa;12753636
+2021;Chone;Manabí;Pequeña empresa;2488360
+2021;Manta;Manabí;Pequeña empresa;34419966
+2021;Manta;Manabí;Pequeña empresa;11193658
+2021;Manta;Manabí;Pequeña empresa;7955038
+2021;Montecristi;Manabí;Pequeña empresa;4003062
+2021;Portoviejo;Manabí;Pequeña empresa;1664068
+2021;Portoviejo;Manabí;Pequeña empresa;4859806
+2021;Daule;Guayas;Pequeña empresa;1699012
+2021;El Triunfo;Guayas;Pequeña empresa;2800532
+2021;Milagro;Guayas;Pequeña empresa;4861640
+2021;Playas;Guayas;Pequeña empresa;14797006
+2021;Salinas;Santa Elena;Pequeña empresa;5361230
+2021;Santa Elena;Santa Elena;Pequeña empresa;22847104
+2021;La Libertad;Santa Elena;Pequeña empresa;1524306
+2021;Santa Elena;Santa Elena;Pequeña empresa;3360000
+2021;Durán;Guayas;Pequeña empresa;8171590
+2021;Guayaquil;Guayas;Pequeña empresa;268548924
+2021;Samborondón;Guayas;Pequeña empresa;2037546
+2021;Pastaza;Pastaza;Pequeña empresa;5057010
+2021;Manta;Manabí;Pequeña empresa;3176992
+2021;Santiago de Píllaro;Tungurahua;Microempresa;560112
+2021;Portoviejo;Manabí;Microempresa;70
+2021;Quevedo;Los Ríos;Microempresa;157976
+2021;Machala;El Oro;Microempresa;70
+2021;Quito;Pichincha;Microempresa;3822
+2021;Ibarra;Imbabura;Microempresa;420112
+2021;Rumiñahui;Pichincha;Microempresa;525602
+2021;Pedro Moncayo;Pichincha;Microempresa;1391334
+2021;Ambato;Tungurahua;Microempresa;1358994
+2021;Manta;Manabí;Microempresa;560756
+2021;Santa Rosa;El Oro;Microempresa;1181250
+2021;Quito;Pichincha;Microempresa;1171352
+2021;Quito;Pichincha;Microempresa;3405038
+2021;Portoviejo;Manabí;Pequeña empresa;1468194
+2021;Portoviejo;Manabí;Pequeña empresa;2409722
+2021;Guayaquil;Guayas;Pequeña empresa;4771998
+2021;Riobamba;Chimborazo;"Mediana empresa ""A""";18765236
+2021;Quito;Pichincha;Pequeña empresa;4937240
+2021;Quito;Pichincha;Pequeña empresa;1379638876
+2021;Quito;Pichincha;Pequeña empresa;3417638
+2021;Quito;Pichincha;Pequeña empresa;69953758
+2021;Quito;Pichincha;Pequeña empresa;4342912
+2021;Quito;Pichincha;Pequeña empresa;28165186
+2021;Quito;Pichincha;Pequeña empresa;4852008
+2021;Quito;Pichincha;Pequeña empresa;118046208
+2021;Cuenca;Azuay;Pequeña empresa;1838438
+2021;Quito;Pichincha;Pequeña empresa;2181256
+2021;Quito;Pichincha;Pequeña empresa;5673248
+2021;Quito;Pichincha;Pequeña empresa;2475704
+2021;Lago Agrio;Sucumbíos;Pequeña empresa;4106802
+2021;Putumayo;Sucumbíos;Pequeña empresa;1482950
+2021;Cuenca;Azuay;Pequeña empresa;5435164
+2021;Quito;Pichincha;Pequeña empresa;3422216
+2021;Quito;Pichincha;Pequeña empresa;3688776
+2021;Quito;Pichincha;Pequeña empresa;15447754
+2021;Orellana;Orellana;Pequeña empresa;9491944
+2021;Tulcán;Carchi;Microempresa;369460
+2021;Tulcán;Carchi;Microempresa;623826
+2021;La Maná;Cotopaxi;Microempresa;355880
+2021;Latacunga;Cotopaxi;Microempresa;467320
+2021;Latacunga;Cotopaxi;Microempresa;4439064
+2021;Salcedo;Cotopaxi;Microempresa;1325408
+2021;Latacunga;Cotopaxi;Microempresa;2428426
+2021;Salcedo;Cotopaxi;Microempresa;1253042
+2021;Guaranda;Bolívar;Microempresa;529032
+2021;Camilo Ponce Enríquez;Azuay;Microempresa;750596
+2021;Cuenca;Azuay;Microempresa;5945156
+2021;Girón;Azuay;Microempresa;869330
+2021;Cuenca;Azuay;Microempresa;11772320
+2021;Cuenca;Azuay;Microempresa;1286096
+2021;Cuenca;Azuay;Microempresa;684852
+2021;Gualaceo;Azuay;Microempresa;535318
+2021;La Troncal;Cañar;Microempresa;1768172
+2021;Azogues;Cañar;Microempresa;851158
+2021;Guayaquil;Guayas;Microempresa;16892932
+2021;Guayaquil;Guayas;Microempresa;813372
+2021;Guayaquil;Guayas;Microempresa;5885446
+2021;Samborondón;Guayas;Microempresa;1221556
+2021;Tulcán;Carchi;Pequeña empresa;18912474
+2021;Tulcán;Carchi;Pequeña empresa;14441672
+2021;Cumandá;Chimborazo;Pequeña empresa;1463322
+2021;Riobamba;Chimborazo;Pequeña empresa;10650864
+2021;Chambo;Chimborazo;Pequeña empresa;2613814
+2021;Riobamba;Chimborazo;Pequeña empresa;60598538
+2021;Riobamba;Chimborazo;Pequeña empresa;6897170
+2021;La Maná;Cotopaxi;Pequeña empresa;10147410
+2021;Latacunga;Cotopaxi;Pequeña empresa;2417226
+2021;Pangua;Cotopaxi;Pequeña empresa;4760000
+2021;Pujilí;Cotopaxi;Pequeña empresa;1897644
+2021;Latacunga;Cotopaxi;Pequeña empresa;2713242
+2021;Latacunga;Cotopaxi;Pequeña empresa;41317304
+2021;Latacunga;Cotopaxi;Pequeña empresa;1526826
+2021;Pangua;Cotopaxi;Pequeña empresa;3116946
+2021;Pujilí;Cotopaxi;Pequeña empresa;2314928
+2021;Guaranda;Bolívar;Pequeña empresa;4195688
+2021;Daule;Guayas;Pequeña empresa;8736056
+2021;Daule;Guayas;Pequeña empresa;12043360
+2021;Daule;Guayas;Pequeña empresa;7719278
+2021;El Triunfo;Guayas;Pequeña empresa;7484162
+2021;Milagro;Guayas;Pequeña empresa;24702734
+2021;Naranjal;Guayas;Pequeña empresa;4188198
+2021;Playas;Guayas;Pequeña empresa;3016636
+2021;Durán;Guayas;Pequeña empresa;14059178
+2021;Durán;Guayas;Pequeña empresa;6892074
+2021;Durán;Guayas;Pequeña empresa;1803872
+2021;Guayaquil;Guayas;Pequeña empresa;466695642
+2021;Guayaquil;Guayas;Pequeña empresa;10451644
+2021;Guayaquil;Guayas;Pequeña empresa;13182848
+2021;Guayaquil;Guayas;Pequeña empresa;16278892
+2021;Samborondón;Guayas;Pequeña empresa;54704496
+2021;Samborondón;Guayas;Pequeña empresa;1589392
+2021;Montúfar;Carchi;"Mediana empresa ""A""";14199472
+2021;Alausí;Chimborazo;"Mediana empresa ""A""";20008632
+2021;Salcedo;Cotopaxi;"Mediana empresa ""A""";38433486
+2021;Latacunga;Cotopaxi;"Mediana empresa ""A""";17440948
+2021;Cuenca;Azuay;"Mediana empresa ""A""";51429154
+2021;Cuenca;Azuay;"Mediana empresa ""A""";87611524
+2021;Durán;Guayas;"Mediana empresa ""A""";15710114
+2021;Guayaquil;Guayas;"Mediana empresa ""A""";87696168
+2021;Guayaquil;Guayas;"Mediana empresa ""A""";34214432
+2021;Samborondón;Guayas;"Mediana empresa ""A""";17974656
+2021;Yantzaza (Yanzatza);Zamora Chinchipe;Pequeña empresa;6898150
+2021;Zamora;Zamora Chinchipe;Pequeña empresa;2764258
+2021;El pangui;Zamora Chinchipe;Pequeña empresa;6479466
+2021;Quito;Pichincha;Pequeña empresa;115467912
+2021;Quito;Pichincha;Pequeña empresa;5617234
+2021;Quito;Pichincha;Pequeña empresa;3881500
+2021;Quito;Pichincha;Pequeña empresa;1007848114
+2021;Quito;Pichincha;Pequeña empresa;1852900
+2021;Quito;Pichincha;Pequeña empresa;48718726
+2021;Quito;Pichincha;Pequeña empresa;1559950
+2021;Quito;Pichincha;Pequeña empresa;13697698
+2021;Quito;Pichincha;Pequeña empresa;8831172
+2021;Quito;Pichincha;Pequeña empresa;48108564
+2021;Durán;Guayas;Pequeña empresa;4852176
+2021;Guayaquil;Guayas;Pequeña empresa;31196830
+2021;Samborondón;Guayas;Pequeña empresa;13911534
+2021;Guayaquil;Guayas;Pequeña empresa;8299494
+2021;Guayaquil;Guayas;Pequeña empresa;1964242
+2021;Guayaquil;Guayas;Pequeña empresa;750464176
+2021;Guayaquil;Guayas;Pequeña empresa;6011320
+2021;Guayaquil;Guayas;Pequeña empresa;11759398
+2021;Guayaquil;Guayas;Pequeña empresa;10828720
+2021;Guayaquil;Guayas;Pequeña empresa;63264712
+2021;Guayaquil;Guayas;Pequeña empresa;4175598
+2021;Guayaquil;Guayas;Pequeña empresa;45535616
+2021;Samborondón;Guayas;Pequeña empresa;156606394
+2021;Samborondón;Guayas;Pequeña empresa;16552536
+2021;Samborondón;Guayas;Pequeña empresa;23274496
+2021;Guayaquil;Guayas;Pequeña empresa;4396322
+2021;Guayaquil;Guayas;Pequeña empresa;1514352
+2021;Quito;Pichincha;Microempresa;1218798
+2021;Yantzaza (Yanzatza);Zamora Chinchipe;Grande empresa;164018400
+2021;Ambato;Tungurahua;"Mediana empresa ""A""";16510298
+2021;Baños de Agua Santa;Tungurahua;"Mediana empresa ""A""";29226218
+2021;Ambato;Tungurahua;"Mediana empresa ""A""";41317024
+2021;Ambato;Tungurahua;"Mediana empresa ""A""";22448468
+2021;Shushufindi;Sucumbíos;"Mediana empresa ""B""";44616460
+2021;Mejía;Pichincha;"Mediana empresa ""B""";45234532
+2021;Quito;Pichincha;"Mediana empresa ""B""";444889998
+2021;Quito;Pichincha;"Mediana empresa ""B""";910245140
+2021;Quito;Pichincha;"Mediana empresa ""B""";38569832
+2021;Quito;Pichincha;"Mediana empresa ""B""";40841556
+2021;Quito;Pichincha;"Mediana empresa ""B""";28504266
+2021;Chambo;Chimborazo;Microempresa;4746
+2021;Riobamba;Chimborazo;Microempresa;37506
+2021;Riobamba;Chimborazo;Microempresa;29568
+2021;Riobamba;Chimborazo;Microempresa;1004528
+2021;Colta;Chimborazo;Microempresa;10276
+2021;Latacunga;Cotopaxi;Microempresa;252
+2021;Latacunga;Cotopaxi;Microempresa;868
+2021;Saquisilí;Cotopaxi;Microempresa;405748
+2021;Lago Agrio;Sucumbíos;Microempresa;1725808
+2021;Shushufindi;Sucumbíos;Microempresa;144872
+2021;Alausí;Chimborazo;Microempresa;742140
+2021;Riobamba;Chimborazo;Microempresa;321062
+2021;Riobamba;Chimborazo;Microempresa;5069904
+2021;Ambato;Tungurahua;Microempresa;977578
+2021;Ambato;Tungurahua;Microempresa;3541146
+2021;Santiago de Píllaro;Tungurahua;Microempresa;157346
+2021;Isabela;Galápagos;Microempresa;2147488
+2021;San Cristóbal;Galápagos;Microempresa;1271634
+2021;Santa Cruz;Galápagos;Microempresa;2958522
+2021;Santa Cruz;Galápagos;Microempresa;2486260
+2021;Yantzaza (Yanzatza);Zamora Chinchipe;Microempresa;1181866
+2021;Lago Agrio;Sucumbíos;Microempresa;190764
+2021;Lago Agrio;Sucumbíos;Microempresa;850486
+2021;Alfredo Baquerizo Moreno (Juján);Guayas;Pequeña empresa;6653388
+2021;Daule;Guayas;Pequeña empresa;4278848
+2021;Naranjal;Guayas;Pequeña empresa;1462230
+2021;Guayaquil;Guayas;Pequeña empresa;31651046
+2021;Guayaquil;Guayas;Pequeña empresa;2676044
+2021;Guayaquil;Guayas;Pequeña empresa;8400770
+2021;Samborondón;Guayas;Pequeña empresa;1599864
+2021;Guayaquil;Guayas;"Mediana empresa ""B""";30325148
+2021;Valencia;Los Ríos;Microempresa;584444
+2021;Vinces;Los Ríos;Microempresa;79744
+2021;Quevedo;Los Ríos;Microempresa;390138
+2021;El Guabo;El Oro;Microempresa;1296064
+2021;Machala;El Oro;Microempresa;1492918
+2021;Pasaje;El Oro;Microempresa;606760
+2021;Machala;El Oro;Microempresa;836906
+2021;Machala;El Oro;Microempresa;2579668
+2021;Machala;El Oro;Microempresa;116620
+2021;Quito;Pichincha;Microempresa;24658228
+2021;Quito;Pichincha;Microempresa;64140706
+2021;Quito;Pichincha;Microempresa;6866664
+2021;Quito;Pichincha;Microempresa;607768
+2021;Quito;Pichincha;Microempresa;5387718
+2021;Montalvo;Los Ríos;Microempresa;772506
+2021;Machala;El Oro;Microempresa;513002
+2021;Quito;Pichincha;Microempresa;1662164
+2021;Quito;Pichincha;Microempresa;112000
+2021;Quito;Pichincha;Microempresa;856520
+2021;Tulcán;Carchi;Pequeña empresa;2987754
+2021;Tulcán;Carchi;Pequeña empresa;4799116
+2021;Machala;El Oro;Pequeña empresa;52424834
+2021;Machala;El Oro;Pequeña empresa;7798938
+2021;Montúfar;Carchi;Pequeña empresa;2532194
+2021;Lago Agrio;Sucumbíos;Microempresa;948374
+2021;Putumayo;Sucumbíos;Microempresa;35630
+2021;Santa Cruz;Galápagos;Microempresa;944510
+2021;Buena Fé;Los Ríos;Microempresa;989366
+2021;Quevedo;Los Ríos;Microempresa;852208
+2021;El pangui;Zamora Chinchipe;Microempresa;320656
+2021;Quito;Pichincha;Microempresa;1905932
+2021;Quito;Pichincha;Microempresa;1680
+2021;Quito;Pichincha;Microempresa;3847270
+2021;Quito;Pichincha;Microempresa;47628
+2021;Quito;Pichincha;Microempresa;204694
+2021;Quito;Pichincha;Microempresa;1364216
+2021;Cuyabeno;Sucumbíos;Microempresa;625408
+2021;Gonzalo Pizarro;Sucumbíos;Microempresa;800632
+2021;Lago Agrio;Sucumbíos;Microempresa;400008
+2021;Shushufindi;Sucumbíos;Microempresa;1310666
+2021;Lago Agrio;Sucumbíos;Microempresa;44380
+2021;Mejía;Pichincha;Microempresa;638540
+2021;Rumiñahui;Pichincha;Microempresa;963438
+2021;Cayambe;Pichincha;Microempresa;2073470
+2021;Cayambe;Pichincha;Microempresa;1314824
+2021;Cayambe;Pichincha;Microempresa;81060
+2021;Mejía;Pichincha;Microempresa;609868
+2021;Rumiñahui;Pichincha;Microempresa;775600
+2021;Ambato;Tungurahua;Microempresa;6261892
+2021;Baños de Agua Santa;Tungurahua;Microempresa;1489404
+2021;Ambato;Tungurahua;Microempresa;3368106
+2021;Ambato;Tungurahua;Microempresa;160090
+2021;Baños de Agua Santa;Tungurahua;Microempresa;687946
+2021;Patate;Tungurahua;Microempresa;1359148
+2021;San Pedro de Pelileo;Tungurahua;Microempresa;1300740
+2021;Quito;Pichincha;Microempresa;17176670
+2021;Quito;Pichincha;Microempresa;1109934
+2021;Quito;Pichincha;Microempresa;39705022
+2021;Quito;Pichincha;Microempresa;1728454
+2021;Quito;Pichincha;Microempresa;3018722
+2021;Quito;Pichincha;Microempresa;210
+2021;Orellana;Orellana;Pequeña empresa;11289292
+2021;La Joya de los Sachas;Orellana;Pequeña empresa;4018742
+2021;La Joya de los Sachas;Orellana;Pequeña empresa;2463062
+2021;Orellana;Orellana;Pequeña empresa;3393264
+2021;Ambato;Tungurahua;Pequeña empresa;1857562
+2021;Lago Agrio;Sucumbíos;Pequeña empresa;45783192
+2021;Shushufindi;Sucumbíos;Pequeña empresa;31437084
+2021;Lago Agrio;Sucumbíos;Pequeña empresa;15300838
+2021;Lago Agrio;Sucumbíos;Pequeña empresa;3149496
+2021;Shushufindi;Sucumbíos;Pequeña empresa;6761328
+2021;Shushufindi;Sucumbíos;Pequeña empresa;6754580
+2021;Shushufindi;Sucumbíos;Pequeña empresa;2362612
+2021;Shushufindi;Sucumbíos;Pequeña empresa;3128202
+2021;Cayambe;Pichincha;Pequeña empresa;3115728
+2021;Mejía;Pichincha;Pequeña empresa;3839640
+2021;Pedro Moncayo;Pichincha;Pequeña empresa;2363004
+2021;Rumiñahui;Pichincha;Pequeña empresa;4552044
+2021;San Miguel de los Bancos;Pichincha;Pequeña empresa;9472960
+2021;Cayambe;Pichincha;Pequeña empresa;18045734
+2021;Cayambe;Pichincha;Pequeña empresa;11974368
+2021;Cayambe;Pichincha;Pequeña empresa;9870560
+2021;Cayambe;Pichincha;Pequeña empresa;4560276
+2021;Mejía;Pichincha;Pequeña empresa;2588964
+2021;Mejía;Pichincha;Pequeña empresa;4585112
+2021;Mejía;Pichincha;Pequeña empresa;15585752
+2021;Pedro Moncayo;Pichincha;Pequeña empresa;5431636
+2021;Pedro Moncayo;Pichincha;Pequeña empresa;2429084
+2021;Pedro Vicente Maldonado;Pichincha;Pequeña empresa;7867006
+2021;Rumiñahui;Pichincha;Pequeña empresa;70785358
+2021;Rumiñahui;Pichincha;Pequeña empresa;1679006
+2021;Rumiñahui;Pichincha;Pequeña empresa;2060156
+2021;San Miguel de los Bancos;Pichincha;Pequeña empresa;5175982
+2021;Ambato;Tungurahua;Pequeña empresa;42765044
+2021;Baños de Agua Santa;Tungurahua;Pequeña empresa;20118910
+2021;Cevallos;Tungurahua;Pequeña empresa;3792628
+2021;Patate;Tungurahua;Pequeña empresa;1581944
+2021;Santiago de Píllaro;Tungurahua;Pequeña empresa;1447628
+2021;Ambato;Tungurahua;Pequeña empresa;184314760
+2021;Ambato;Tungurahua;Pequeña empresa;8797152
+2021;Ambato;Tungurahua;Pequeña empresa;1400952
+2021;Baños de Agua Santa;Tungurahua;Pequeña empresa;9020270
+2021;Baños de Agua Santa;Tungurahua;Pequeña empresa;3448242
+2021;Mocha;Tungurahua;Pequeña empresa;2792552
+2021;Isabela;Galápagos;Pequeña empresa;11460050
+2021;San Cristóbal;Galápagos;Pequeña empresa;13017032
+2021;Santa Cruz;Galápagos;Pequeña empresa;38533712
+2021;San Cristóbal;Galápagos;Pequeña empresa;5407962
+2021;Santa Cruz;Galápagos;Pequeña empresa;46909436
+2021;Santa Cruz;Galápagos;Pequeña empresa;14454062
+2021;Quevedo;Los Ríos;Pequeña empresa;15784454
+2021;Valencia;Los Ríos;Pequeña empresa;4381370
+2021;Ventanas;Los Ríos;Pequeña empresa;9322348
+2021;Babahoyo;Los Ríos;Pequeña empresa;14460600
+2021;Buena Fé;Los Ríos;Pequeña empresa;3626658
+2021;Quevedo;Los Ríos;Pequeña empresa;43870666
+2021;Ventanas;Los Ríos;Pequeña empresa;3829364
+2021;Machala;El Oro;Pequeña empresa;3476984
+2021;Huaquillas;El Oro;Pequeña empresa;28105882
+2021;Machala;El Oro;Pequeña empresa;24155418
+2021;Pasaje;El Oro;Pequeña empresa;12484598
+2021;Arenillas;El Oro;Pequeña empresa;3807972
+2021;Machala;El Oro;Pequeña empresa;127490118
+2021;Machala;El Oro;Pequeña empresa;6438922
+2021;Machala;El Oro;Pequeña empresa;2746800
+2021;Pasaje;El Oro;Pequeña empresa;6234116
+2021;Piñas;El Oro;Pequeña empresa;1623454
+2021;Piñas;El Oro;Pequeña empresa;1910510
+2021;Santa Rosa;El Oro;Pequeña empresa;16614094
+2021;Archidona;Napo;Microempresa;40628
+2021;El chaco;Napo;Microempresa;158746
+2021;Tena;Napo;Microempresa;14630
+2021;Tena;Napo;Microempresa;62496
+2021;Archidona;Napo;Microempresa;1366330
+2021;Archidona;Napo;Pequeña empresa;4567290
+2021;Tena;Napo;Pequeña empresa;7662802
+2021;El chaco;Napo;Pequeña empresa;6582772
+2021;Tena;Napo;Pequeña empresa;1524096
+2021;Tena;Napo;Pequeña empresa;4648784
+2021;Riobamba;Chimborazo;Microempresa;673820
+2021;Daule;Guayas;Microempresa;1041768
+2021;El Triunfo;Guayas;Microempresa;913766
+2021;Durán;Guayas;Microempresa;585396
+2021;Guayaquil;Guayas;Microempresa;3324510
+2021;Guayaquil;Guayas;Microempresa;1171926
+2021;Guayaquil;Guayas;Microempresa;783762
+2021;Samborondón;Guayas;Microempresa;1824368
+2021;Samborondón;Guayas;Microempresa;301728
+2021;Azogues;Cañar;Pequeña empresa;1779806
+2021;Riobamba;Chimborazo;Microempresa;1167544
+2021;Colta;Chimborazo;Microempresa;383586
+2021;Riobamba;Chimborazo;Microempresa;4911774
+2021;Riobamba;Chimborazo;Microempresa;1122100
+2021;Daule;Guayas;Microempresa;1764392
+2021;El Triunfo;Guayas;Microempresa;1161090
+2021;Camilo Ponce Enríquez;Azuay;Pequeña empresa;2059148
+2021;Cuenca;Azuay;Pequeña empresa;67979408
+2021;Cuenca;Azuay;Pequeña empresa;7042784
+2021;Gualaceo;Azuay;Pequeña empresa;3103366
+2021;Camilo Ponce Enríquez;Azuay;Pequeña empresa;18858924
+2021;Cuenca;Azuay;Pequeña empresa;311172666
+2021;Cuenca;Azuay;Pequeña empresa;3572296
+2021;Cuenca;Azuay;Pequeña empresa;14431004
+2021;Cuenca;Azuay;Pequeña empresa;12152616
+2021;Gualaceo;Azuay;Pequeña empresa;3440612
+2021;Paute;Azuay;Pequeña empresa;5537308
+2021;Santa Isabel;Azuay;Pequeña empresa;2571856
+2021;Azogues;Cañar;Pequeña empresa;2351622
+2021;Biblián;Cañar;Pequeña empresa;2836134
+2021;La Troncal;Cañar;Pequeña empresa;5586266
+2021;Azogues;Cañar;Pequeña empresa;11552730
+2021;La Troncal;Cañar;Pequeña empresa;1870610

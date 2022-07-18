@@ -1,247 +1,248 @@
-idPais;nombrePais
-AD;Andorra
-AE;Emiratos ¡rabes Unidos
-AF;Afganist·n
-AG;Antigua y Barbuda
-AI;Anguilla
-AL;Albania
-AM;Armenia
-AN;Antillas Holandesas
-AO;Angola†
-AQ;Ant·rtida
-AR;Argentina
-AS;Samoa Americana
-AT;Austria†
-AU;Australia
-AW;Aruba
-AZ;Azerbay·n
-BA;Bosnia-Herzegovina
-BB;Barbados
-BD;Bangladesh
-BE;BÈlgica
-BF;Burkina Faso
-BG;Bulgaria
-BH;Bahrain
-BI;Burundi
-BJ;BenÌn
-BM;Islas Bermudas
-BN;Brunei Darussalam
-BO;Bolivia
-BR;Brasil
-BT;Bahamas
-BS;But·n
-BV;Islas Buvet
-BW;Botswana
-BY;Bielorrusia
-BZ;Belice
-CA;Canad·
-CC;Isla de Cocos
-CD;Rep˙blica Democr·tica del Congo†
-CF;Rep˙blica Centroafricana
-CG;Rep˙blica del Congo
-CH;Suiza
-CI;Costa de marfil
-CK;Islas Cook
-CL;Chile
-CM;Camer˙n
-CN;China
-CO;Colombia
-CR;Costa Rica
-CS;Checoslovaquia (antiguo paÌs)
-CU;Cuba
-CV;Cabo Verde
-CX;Islas Christmas
-CY;Chipre
-CZ;Rep˙blica Checa
-DE;Alemania
-DJ;Djibouti
-DK;Dinamarca
-DM;Dominica
-DO;Rep˙blica Dominicana
-DZ;Argelia
-EC;Ecuador
-EE;Estonia
-EG;Egipto
-EH;S·hara Occidental
-ER;Eritrea
-ES;EspaÒa
-ET;EtiopÌa
-FI;Finlandia
-FJ;Fiji 
-FK;Islas Malvinas
-FM;Micronesia 
-FO;Islas Feroe
-FR;Francia
-GA;GabÛn
-GD;Granada
-GE;Georgia
-GF;Guyana Francesa
-GG;Guernsey
-GH;Ghana
-GI;Gibraltar
-GL;Groenlandia
-GM;Gambia
-GN;Guinea
-GP;Guadalupe
-GQ;Guinea Ecuatorial
-GR;Grecia
-GS;Islas Georgias y Sandwich del Sur
-GT;Guatemala
-GU;Guam
-GW;Guinea-Bissau
-GY;Guayana
-HK;Hong Kong
-HM;Islas Heard y McDonald
-HN;Honduras
-HR;Croacia
-HT;HaitÌ
-HU;HungrÌa
-ID;Indonesia
-IE;Irlanda
-IL;Israel
-IM;Isla de Man
-IN;India
-IO;Territorio brit·nico del OcÈano Õndico
-IQ;Iraq
-IR;Ir·n
-IS;Islandia
-IT;Italia
-JM;Jamaica
-JE;Jersey
-JO;Jordania
-JP;JapÛn
-KE;Kenia
-KG;Kyrgyst·n
-KH;Camboya
-KI;Kiribati
-KM;Islas Comores
-KN;San Kitts y Nevis
-KP;Corea del Norte
-KR;Corea del Sur
-KW;Kuwait
-KY;Islas Caim·n
-KZ;Kazajist·n
-LA;Laos
-LB;LÌbano
-LC;Santa LucÌa
-LI;Liechtenstein
-LK;Sri Lanka
-LR;Liberia
-LS;Lesoto
-LT;Lituania
-LU;Luxemburgo
-LV;Letonia
-LY;Libia
-MA;Marruecos
-MC;MÛnaco
-MD;Moldavia
-MG;Madagascar
-MK;Macedonia
-MH;Islas Marshall
-ML;Mali 
-MM;Birmania
-MN;Mongolia
-MO;Macao
-MP;Islas Marianas
-MQ;Martinica
-MR;Mauritania
-MS;Montserrat
-MT;Malta
-MU;Mauricio
-MV;Maldivas
-MW;Malawi
-MX;MÈxico
-MY;Malasia
-MZ;Mozambique
-NA;Namibia
-NC;Nueva Caledonia
-NE;NÌger
-NF;Islas Norfolk
-NG;Nigeria
-NI;Nicaragua
-NL;PaÌses Bajos
-NO;Noruega
-NP;Nepal
-NR;Nauru
-NT;Zona Neutral
-NU;Niue
-NZ;Nueva Zelanda
-OM;Om·n
-PA;Panam·
-PE;Per˙
-PF;Polinesia Francesa
-PG;Pap˙a Nueva Guinea
-PH;Filipinas
-PK;Pakist·n
-PL;Polonia
-PM;San Pedro y MiquelÛn
-PN;Pitcairn
-PR;Puerto Rico
-PS;Territorios Palestinos
-PT;Portugal
-PW;Palau
-PY;Paraguay
-QA;Qatar
-RE;Isla ReuniÛn
-RO;RumanÌa
-RU;Rusia
-RW;Ruanda
-SA;Arabia SaudÌ
-SB;Islas SalomÛn
-SC;Islas Seychelles
-SD;Sud·n
-SE;Suecia
-SG;Singapur
-SH;Santa Helena
-SI;Eslovenia
-SJ;Islas Svalbard y Jan Mayens
-SK;Eslovaquia
-SL;Sierra Leona
-SM;San Marino
-SN;Senegal
-SO;Somalia
-SR;Surinam
-SU;URSS
-ST;Santo TomÈ y PrÌncipe
-SV;El Salvador
-SY;Siria
-SZ;Suazilandia
-TC;Islas Turks y Caicos
-TD;Chad
-TF;Tierras Australes y Ant·rticas Francesas
-TG;Togo
-TH;Tailandia
-TJ;Tayikist·n
-TK;Tokelau
-TM;Turkmenist·n
-TN;T˙nez
-TO;Tonga
-TP;Timor Oriental
-TR;TurquÌa
-TT;Trinidad y Tobago
-TV;Tuvalu
-TW;Taiw·n
-TZ;Tanzania
-UA;Ucrania
-UG;Uganda
-UK;Reino Unido
-UM;Islas Ultramarinas de Estados Unidos†
-US;Estados Unidos de AmÈrica
-UY;Uruguay
-UZ;Uzbekist·n
-VA;Vaticano
-VC;San Vicente y las Granadinas
-VE;Venezuela
-VG;Islas VÌrgenes Brit·nicas
-VI;Islas VÌrgenes Americanas
-VN;Vietnam
-VU;Vanuatu
-WF;Islas Wallis y Futuna
-WS;Samoa
-YE;Yemen
-YT;Mayotte
-YU;Yugoslavia (antiguo paÌs)
-ZA;Sud·frica
-ZM;Zambia
-ZR;Zaire (antiguo paÌs)
-ZW;Zimbabwe
+ÔªøidPais;nombrePais;
+AD;Andorra;
+AE;Emiratos √Årabes Unidos;
+AF;Afganist√°n;
+AG;Antigua y Barbuda;
+AI;Anguilla;
+AL;Albania;
+AM;Armenia;
+AN;Antillas Holandesas;
+AO;Angola¬†;
+AQ;Ant√°rtida;
+AR;Argentina;
+AS;Samoa Americana;
+AT;Austria¬†;
+AU;Australia;
+AW;Aruba;
+AZ;Azerbay√°n;
+BA;Bosnia-Herzegovina;
+BB;Barbados;
+BD;Bangladesh;
+BE;B√©lgica;
+BF;Burkina Faso;
+BG;Bulgaria;
+BH;Bahrain;
+BI;Burundi;
+BJ;Ben√≠n;
+BM;Islas Bermudas;
+BN;Brunei Darussalam;
+BO;Bolivia;
+BR;Brasil;
+BT;Bahamas;
+BS;But√°n;
+BV;Islas Buvet;
+BW;Botswana;
+BY;Bielorrusia;
+BZ;Belice;
+CA;Canad√°;
+CC;Isla de Cocos;
+CD;Rep√∫blica Democr√°tica del Congo¬†;
+CF;Rep√∫blica Centroafricana;
+CG;Rep√∫blica del Congo;
+CH;Suiza;
+CI;Costa de marfil;
+CK;Islas Cook;
+CL;Chile;
+CM;Camer√∫n;
+CN;China;
+CO;Colombia;
+CR;Costa Rica;
+CS;Checoslovaquia (antiguo pa√≠s);
+CU;Cuba;
+CV;Cabo Verde;
+CX;Islas Christmas;
+CY;Chipre;
+CZ;Rep√∫blica Checa;
+DE;Alemania;
+DJ;Djibouti;
+DK;Dinamarca;
+DM;Dominica;
+DO;Rep√∫blica Dominicana;
+DZ;Argelia;
+EC;Ecuador;
+EE;Estonia;
+EG;Egipto;
+EH;S√°hara Occidental;
+ER;Eritrea;
+ES;Espa√±a;
+ET;Etiop√≠a;
+FI;Finlandia;
+FJ;Fiji ;
+FK;Islas Malvinas;
+FM;Micronesia ;
+FO;Islas Feroe;
+FR;Francia;
+GA;Gab√≥n;
+GD;Granada;
+GE;Georgia;
+GF;Guyana Francesa;
+GG;Guernsey;
+GH;Ghana;
+GI;Gibraltar;
+GL;Groenlandia;
+GM;Gambia;
+GN;Guinea;
+GP;Guadalupe;
+GQ;Guinea Ecuatorial;
+GR;Grecia;
+GS;Islas Georgias y Sandwich del Sur;
+GT;Guatemala;
+GU;Guam;
+GW;Guinea-Bissau;
+GY;Guayana;
+HK;Hong Kong;
+HM;Islas Heard y McDonald;
+HN;Honduras;
+HR;Croacia;
+HT;Hait√≠;
+HU;Hungr√≠a;
+ID;Indonesia;
+IE;Irlanda;
+IL;Israel;
+IM;Isla de Man;
+IN;India;
+IO;Territorio brit√°nico del Oc√©ano √çndico;
+IQ;Iraq;
+IR;Ir√°n;
+IS;Islandia;
+IT;Italia;
+JM;Jamaica;
+JE;Jersey;
+JO;Jordania;
+JP;Jap√≥n;
+KE;Kenia;
+KG;Kyrgyst√°n;
+KH;Camboya;
+KI;Kiribati;
+KM;Islas Comores;
+KN;San Kitts y Nevis;
+KP;Corea del Norte;
+KR;Corea del Sur;
+KW;Kuwait;
+KY;Islas Caim√°n;
+KZ;Kazajist√°n;
+LA;Laos;
+LB;L√≠bano;
+LC;Santa Luc√≠a;
+LI;Liechtenstein;
+LK;Sri Lanka;
+LR;Liberia;
+LS;Lesoto;
+LT;Lituania;
+LU;Luxemburgo;
+LV;Letonia;
+LY;Libia;
+MA;Marruecos;
+MC;M√≥naco;
+MD;Moldavia;
+MG;Madagascar;
+MK;Macedonia;
+MH;Islas Marshall;
+ML;Mali ;
+MM;Birmania;
+MN;Mongolia;
+MO;Macao;
+MP;Islas Marianas;
+MQ;Martinica;
+MR;Mauritania;
+MS;Montserrat;
+MT;Malta;
+MU;Mauricio;
+MV;Maldivas;
+MW;Malawi;
+MX;M√©xico;
+MY;Malasia;
+MZ;Mozambique;
+NA;Namibia;
+NC;Nueva Caledonia;
+NE;N√≠ger;
+NF;Islas Norfolk;
+NG;Nigeria;
+NI;Nicaragua;
+NL;Pa√≠ses Bajos;
+NO;Noruega;
+NP;Nepal;
+NR;Nauru;
+NT;Zona Neutral;
+NU;Niue;
+NZ;Nueva Zelanda;
+OM;Om√°n;
+PA;Panam√°;
+PE;Per√∫;
+PF;Polinesia Francesa;
+PG;Pap√∫a Nueva Guinea;
+PH;Filipinas;
+PK;Pakist√°n;
+PL;Polonia;
+PM;San Pedro y Miquel√≥n;
+PN;Pitcairn;
+PR;Puerto Rico;
+PS;Territorios Palestinos;
+PT;Portugal;
+PW;Palau;
+PY;Paraguay;
+QA;Qatar;
+RE;Isla Reuni√≥n;
+RO;Ruman√≠a;
+RU;Rusia;
+RW;Ruanda;
+SA;Arabia Saud√≠;
+SB;Islas Salom√≥n;
+SC;Islas Seychelles;
+SD;Sud√°n;
+SE;Suecia;
+SG;Singapur;
+SH;Santa Helena;
+SI;Eslovenia;
+SJ;Islas Svalbard y Jan Mayens;
+SK;Eslovaquia;
+SL;Sierra Leona;
+SM;San Marino;
+SN;Senegal;
+SO;Somalia;
+SR;Surinam;
+SU;URSS;
+ST;Santo Tom√© y Pr√≠ncipe;
+SV;El Salvador;
+SY;Siria;
+SZ;Suazilandia;
+TC;Islas Turks y Caicos;
+TD;Chad;
+TF;Tierras Australes y Ant√°rticas Francesas;
+TG;Togo;
+TH;Tailandia;
+TJ;Tayikist√°n;
+TK;Tokelau;
+TM;Turkmenist√°n;
+TN;T√∫nez;
+TO;Tonga;
+TP;Timor Oriental;
+TR;Turqu√≠a;
+TT;Trinidad y Tobago;
+TV;Tuvalu;
+TW;Taiw√°n;
+TZ;Tanzania;
+UA;Ucrania;
+UG;Uganda;
+UK;Reino Unido;
+UM;Islas Ultramarinas de Estados Unidos¬†;
+US;Estados Unidos de Am√©rica;
+UY;Uruguay;
+UZ;Uzbekist√°n;
+VA;Vaticano;
+VC;San Vicente y las Granadinas;
+VE;Venezuela;
+VG;Islas V√≠rgenes Brit√°nicas;
+VI;Islas V√≠rgenes Americanas;
+VN;Vietnam;
+VU;Vanuatu;
+WF;Islas Wallis y Futuna;
+WS;Samoa;
+YE;Yemen;
+YT;Mayotte;
+YU;Yugoslavia (antiguo pa√≠s);
+ZA;Sud√°frica;
+ZM;Zambia;
+ZR;Zaire (antiguo pa√≠s);
+ZW;Zimbabwe;
+;;

@@ -24,7 +24,7 @@ USE `Comerciales` ;
 DROP TABLE IF EXISTS `Comerciales`.`Paises` ;
 
 CREATE TABLE IF NOT EXISTS `Comerciales`.`Paises` (
-  `idPais` INT NOT NULL,
+  `idPais` VARCHAR(15) NOT NULL,
   `nombrePais` VARCHAR(45) NULL,
   PRIMARY KEY (`idPais`))
 ENGINE = InnoDB;
@@ -38,7 +38,7 @@ DROP TABLE IF EXISTS `Comerciales`.`Provincias` ;
 CREATE TABLE IF NOT EXISTS `Comerciales`.`Provincias` (
   `idProvincia` INT NOT NULL,
   `nombreProvincia` VARCHAR(45) NULL,
-  `idPais` INT NOT NULL,
+  `idPais` VARCHAR(15) NOT NULL,
   `poblacion` INT NULL,
   `area` INT NULL,
   `longitud` INT NULL,
@@ -188,8 +188,8 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 -- INSERTS 
 
-LOAD DATA LOCAL INFILE '/Users/xavierchavez/Desktop/UTPL/ProyectoIntegrador/ProyectoIntegrador1.2/BasedeDatos/DatosFinales/Comerciales.csv'
-INTO TABLE Comerciales
+LOAD DATA LOCAL INFILE '/Users/xavierchavez/Desktop/UTPL/ProyectoIntegrador/ProyectoIntegrador1.2/BasedeDatos/DatosFinales/Paises.csv'
+INTO TABLE Paises
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'

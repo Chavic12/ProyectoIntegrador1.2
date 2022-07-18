@@ -5,13 +5,13 @@ AF;Afganistán
 AG;Antigua y Barbuda
 AI;Anguilla
 AL;Albania
-AM;Armenia;
+AM;Armenia
 AN;Antillas Holandesas
-AO;Angola
+AO;Angola 
 AQ;Antártida
 AR;Argentina
 AS;Samoa Americana
-AT;Austria
+AT;Austria 
 AU;Australia
 AW;Aruba
 AZ;Azerbayán
@@ -36,7 +36,7 @@ BY;Bielorrusia
 BZ;Belice
 CA;Canadá
 CC;Isla de Cocos
-CD;República Democrática del Congo
+CD;República Democrática del Congo 
 CF;República Centroafricana
 CG;República del Congo
 CH;Suiza
@@ -48,10 +48,10 @@ CN;China
 CO;Colombia
 CR;Costa Rica
 CS;Checoslovaquia (antiguo país)
-CU;Cuba;
+CU;Cuba
 CV;Cabo Verde
 CX;Islas Christmas
-CY;Chipre;
+CY;Chipre
 CZ;República Checa
 DE;Alemania
 DJ;Djibouti
@@ -67,9 +67,9 @@ ER;Eritrea
 ES;España
 ET;Etiopía
 FI;Finlandia
-FJ;Fiji
+FJ;Fiji 
 FK;Islas Malvinas
-FM;Micronesia
+FM;Micronesia 
 FO;Islas Feroe
 FR;Francia
 GA;Gabón
@@ -138,7 +138,7 @@ MD;Moldavia
 MG;Madagascar
 MK;Macedonia
 MH;Islas Marshall
-ML;Mali
+ML;Mali 
 MM;Birmania
 MN;Mongolia
 MO;Macao
@@ -225,8 +225,8 @@ TZ;Tanzania
 UA;Ucrania
 UG;Uganda
 UK;Reino Unido
-UM;Islas Ultramarinas de Estados Unidos
-US;Estados Unidos de América;
+UM;Islas Ultramarinas de Estados Unidos 
+US;Estados Unidos de América
 UY;Uruguay
 UZ;Uzbekistán
 VA;Vaticano
@@ -245,4 +245,3 @@ ZA;Sudáfrica
 ZM;Zambia
 ZR;Zaire (antiguo país)
 ZW;Zimbabwe
-

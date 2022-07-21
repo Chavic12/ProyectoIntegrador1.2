@@ -1,195 +1,195 @@
 ﻿idPais;nombrePais
-EC;Ecuador
-US;Estados Unidos de América
-CA;Canadá
-PA;Panamá
-AR;Argentina
-HU;Hungría
-IT;Italia
-CL;Chile
-UY;Uruguay
-UK;Reino Unido
-IE;Irlanda
-CO;Colombia
-NL;Países Bajos
-ES;España
-DO;República Dominicana
-GT;Guatemala
-NO;Noruega
-MX;México
-BR;Brasil
-FR;Francia
-DE;Alemania
-BO;Bolivia
-CR;Costa Rica
-CH;Suiza
-PE;Perú
-CN;China
-SE;Suecia
-BE;Bélgica
-PT;Portugal
-PH;Filipinas
-NI;Nicaragua
-IL;Israel
-DK;Dinamarca
-HN;Honduras
-NZ;Nueva Zelanda
-VE;Venezuela
-PL;Polonia
-RO;Rumanía
-CU;Cuba
-BY;Bielorrusia
-UA;Ucrania
-AU;Australia
-TT;Trinidad y Tobago
-LT;Lituania
-IN;India
-SK;Eslovaquia
-SV;El Salvador
-EE;Estonia
-FI;Finlandia
-JP;Japón
-GR;Grecia
-CZ;República Checa
-LB;Líbano
-ID;Indonesia
-YE;Yemen
-PY;Paraguay
-HT;Haití
-SI;Eslovenia
-PK;Pakistán
-JO;Jordania
-BG;Bulgaria
-HR;Croacia
-TN;Túnez
-TR;Turquía
-BT;Bahamas
-EG;Egipto
-SG;Singapur
-LV;Letonia
-ZA;Sudáfrica
-JM;Jamaica
-ZM;Zambia
-IR;Irán
-MY;Malasia
-SR;Surinam
+AF;Afganistán
 AL;Albania
-IS;Islandia
-VU;Vanuatu
-VN;Vietnam
-LK;Sri Lanka
-TH;Tailandia
-LC;Santa Lucía
-DM;Dominica
-GH;Ghana
+DE;Alemania
+AD;Andorra
+AGO;Angola
+MKD;Antigua República Yugoslava de Macedonia
+AG;Antigua y Barbuda
+SAU;Arabia Saudita
+DZ;Argelia
+AR;Argentina
+AM;Armenia
+AU;Australia
+AUT;Austria
+AZE;Azerbaiyán
+BT;Bahamas
+BD;Bangladesh
+BB;Barbados
+BHR;Barein
+BE;Bélgica
 BZ;Belice
-CY;Chipre
-SN;Senegal
+BJ;Benín
+BY;Bielorrusia
+BO;Bolivia
+BIH;Bosnia y Herzegovina
+BWA;Botsuana
+BR;Brasil
+BN;Brunei Darussalam
+BG;Bulgaria
+BF;Burkina Faso
+BI;Burundi
+BS;Bután
+CV;Cabo Verde
+KH;Camboya
 CM;Camerún
-NP;Nepal
+CA;Canadá
+QAT;Catar
+TD;Chad
+CL;Chile
+CN;China
+CY;Chipre
+CO;Colombia
+COM;Comoras
+CD;Congo
+CI;Costa de marfil
+CR;Costa Rica
+HR;Croacia
+CU;Cuba
+DK;Dinamarca
+DM;Dominica
+EC;Ecuador
+EG;Egipto
+SV;El Salvador
 AE;Emiratos Árabes Unidos
 ER;Eritrea
-VC;San Vicente y las Granadinas
-KE;Kenia
-DZ;Argelia
-BD;Bangladesh
-GN;Guinea
-LU;Luxemburgo
-UG;Uganda
-KW;Kuwait
-KZ;Kazajistán
-AD;Andorra
-CV;Cabo Verde
-LY;Libia
-MA;Marruecos
-AM;Armenia
-GE;Georgia
-BB;Barbados
-MT;Malta
-MU;Mauricio
-NG;Nigeria
-MN;Mongolia
-TJ;Tayikistán
-KH;Camboya
-SD;Sudán
-UZ;Uzbekistán
-NA;Namibia
-CI;Costa de marfil
-MG;Madagascar
-GM;Gambia
-MC;Mónaco
-MZ;Mozambique
+SK;Eslovaquia
+SI;Eslovenia
+ES;España
+US;Estados Unidos de América
+EE;Estonia
 ET;Etiopía
-BN;Brunei Darussalam
-KI;Kiribati
-AG;Antigua y Barbuda
-TG;Togo
-SB;Islas Salomón
-WS;Samoa
-MR;Mauritania
-NE;Níger
-SL;Sierra Leona
-BJ;Benín
-LI;Liechtenstein
-LS;Lesoto
-BI;Burundi
-RW;Ruanda
-CF;República Centroafricana
-AF;Afganistán
-WF;Islas Wallis y Futuna
-BF;Burkina Faso
-TM;Turkmenistán
-SM;San Marino
-GQ;Guinea Ecuatorial
-GD;Granada
-LR;Liberia
-OM;Omán
-PG;Papúa Nueva Guinea
-MV;Maldivas
-TO;Tonga
-GA;Gabón
-BS;Bután
-ST;Santo Tomé y Príncipe
-TD;Chad
-SO;Somalia
-MH;Islas Marshall
-SZ;Suazilandia
-RUS;Rusia
-AUT;Austria
-AGO;Angola
-KR;República de Corea del Sur
-PS;Palestina
-RCD;República Democrática del Congo
-SER;Serbia
-CD;Congo
-SYR;República Árabe Siria
-GUY;Guyana
-SAU;Arabia Saudita
-KSV;Kosovo
-MMR;Myanmar
-AZE;Azerbaiyán
-ZWE;Zimbabue
-BHR;Barein
-BWA;Botsuana
-MKD;Antigua República Yugoslava de Macedonia
-KGZ;Kirguistán
-LAO;República Democrática Popular Lao
-FSM;Micronesia (Estados Federados de)
-IRQ;Irak
-TZA;Tanzania (República Unida de)
-KNA;San Cristobal y Nieves
-PRK;República Popular Democrática de Corea
-MDA;República de Moldovia
-GNB;Guinea-Bisau
-QAT;Catar
-MLI;Malí
-BIH;Bosnia y Herzegovina
-MNT;Montenegro
-VAT;Santa Sede (Vaticano)
-TMP;Timor-Leste
-MWI;Malaui
+PH;Filipinas
+FI;Finlandia
 FJI;Fiyi
+FR;Francia
+GA;Gabón
+GM;Gambia
+GE;Georgia
+GH;Ghana
+GD;Granada
+GR;Grecia
+GT;Guatemala
+GN;Guinea
+GQ;Guinea Ecuatorial
+GNB;Guinea-Bisau
+GUY;Guyana
+HT;Haití
+HN;Honduras
+HU;Hungría
+IN;India
+ID;Indonesia
+IRQ;Irak
+IR;Irán
+IE;Irlanda
+IS;Islandia
+MH;Islas Marshall
+SB;Islas Salomón
+WF;Islas Wallis y Futuna
+IL;Israel
+IT;Italia
+JM;Jamaica
+JP;Japón
+JO;Jordania
+KZ;Kazajistán
+KE;Kenia
+KGZ;Kirguistán
+KI;Kiribati
+KSV;Kosovo
+KW;Kuwait
+LS;Lesoto
+LV;Letonia
+LB;Líbano
+LR;Liberia
+LY;Libia
+LI;Liechtenstein
+LT;Lituania
+LU;Luxemburgo
+MG;Madagascar
+MY;Malasia
+MWI;Malaui
+MV;Maldivas
+MLI;Malí
+MT;Malta
+MA;Marruecos
+MU;Mauricio
+MR;Mauritania
+MX;México
+FSM;Micronesia (Estados Federados de)
+MC;Mónaco
+MN;Mongolia
+MNT;Montenegro
+MZ;Mozambique
+MMR;Myanmar
+NA;Namibia
+NP;Nepal
+NI;Nicaragua
+NE;Níger
+NG;Nigeria
+NO;Noruega
+NZ;Nueva Zelanda
+OM;Omán
+NL;Países Bajos
+PK;Pakistán
+PS;Palestina
+PA;Panamá
+PG;Papúa Nueva Guinea
+PY;Paraguay
+PE;Perú
+PL;Polonia
+PT;Portugal
+UK;Reino Unido
+SYR;República Árabe Siria
+CF;República Centroafricana
+CZ;República Checa
+KR;República de Corea del Sur
+MDA;República de Moldovia
+RCD;República Democrática del Congo
+LAO;República Democrática Popular Lao
+DO;República Dominicana
+PRK;República Popular Democrática de Corea
+RW;Ruanda
+RO;Rumanía
+RUS;Federación de Rusia
+WS;Samoa
+KNA;San Cristobal y Nieves
+SM;San Marino
+VC;San Vicente y las Granadinas
+LC;Santa Lucía
+VAT;Santa Sede (Vaticano)
+ST;Santo Tomé y Príncipe
+SN;Senegal
+SER;Serbia
 SYC;Seychelles
-COM;Comoras
-DJI;Yibuti
+SL;Sierra Leona
+SG;Singapur
+SO;Somalia
+LK;Sri Lanka
+SZ;Suazilandia
+ZA;Sudáfrica
+SD;Sudán
 SSD;Sudán del Sur
+SE;Suecia
+CH;Suiza
+SR;Surinam
+TH;Tailandia
+TZA;Tanzania (República Unida de) 
+TJ;Tayikistán
+TMP;Timor-Leste
+TG;Togo
+TO;Tonga
+TT;Trinidad y Tobago
+TN;Túnez
+TM;Turkmenistán
+TR;Turquía
+UA;Ucrania
+UG;Uganda
+UY;Uruguay
+UZ;Uzbekistán
+VU;Vanuatu
+VE;Venezuela
+VN;Vietnam
+YE;Yemen
+DJI;Yibuti
+ZM;Zambia
+ZWE;Zimbabue

@@ -148,10 +148,10 @@ DROP TABLE IF EXISTS `Comerciales`.`Ventas` ;
 
 CREATE TABLE IF NOT EXISTS `Comerciales`.`Ventas` (
   `idVenta` INT NOT NULL,
-  `ventaTotal` DOUBLE(6,1) NOT NULL,
+  `ventaTotal` DECIMAL(6,1) NOT NULL,
   `anio` VARCHAR(4) NULL,
   `idProvincia` VARCHAR(10) NOT NULL,
-  `recaudaciones` DOUBLE(6,1) NOT NULL,
+  `recaudaciones` DECIMAL(6,1) NOT NULL,
   PRIMARY KEY (`idVenta`),
   INDEX `fk_Ventas_Provincias1_idx` (`idProvincia` ASC) VISIBLE,
   CONSTRAINT `fk_Ventas_Provincias1`

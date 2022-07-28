@@ -39,6 +39,7 @@ CREATE TABLE IF NOT EXISTS `Comerciales`.`Provincias` (
   `idProvincia` VARCHAR(8) NOT NULL,
   `nombreProvincia` VARCHAR(45) NULL,
   `idPais` VARCHAR(5) NOT NULL,
+  `poblacion` INT NULL,
   `area` INT NULL,
   `longitud` DOUBLE NULL,
   `latitud` DOUBLE NULL,
@@ -96,8 +97,8 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `Comerciales`.`Actividades` ;
 
 CREATE TABLE IF NOT EXISTS `Comerciales`.`Actividades` (
+`nombreActividad` VARCHAR(45) NULL,
   `idActividad` INT NOT NULL,
-  `nombreActividad` VARCHAR(45) NULL,
   PRIMARY KEY (`idActividad`))
 ENGINE = InnoDB;
 
@@ -152,27 +153,6 @@ CREATE TABLE IF NOT EXISTS `Comerciales`.`Personal` (
   CONSTRAINT `fk_Personal_Cantones1`
     FOREIGN KEY (`idCanton`)
     REFERENCES `Comerciales`.`Cantones` (`idCanton`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `Comerciales`.`Ventas`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `Comerciales`.`Ventas` ;
-
-CREATE TABLE IF NOT EXISTS `Comerciales`.`Ventas` (
-  `idVenta` INT NOT NULL,
-  `ventaTotal` INT NULL,
-  `anio` VARCHAR(4) NULL,
-  `idProvincia` VARCHAR(4) NOT NULL,
-  `recaudaciones` DECIMAL(6,1) NULL,
-  PRIMARY KEY (`idVenta`),
-  INDEX `fk_Ventas_Provincias1_idx` (`idProvincia` ASC) VISIBLE,
-  CONSTRAINT `fk_Ventas_Provincias1`
-    FOREIGN KEY (`idProvincia`)
-    REFERENCES `Comerciales`.`Provincias` (`idProvincia`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -266,60 +246,84 @@ SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
--- INSERTS 
+-- INSERTS
 
-LOAD DATA LOCAL INFILE '/Users/jonathanerazoborrero/Desktop/Universidad/ciclo 4/Proyecto Integrador/Base de Datos/Paises.csv'
+LOAD DATA LOCAL INFILE '/Users/xavierchavez/Desktop/UTPL/ProyectoFina/ProyectoIntegrador1.2/BasedeDatos/Datos/Paises.csv'
 INTO TABLE Paises
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/jonathanerazoborrero/Desktop/Universidad/ciclo 4/Proyecto Integrador/Base de Datos/Provincias.csv'
+LOAD DATA LOCAL INFILE '/Users/xavierchavez/Desktop/UTPL/ProyectoFina/ProyectoIntegrador1.2/BasedeDatos/Datos/Provincias.csv'
 INTO TABLE Provincias
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/jonathanerazoborrero/Desktop/Universidad/ciclo 4/Proyecto Integrador/Base de Datos/Cantones.csv'
+LOAD DATA LOCAL INFILE '/Users/xavierchavez/Desktop/UTPL/ProyectoFina/ProyectoIntegrador1.2/BasedeDatos/Datos/Cantones.csv'
 INTO TABLE Cantones
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/jonathanerazoborrero/Desktop/Universidad/ciclo 4/Proyecto Integrador/Base de Datos/Parroquias.csv'
+LOAD DATA LOCAL INFILE '/Users/xavierchavez/Desktop/UTPL/ProyectoFina/ProyectoIntegrador1.2/BasedeDatos/Datos/Parroquias.csv'
 INTO TABLE Parroquias
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/jonathanerazoborrero/Desktop/Universidad/ciclo 4/Proyecto Integrador/Base de Datos/Comerciales.csv'
+LOAD DATA LOCAL INFILE '/Users/xavierchavez/Desktop/UTPL/ProyectoFina/ProyectoIntegrador1.2/BasedeDatos/Datos/Comerciales.csv'
 INTO TABLE Comerciales
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/jonathanerazoborrero/Desktop/Universidad/ciclo 4/Proyecto Integrador/Base de Datos/Personal.csv'
+LOAD DATA LOCAL INFILE '/Users/xavierchavez/Desktop/UTPL/ProyectoFina/ProyectoIntegrador1.2/BasedeDatos/Datos/Personal.csv'
 INTO TABLE Personal
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/jonathanerazoborrero/Desktop/Universidad/ciclo 4/Proyecto Integrador/Base de Datos/Ventas.csv'
+LOAD DATA LOCAL INFILE '/Users/xavierchavez/Desktop/UTPL/ProyectoFina/ProyectoIntegrador1.2/BasedeDatos/Datos/Ventas.csv'
 INTO TABLE Ventas
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/jonathanerazoborrero/Desktop/Universidad/ciclo 4/Proyecto Integrador/Base de Datos/2020Migraci.csv'
+LOAD DATA LOCAL INFILE '/Users/xavierchavez/Documents/Dev/datasets/Prog/migrantes.csv/Migrantes.csv'
 INTO TABLE Migrantes
-FIELDS TERMINATED BY ','
+FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Users/xavierchavez/Desktop/UTPL/ProyectoFina/ProyectoIntegrador1.2/BasedeDatos/Datos/categorias.csv'
+INTO TABLE Categorias
+FIELDS TERMINATED BY ';'
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Users/xavierchavez/Desktop/UTPL/ProyectoFina/ProyectoIntegrador1.2/BasedeDatos/Datos/clasificaciones.csv'
+INTO TABLE Clasificaciones
+FIELDS TERMINATED BY ';'
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Users/xavierchavez/Desktop/UTPL/ProyectoFina/ProyectoIntegrador1.2/BasedeDatos/Datos/actividades.csv'
+INTO TABLE Actividades
+FIELDS TERMINATED BY ';'
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+
+

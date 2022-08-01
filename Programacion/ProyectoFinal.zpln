@@ -1,0 +1,2763 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": "val df = spark.read\n    .format(\"com.crealytics.spark.excel\")\n    .option(\"header\", \"true\")\n    .option(\"inferschema\", \"true\")\n    .load(\"/workspace/zeppelin-paavanzada/data/Consolidado-Nacional-2022-publico-1-web.xlsx\")\n    ",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T06:23:40+0000",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mdf\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m = [Nombre Comercial: string, Actividad: string ... 11 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=0",
+              "$$hashKey": "object:5452"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658976159796_1333937837",
+      "id": "paragraph_1658976159796_1333937837",
+      "dateCreated": "2022-07-28T02:42:39+0000",
+      "dateStarted": "2022-08-01T06:23:40+0000",
+      "dateFinished": "2022-08-01T06:24:39+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:243"
+    },
+    {
+      "text": "%md\n# Carga y limpieza de datos",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-29T00:41:48+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Carga y limpieza de datos</h1>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658976236426_1162514922",
+      "id": "paragraph_1658976236426_1162514922",
+      "dateCreated": "2022-07-28T02:43:56+0000",
+      "dateStarted": "2022-07-28T21:48:11+0000",
+      "dateFinished": "2022-07-28T21:48:11+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:244"
+    },
+    {
+      "text": "val dfClean = df\n    .withColumnRenamed(\"Nombre Comercial\", \"nombre\")\n    .withColumn(\"nombre\", trim($\"nombre\"))\n    .withColumnRenamed(\"Actividad\", \"actividad\")\n    .withColumn(\"actividad\", trim($\"actividad\"))\n    .withColumnRenamed(\"Casificación\", \"clasificacion\")\n    .withColumn(\"clasificacion\", trim($\"clasificacion\"))\n    .withColumnRenamed(\"Categoría\", \"categoria\")\n    .withColumn(\"categoria\", trim($\"categoria\"))\n    .withColumnRenamed(\"Provincia\", \"provincia\")\n    .withColumn(\"provincia\", trim($\"provincia\"))\n    .withColumnRenamed(\"Cantón\", \"canton\")\n    .withColumn(\"canton\", trim($\"canton\"))\n    .withColumnRenamed(\"Parroquia\", \"parroquia\")\n    .withColumn(\"parroquia\", trim($\"parroquia\"))\n    .withColumnRenamed(\"Referencia de Dirección\", \"ref\")\n    .withColumn(\"ref\", trim($\"ref\"))\n    .withColumnRenamed(\"Dirección\", \"direccion\")\n    .withColumn(\"direccion\", trim($\"direccion\"))\n    .withColumnRenamed(\"Teléfono Principal\", \"telf1\")\n    .withColumn(\"telf1\", trim($\"telf1\"))\n    .withColumnRenamed(\"Teléfono Secundario\", \"telf2\")\n    .withColumn(\"telf2\", trim($\"telf2\"))\n    .withColumnRenamed(\"Correo Electrónico\", \"email\")\n    .withColumn(\"email\", trim($\"email\"))\n    .withColumnRenamed(\"Dirección Web\", \"web\")\n    .withColumn(\"web\", trim($\"web\"))\n    .withColumn(\"nuevaCategoria\",\n    // RESTAURANES\n        when(upper(col(\"categoria\")) === \"LUJO\" && $\"clasificacion\" === \"RESTAURANTE\", \"5 TENEDORES\")\n        .when(upper($\"categoria\") === \"(5) CINCO TENEDORES\" && (col(\"clasificacion\")) === \"RESTAURANTE\", \"5 TENEDORES\")\n        .when(upper($\"categoria\") === \"LUJO / 5 TENEDORES\" && (col(\"clasificacion\")) === \"RESTAURANTE\", \"5 TENEDORES\")\n        .when(upper($\"categoria\") === \"PRIMERA\"  && (col(\"clasificacion\")) === \"RESTAURANTE\", \"4 TENEDORES\")\n        .when(upper($\"categoria\") === \"(4) CUATRO TENEDORES\" && (col(\"clasificacion\")) === \"RESTAURANTE\", \"4 TENEDORES\")\n        .when(upper($\"categoria\") === \"PRIMERA / 4 TENEDORES\"  && (col(\"clasificacion\")) === \"RESTAURANTE\", \"4 TENEDORES\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"RESTAURANTE\", \"3 TENEDORES\")\n        .when(upper($\"categoria\") === \"(3) TRES TENEDORES\" && (col(\"clasificacion\")) === \"RESTAURANTE\", \"3 TENEDORES\")\n        .when(upper($\"categoria\") === \"SEGUNDA / 3 TENEDORES\" && (col(\"clasificacion\")) === \"RESTAURANTE\", \"3 TENEDORES\")\n        .when(upper($\"categoria\") === \"TERCERA\" && (col(\"clasificacion\")) === \"RESTAURANTE\", \"2 TENEDORES\")\n        .when(upper($\"categoria\") === \"(2) DOS TENEDORES\" && (col(\"clasificacion\")) === \"RESTAURANTE\", \"2 TENEDORES\")\n        .when(upper($\"categoria\") === \"TERCERA / 2 TENEDORES\" && (col(\"clasificacion\")) === \"RESTAURANTE\", \"2 TENEDORES\")\n        .when(upper($\"categoria\") === \"CUARTA\" && (col(\"clasificacion\")) === \"RESTAURANTE\", \"1 TENEDOR\")\n        .when(upper($\"categoria\") === \"(1) UN TENEDOR\" && (col(\"clasificacion\")) === \"RESTAURANTE\", \"1 TENEDOR\")\n        .when(upper($\"categoria\") === \"CUARTA / 1 TENEDOR\" && (col(\"clasificacion\")) === \"RESTAURANTE\", \"1 TENEDOR\")\n    // HOTELES\n        .when(upper($\"categoria\") === \"CUARTA\" && (col(\"clasificacion\")) === \"HOTEL\", \"1 ESTRELLA\")\n        .when(upper($\"categoria\") === \"TERCERA\" && (col(\"clasificacion\")) === \"HOTEL\", \"2 ESTRELLAS\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"HOTEL\", \"3 ESTRELLAS\")\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"HOTEL\", \"4 ESTRELLAS\")\n        .when(upper($\"categoria\") === \"LUJO\" && (col(\"clasificacion\")) === \"HOTEL\", \"5 ESTRELLAS\")\n    // HOSTERIA\n        .when(upper($\"categoria\") === \"TERCERA\" && (col(\"clasificacion\")) === \"HOSTERÍA\", \"1 ESTRELLA-HOS\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"HOSTERÍA\", \"2 ESTRELLAS-HOS\")\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"HOSTERÍA\", \"3 ESTRELLAS-HOS\")\n        .when(upper($\"categoria\") === \"3 ESTRELLAS\" && (col(\"clasificacion\")) === \"HOSTERÍA\", \"3 ESTRELLAS-HOS\")\n        .when(upper($\"categoria\") === \"4 ESTRELLAS\" && (col(\"clasificacion\")) === \"HOSTERÍA\", \"4 ESTRELLAS-HOS\")\n        .when(upper($\"categoria\") === \"5 ESTRELLAS\" && (col(\"clasificacion\")) === \"HOSTERÍA\", \"5 ESTRELLAS-HOS\")\n    // HOSTAL\n        .when(upper($\"categoria\") === \"TERCERA\" && (col(\"clasificacion\")) === \"HOSTAL\", \"1 ESTRELLA-H\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"HOSTAL\", \"2 ESTRELLAS-H\")\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"HOSTAL\", \"3 ESTRELLAS-H\")\n        .when(upper($\"categoria\") === \"1 ESTRELLAS\" && (col(\"clasificacion\")) === \"HOSTAL\", \"1 ESTRELLA-H\")\n        .when(upper($\"categoria\") === \"2 ESTRELLAS\" && (col(\"clasificacion\")) === \"HOSTAL\", \"2 ESTRELLA-H\")\n        .when(upper($\"categoria\") === \"3 ESTRELLAS\" && (col(\"clasificacion\")) === \"HOSTAL\", \"3 ESTRELLA-H\")\n        .when(upper($\"categoria\") === \"4 ESTRELLAS\" && (col(\"clasificacion\")) === \"HOSTAL\", \"4 ESTRELLAS-H\")\n        .when(upper($\"categoria\") === \"5 ESTRELLAS\" && (col(\"clasificacion\")) === \"HOSTAL\", \"5 ESTRELLAS-H\")\n    // HACIENDA TURISTICA\n        .when(upper($\"categoria\") === \"3 ESTRELLAS\" && (col(\"clasificacion\")) === \"HACIENDA TURÍSTICA\", \"3 ESTRELLAS-HT\")\n        .when(upper($\"categoria\") === \"4 ESTRELLAS\" && (col(\"clasificacion\")) === \"HACIENDA TURÍSTICA\", \"4 ESTRELLAS-HT\")\n        .when(upper($\"categoria\") === \"5 ESTRELLAS\" && (col(\"clasificacion\")) === \"HACIENDA TURÍSTICA\", \"5 ESTRELLAS-HT\")\n    // DISCOTECA\n        .when(upper($\"categoria\") === \"TERCERA / 1 COPA\" && (col(\"clasificacion\")) === \"DISCOTECA\", \"UNA COPA-D\")\n        .when(upper($\"categoria\") === \"(1) UNA COPA\" && (col(\"clasificacion\")) === \"DISCOTECA\", \"UNA COPA-D\")\n        .when(upper($\"categoria\") === \"SEGUNDA / 2 COPAS\" && (col(\"clasificacion\")) === \"DISCOTECA\", \"DOS COPAS-D\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"DISCOTECA\", \"DOS COPAS-D\")\n        .when(upper($\"categoria\") === \"(2) DOS COPAS\" && (col(\"clasificacion\")) === \"DISCOTECA\", \"DOS COPAS-D\")\n        .when(upper($\"categoria\") === \"PRIMERA / 3 COPAS\" && (col(\"clasificacion\")) === \"DISCOTECA\", \"TRES COPAS-D\")\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"DISCOTECA\", \"TRES COPAS-D\")\n        .when(upper($\"categoria\") === \"(3) TRES COPAS\" && (col(\"clasificacion\")) === \"DISCOTECA\", \"TRES COPAS-D\")\n    // CAFETERIA\n        .when(upper($\"categoria\") === \"(1) UNA TAZAS\" && (col(\"clasificacion\")) === \"CAFETERÍA\", \"UNA TAZA\")\n        .when(upper($\"categoria\") === \"(1) UNA TAZA\" && (col(\"clasificacion\")) === \"CAFETERÍA\", \"UNA TAZA\")\n        .when(upper($\"categoria\") === \"PRIMERA / 1 TAZA\" && (col(\"clasificacion\")) === \"CAFETERÍA\", \"UNA TAZA\")\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"CAFETERÍA\", \"UNA TAZA\")\n        .when(upper($\"categoria\") === \"LUJO / 2 TAZAS\" && (col(\"clasificacion\")) === \"CAFETERÍA\", \"DOS TAZAS\")\n        .when(upper($\"categoria\") === \"(2) DOS TAZAS\" && (col(\"clasificacion\")) === \"CAFETERÍA\", \"DOS TAZAS\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"CAFETERÍA\", \"DOS TAZAS\")\n        .when(upper($\"categoria\") === \"TERCERA\" && (col(\"clasificacion\")) === \"CAFETERÍA\", \"TRES TAZAS\")\n        .when(upper($\"categoria\") === \"CUARTA\" && (col(\"clasificacion\")) === \"CAFETERÍA\", \"CUATRO TAZAS\")\n    // BAR\n        .when(upper($\"categoria\") === \"TERCERA\" && (col(\"clasificacion\")) === \"BAR\", \"UNA COPA\")\n        .when(upper($\"categoria\") === \"(1) UNA COPA\" && (col(\"clasificacion\")) === \"BAR\", \"UNA COPA\")\n        .when(upper($\"categoria\") === \"TERCERA / 1 COPA\" && (col(\"clasificacion\")) === \"BAR\", \"UNA COPA\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"BAR\", \"DOS COPAS\")\n        .when(upper($\"categoria\") === \"(2) DOS COPAS\" && (col(\"clasificacion\")) === \"BAR\", \"DOS COPAS\")\n        .when(upper($\"categoria\") === \"SEGUNDA / 2 COPAS\" && (col(\"clasificacion\")) === \"BAR\", \"DOS COPAS\")\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"BAR\", \"TRES COPAS\")\n        .when(upper($\"categoria\") === \"(3) TRES COPAS\" && (col(\"clasificacion\")) === \"BAR\", \"TRES COPAS\")\n        .when(upper($\"categoria\") === \"PRIMERA / 3 COPAS\" && (col(\"clasificacion\")) === \"BAR\", \"TRES COPAS\")\n    // LODGE\n        .when(upper($\"categoria\") === \"3 ESTRELLAS\" && (col(\"clasificacion\")) === \"LODGE\", \"3 ESTRELLAS-L\")\n        .when(upper($\"categoria\") === \"4 ESTRELLAS\" && (col(\"clasificacion\")) === \"LODGE\", \"4 ESTRELLAS-L\")\n        .when(upper($\"categoria\") === \"5 ESTRELLAS\" && (col(\"clasificacion\")) === \"LODGE\", \"5 ESTRELLAS-L\")\n     // RESORT\n        .when(upper($\"categoria\") === \"3 ESTRELLAS\" && (col(\"clasificacion\")) === \"RESORT\", \"3 ESTRELLAS-R\")\n        .when(upper($\"categoria\") === \"4 ESTRELLAS\" && (col(\"clasificacion\")) === \"RESORT\", \"4 ESTRELLAS-R\")\n        .when(upper($\"categoria\") === \"5 ESTRELLAS\" && (col(\"clasificacion\")) === \"RESORT\", \"5 ESTRELLAS-R\")\n    // BOLERA\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"BOLERA\", \"PRIMERA-B\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"BOLERA\", \"SEGUNDA-B\")\n    // CABAÑA\n        .when(upper($\"categoria\") === \"TERCERA\" && (col(\"clasificacion\")) === \"CABAÑA\", \"TERCERA-C\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"CABAÑA\", \"SEGUNDA-C\")\n    // CAMPAMENTO TURÍSTICO\n        .when(upper($\"categoria\") === \"Categoría única\" && (col(\"clasificacion\")) === \"CAMPAMENTO TURÍSTICO\", \"CATEGORÍA ÚNICA-CT\")\n        .when(upper($\"categoria\") === \"TERCERA\" && (col(\"clasificacion\")) === \"CAMPAMENTO TURÍSTICO\", \"TERCERA-CT\")\n    // CASA DE HUÉSPEDES\n        .when(upper($\"categoria\") === \"Categoría única\" && (col(\"clasificacion\")) === \"CASA DE HUÉSPEDES\", \"CATEGORÍA ÚNICA-CH\")\n    // CENTRO DE CONVENCIONES\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"CENTRO DE CONVENCIONES\", \"PRIMERA-CC\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"CENTRO DE CONVENCIONES\", \"SEGUNDA-CC\")\n    // CENTRO DE RECREACIÓN TURÍSTICA\n        .when(upper($\"categoria\") === \"TERCERA\" && (col(\"clasificacion\")) === \"CENTRO DE RECREACIÓN TURÍSTICA\", \"TERCERA-CRT\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"CENTRO DE RECREACIÓN TURÍSTICA\", \"SEGUNDA-CRT\")\n    // CENTRO DE TURISMO COMUNITARIO\n        .when(upper($\"categoria\") === \"Categoría única\" && (col(\"clasificacion\")) === \"CENTRO DE TURISMO COMUNITARIO\", \"CATEGORÍA ÚNICA-CTC\")\n    // ESTABLECIMIENTO MÓVIL\n        .when(upper($\"categoria\") === \"Categoría única\" && (col(\"clasificacion\")) === \"ESTABLECIMIENTO MÓVIL\", \"CATEGORÍA ÚNICA-EM\")\n     // FUENTE DE SODA\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"FUENTE DE SODA\", \"PRIMERA-F\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"FUENTE DE SODA\", \"SEGUNDA-F\")\n        .when(upper($\"categoria\") === \"TERCERA\" && (col(\"clasificacion\")) === \"FUENTE DE SODA\", \"TERCERA-F\")\n    // HOSTAL RESIDENCIA\n        .when(upper($\"categoria\") === \"TERCERA\" && (col(\"clasificacion\")) === \"HOSTAL RESIDENCIA\", \"TERCERA-HR\")\n    // ORGANIZADORES DE EVENTOS, CONGRESOS Y CONVENCIONES\n        .when(upper($\"categoria\") === \"Categoría única\" && (col(\"clasificacion\")) === \"ORGANIZADORES DE EVENTOS, CONGRESOS Y CONVENCIONES\", \"CATEGORÍA ÚNICA-OE\")\n    // PENSION\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"PENSION\", \"SEGUNDA-P\")\n        .when(upper($\"categoria\") === \"TERCERA\" && (col(\"clasificacion\")) === \"PENSION\", \"TERCERA-P\")\n    // PEÑA\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"PEÑA\", \"PRIMERA-PE\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"PEÑA\", \"SEGUNDA-PE\")\n    // PISTA DE PATINAJE\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"PISTA DE PATINAJE\", \"PRIMERA-PP\")\n    // PLAZAS DE COMIDA\n        .when(upper($\"categoria\") === \"Categoría única\" && (col(\"clasificacion\")) === \"PLAZAS DE COMIDA\", \"CATEGORÍA ÚNICA-PC\")\n    // REFUGIO\n        .when(upper($\"categoria\") === \"Categoría única\" && (col(\"clasificacion\")) === \"REFUGIO\", \"CATEGORÍA ÚNICA-RE\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"REFUGIO\", \"SEGUNDA-RE\")\n    // SALA DE BAILE\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"SALA DE BAILE\", \"PRIMERA-SB\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"SALA DE BAILE\", \"SEGUNDA-SB\")\n    // SALA DE RECEPCIONES Y BANQUETES\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"SALA DE RECEPCIONES Y BANQUETES\", \"PRIMERA-SRB\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"SALA DE RECEPCIONES Y BANQUETES\", \"SEGUNDA-SRB\")\n        .when(upper($\"categoria\") === \"LUJO\" && (col(\"clasificacion\")) === \"SALA DE RECEPCIONES Y BANQUETESE\", \"LUJO-SRB\")\n    // SERVICIO DE CATERING\n        .when(upper($\"categoria\") === \"Categoría única\" && (col(\"clasificacion\")) === \"SERVICIO DE CATERING\", \"CATEGORÍA ÚNICA-SC\")\n    // TERMAS Y BALNEARIOS\n        .when(upper($\"categoria\") === \"PRIMERA\" && (col(\"clasificacion\")) === \"TERMAS Y BALNEARIOS\", \"PRIMERA-TB\")\n        .when(upper($\"categoria\") === \"SEGUNDA\" && (col(\"clasificacion\")) === \"TERMAS Y BALNEARIOS\", \"SEGUNDA-TB\")\n        .when(upper($\"categoria\") === \"TERCERA\" && (col(\"clasificacion\")) === \"TERMAS Y BALNEARIOS\", \"TERCERA-TB\")\n        .otherwise(upper($\"categoria\"))\n        )",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T06:25:00+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mdfClean\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m = [nombre: string, actividad: string ... 12 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658976161728_1474365262",
+      "id": "paragraph_1658976161728_1474365262",
+      "dateCreated": "2022-07-28T02:42:41+0000",
+      "dateStarted": "2022-08-01T06:25:00+0000",
+      "dateFinished": "2022-08-01T06:25:07+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:245"
+    },
+    {
+      "text": "val data = dfClean.select(\"nombre\", \"actividad\", \"clasificacion\", \"nuevaCategoria\", \"provincia\", \"canton\", \"parroquia\", \"ref\", \"direccion\", \"telf1\", \"telf2\", \"email\", \"web\")",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T06:25:13+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mdata\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m = [nombre: string, actividad: string ... 11 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658976253015_1902689390",
+      "id": "paragraph_1658976253015_1902689390",
+      "dateCreated": "2022-07-28T02:44:13+0000",
+      "dateStarted": "2022-08-01T06:25:13+0000",
+      "dateFinished": "2022-08-01T06:25:13+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:246"
+    },
+    {
+      "text": "data.createOrReplaceTempView(\"COMERCIALESO\")",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T06:25:15+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658976356339_288464134",
+      "id": "paragraph_1658976356339_288464134",
+      "dateCreated": "2022-07-28T02:45:56+0000",
+      "dateStarted": "2022-08-01T06:25:15+0000",
+      "dateFinished": "2022-08-01T06:25:15+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:247"
+    },
+    {
+      "text": "%md\n# Análisis de datos usando como fuente el archivo original",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-29T00:36:11+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Análisis de datos usando como fuente el archivo original</h1>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658976361881_1947224530",
+      "id": "paragraph_1658976361881_1947224530",
+      "dateCreated": "2022-07-28T02:46:01+0000",
+      "dateStarted": "2022-07-29T00:36:11+0000",
+      "dateFinished": "2022-07-29T00:36:11+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:248"
+    },
+    {
+      "text": "%md\n1. De las provincias con mayor cantidad de comerciales cual es el procentaje de información de medios de contacto a los comercios",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-28T04:18:36+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<ol>\n<li>De las provincias con mayor cantidad de comerciales cual es el procentaje de información de medios de contacto a los comercios</li>\n</ol>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658981397321_503010044",
+      "id": "paragraph_1658981397321_503010044",
+      "dateCreated": "2022-07-28T04:09:57+0000",
+      "dateStarted": "2022-07-28T04:18:36+0000",
+      "dateFinished": "2022-07-28T04:18:39+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:249"
+    },
+    {
+      "text": "%sql\nSELECT ((100 * COUNT(email))/ COUNT(*)) AS EMAIL, \n((100 * COUNT(web))/ COUNT(*)) AS WEB, \n((100 * COUNT(ref))/ COUNT(*)) AS REF,\n((100 * COUNT(telf1))/ COUNT(*)) AS TELEFONO1,  \n((100 * COUNT(telf2))/ COUNT(*)) AS TELEFONO2, provincia\nFROM COMERCIALESO\nGROUP BY provincia \nORDER BY COUNT(*) DESC\nLIMIT 5;",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T06:25:17+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "EMAIL": "string",
+                      "WEB": "string",
+                      "REF": "string",
+                      "TELEFONO1": "string",
+                      "TELEFONO2": "string",
+                      "provincia": "string"
+                    },
+                    "updated": true
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "pieChart": {},
+                "stackedAreaChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "lineChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "provincia",
+                  "index": 5,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "WEB",
+                  "index": 1,
+                  "aggr": "sum"
+                },
+                {
+                  "name": "TELEFONO2",
+                  "index": 4,
+                  "aggr": "sum"
+                },
+                {
+                  "name": "TELEFONO1",
+                  "index": 3,
+                  "aggr": "sum"
+                },
+                {
+                  "name": "REF",
+                  "index": 2,
+                  "aggr": "sum"
+                },
+                {
+                  "name": "EMAIL",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "EMAIL\tWEB\tREF\tTELEFONO1\tTELEFONO2\tprovincia\n86.60220994475138\t77.48618784530387\t79.45058317986495\t96.31675874769797\t79.14364640883979\tPICHINCHA\n44.83375959079284\t12.429667519181585\t16.317135549872123\t82.48081841432226\t13.554987212276215\tGUAYAS\n78.78103837471784\t17.381489841986458\t46.331828442437924\t88.31828442437923\t42.042889390519186\tAZUAY\n69.92924528301887\t17.806603773584907\t24.35141509433962\t77.2995283018868\t21.04952830188679\tMANABÍ\n90.18286814244466\t21.847930702598653\t52.1655437921078\t94.12897016361886\t47.64196342637151\tTUNGURAHUA\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=2",
+              "$$hashKey": "object:5798"
+            },
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=4",
+              "$$hashKey": "object:5799"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658981411006_1174735366",
+      "id": "paragraph_1658981411006_1174735366",
+      "dateCreated": "2022-07-28T04:10:11+0000",
+      "dateStarted": "2022-08-01T06:25:17+0000",
+      "dateFinished": "2022-08-01T06:25:47+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:250"
+    },
+    {
+      "text": "%md\n2. Provincias que bridan mayor calidad de servicion en hoteles",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-28T04:12:47+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<ol start=\"2\">\n<li>Provincias que bridan mayor calidad de servicion en hoteles</li>\n</ol>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658981421568_2006299957",
+      "id": "paragraph_1658981421568_2006299957",
+      "dateCreated": "2022-07-28T04:10:21+0000",
+      "dateStarted": "2022-07-28T04:12:47+0000",
+      "dateFinished": "2022-07-28T04:12:47+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:251"
+    },
+    {
+      "text": "%sql\nSELECT COUNT(*), provincia\nFROM COMERCIALESO\nWHERE clasificacion = \"HOTEL\" AND(nuevaCategoria = \"3 ESTRELLAS\" OR nuevaCategoria = \"4 ESTRELLAS\" OR nuevaCategoria = \"5 ESTRELLAS\")\nGROUP BY provincia\nORDER BY COUNT(*) DESC\nLIMIT 5;\n",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T06:25:21+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "count(1)": "string",
+                      "provincia": "string"
+                    },
+                    "updated": true
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "provincia",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "count(1)",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "count(1)\tprovincia\n111\tPICHINCHA\n59\tAZUAY\n55\tGALÁPAGOS\n50\tGUAYAS\n44\tMANABÍ\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=5",
+              "$$hashKey": "object:5927"
+            },
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=6",
+              "$$hashKey": "object:5928"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658981567381_1992194694",
+      "id": "paragraph_1658981567381_1992194694",
+      "dateCreated": "2022-07-28T04:12:47+0000",
+      "dateStarted": "2022-08-01T06:25:21+0000",
+      "dateFinished": "2022-08-01T06:25:52+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:252"
+    },
+    {
+      "text": "%md\n# Análisis con el formulario",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-29T00:36:03+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Análisis con el formulario</h1>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659045059693_566093594",
+      "id": "paragraph_1659045059693_566093594",
+      "dateCreated": "2022-07-28T21:50:59+0000",
+      "dateStarted": "2022-07-29T00:36:03+0000",
+      "dateFinished": "2022-07-29T00:36:03+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:253"
+    },
+    {
+      "text": "val dfCantonLoja = dfClean.select(\"provincia\", \"actividad\").groupBy(\"provincia\", \"actividad\").count",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-29T00:34:05+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mdfCantonLoja\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m = [provincia: string, actividad: string ... 1 more field]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659045074515_492437385",
+      "id": "paragraph_1659045074515_492437385",
+      "dateCreated": "2022-07-28T21:51:14+0000",
+      "dateStarted": "2022-07-29T00:34:05+0000",
+      "dateFinished": "2022-07-29T00:34:06+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:254"
+    },
+    {
+      "text": "import org.apache.spark.sql.expressions.Window\n\nval w = Window.partitionBy($\"provincia\").orderBy(asc(\"count\"))",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-29T00:34:07+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import org.apache.spark.sql.expressions.Window\n\u001b[1m\u001b[34mw\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.expressions.WindowSpec\u001b[0m = org.apache.spark.sql.expressions.WindowSpec@6e14eaf1\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659045179906_1000734623",
+      "id": "paragraph_1659045179906_1000734623",
+      "dateCreated": "2022-07-28T21:52:59+0000",
+      "dateStarted": "2022-07-29T00:34:07+0000",
+      "dateFinished": "2022-07-29T00:34:07+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:255"
+    },
+    {
+      "text": "val dfRespuesta = dfCantonLoja.withColumn(\"rank\", row_number().over(w))\n",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-29T00:34:08+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mdfRespuesta\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m = [provincia: string, actividad: string ... 2 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659045185523_29534572",
+      "id": "paragraph_1659045185523_29534572",
+      "dateCreated": "2022-07-28T21:53:05+0000",
+      "dateStarted": "2022-07-29T00:34:08+0000",
+      "dateFinished": "2022-07-29T00:34:09+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:256"
+    },
+    {
+      "text": "val valoresCombo = Seq(\n    (\"AZUAY\", \"Azuay\"),\n    (\"BOLIVAR\", \"Bolívar\"),\n    (\"CARCHI\", \"Cañar\"),\n    (\"CHIMBORAZO\", \"Chimborazo\"),\n    (\"EL ORO\", \"El oro\"),\n    (\"ESMERALDAS\", \"Esmerakdas\"),\n    (\"GALÁPAGOS\",\"Galápagos\"),\n    (\"GUAYAS\", \"Guayas\"),\n    (\"IMBABURA\", \"Imbabura\"),\n    (\"LOJA\", \"Loja\"),\n    (\"LOS RÍOS\", \"Los ríos\"),\n    (\"MANABÍ\",\"Manabí\"),\n    (\"MORONA SANTIAGO\", \"Morona santiago\"),\n    (\"NAPO\",\"Napo\"),\n    (\"ORELLANA\", \"Orellana\"),\n    (\"PASTAZA\", \"Pastaza\"),\n    (\"PICHINCHA\",\"Pichincha\"),\n    (\"SANTA ELENA\",\"Santa elena\"),\n    (\"SANTO DOMINGO DE LOS TSÁCHILAS\",\"Santa domningo de los tsáchilas\"),\n    (\"SUCUMBÍOS\",\"Sucumbíos\"),\n    (\"TUNGURAHUA\",\"Tungurahua\"),\n    (\"ZAMORA CHINCHIPE\", \"Zamora Chinchipe\")\n    )\nval valorDefecto = valoresCombo(0)\nz.put(\"provincia\",z.select(\"Provincias\", valoresCombo, valorDefecto))\nz.run(\"paragraph_1659045467691_134955967\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-29T00:43:35+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "runOnSelectionChange": true,
+        "results": {},
+        "enabled": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {
+          "Clasificación": {
+            "_1": "ALIMENTOS Y BEBIDAS",
+            "_2": "Alimentos y bebidas",
+            "$$hashKey": "object:6941"
+          },
+          "Actividades": "ALOJAMIENTO",
+          "Provincias": "ESMERALDAS"
+        },
+        "forms": {
+          "Provincias": {
+            "type": "Select",
+            "options": [
+              {
+                "value": "AZUAY",
+                "displayName": "Azuay",
+                "$$hashKey": "object:1016"
+              },
+              {
+                "value": "BOLIVAR",
+                "displayName": "Bolívar",
+                "$$hashKey": "object:1017"
+              },
+              {
+                "value": "CARCHI",
+                "displayName": "Cañar",
+                "$$hashKey": "object:1018"
+              },
+              {
+                "value": "CHIMBORAZO",
+                "displayName": "Chimborazo",
+                "$$hashKey": "object:1019"
+              },
+              {
+                "value": "EL ORO",
+                "displayName": "El oro",
+                "$$hashKey": "object:1020"
+              },
+              {
+                "value": "ESMERALDAS",
+                "displayName": "Esmerakdas",
+                "$$hashKey": "object:1021"
+              },
+              {
+                "value": "GALÁPAGOS",
+                "displayName": "Galápagos",
+                "$$hashKey": "object:1022"
+              },
+              {
+                "value": "GUAYAS",
+                "displayName": "Guayas",
+                "$$hashKey": "object:1023"
+              },
+              {
+                "value": "IMBABURA",
+                "displayName": "Imbabura",
+                "$$hashKey": "object:1024"
+              },
+              {
+                "value": "LOJA",
+                "displayName": "Loja",
+                "$$hashKey": "object:1025"
+              },
+              {
+                "value": "LOS RÍOS",
+                "displayName": "Los ríos",
+                "$$hashKey": "object:1026"
+              },
+              {
+                "value": "MANABÍ",
+                "displayName": "Manabí",
+                "$$hashKey": "object:1027"
+              },
+              {
+                "value": "MORONA SANTIAGO",
+                "displayName": "Morona santiago",
+                "$$hashKey": "object:1028"
+              },
+              {
+                "value": "NAPO",
+                "displayName": "Napo",
+                "$$hashKey": "object:1029"
+              },
+              {
+                "value": "ORELLANA",
+                "displayName": "Orellana",
+                "$$hashKey": "object:1030"
+              },
+              {
+                "value": "PASTAZA",
+                "displayName": "Pastaza",
+                "$$hashKey": "object:1031"
+              },
+              {
+                "value": "PICHINCHA",
+                "displayName": "Pichincha",
+                "$$hashKey": "object:1032"
+              },
+              {
+                "value": "SANTA ELENA",
+                "displayName": "Santa elena",
+                "$$hashKey": "object:1033"
+              },
+              {
+                "value": "SANTO DOMINGO DE LOS TSÁCHILAS",
+                "displayName": "Santa domningo de los tsáchilas",
+                "$$hashKey": "object:1034"
+              },
+              {
+                "value": "SUCUMBÍOS",
+                "displayName": "Sucumbíos",
+                "$$hashKey": "object:1035"
+              },
+              {
+                "value": "TUNGURAHUA",
+                "displayName": "Tungurahua",
+                "$$hashKey": "object:1036"
+              },
+              {
+                "value": "ZAMORA CHINCHIPE",
+                "displayName": "Zamora Chinchipe",
+                "$$hashKey": "object:1037"
+              }
+            ],
+            "name": "Provincias",
+            "displayName": "Provincias",
+            "defaultValue": {
+              "_1": "AZUAY",
+              "_2": "Azuay"
+            },
+            "hidden": false,
+            "$$hashKey": "object:1001"
+          }
+        }
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mvaloresCombo\u001b[0m: \u001b[1m\u001b[32mSeq[(String, String)]\u001b[0m = List((AZUAY,Azuay), (BOLIVAR,Bolívar), (CARCHI,Cañar), (CHIMBORAZO,Chimborazo), (EL ORO,El oro), (ESMERALDAS,Esmerakdas), (GALÁPAGOS,Galápagos), (GUAYAS,Guayas), (IMBABURA,Imbabura), (LOJA,Loja), (LOS RÍOS,Los ríos), (MANABÍ,Manabí), (MORONA SANTIAGO,Morona santiago), (NAPO,Napo), (ORELLANA,Orellana), (PASTAZA,Pastaza), (PICHINCHA,Pichincha), (SANTA ELENA,Santa elena), (SANTO DOMINGO DE LOS TSÁCHILAS,Santa domningo de los tsáchilas), (SUCUMBÍOS,Sucumbíos), (TUNGURAHUA,Tungurahua), (ZAMORA CHINCHIPE,Zamora Chinchipe))\n\u001b[1m\u001b[34mvalorDefecto\u001b[0m: \u001b[1m\u001b[32m(String, String)\u001b[0m = (AZUAY,Azuay)\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659045191557_1865448555",
+      "id": "paragraph_1659045191557_1865448555",
+      "dateCreated": "2022-07-28T21:53:11+0000",
+      "dateStarted": "2022-07-29T00:43:35+0000",
+      "dateFinished": "2022-07-29T00:43:35+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:257"
+    },
+    {
+      "text": "z.show(dfRespuesta.where($\"provincia\" === z.get(\"provincia\")))",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-28T22:19:31+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {
+                    "columns": [
+                      {
+                        "name": "actividad0",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {
+                          "priority": 0,
+                          "direction": "asc"
+                        },
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "clasificacion1",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "count2",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "rank3",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      }
+                    ],
+                    "scrollFocus": {},
+                    "selection": [],
+                    "grouping": {
+                      "grouping": [],
+                      "aggregations": [],
+                      "rowExpandedStates": {}
+                    },
+                    "treeView": {},
+                    "pagination": {
+                      "paginationCurrentPage": 1,
+                      "paginationPageSize": 250
+                    }
+                  },
+                  "tableColumnTypeState": {
+                    "names": {
+                      "actividad": "string",
+                      "clasificacion": "string",
+                      "count": "string",
+                      "rank": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "pieChart": {},
+                "stackedAreaChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "actividad",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "count",
+                  "index": 2,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "provincia\tactividad\tcount\trank\nESMERALDAS\tTRANSPORTE TURÍSTICO\t1\t1\nESMERALDAS\tCENTRO DE TURISMO COMUNITARIO\t2\t2\nESMERALDAS\tINTERMEDIACIÓN\t4\t3\nESMERALDAS\tPARQUES DE ATRACCIÓN ESTABLE\t9\t4\nESMERALDAS\tOPERACIÓN E INTERMEDIACIÓN\t29\t5\nESMERALDAS\tALIMENTOS Y BEBIDAS\t124\t6\nESMERALDAS\tALOJAMIENTO\t219\t7\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=7",
+              "$$hashKey": "object:2045"
+            },
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=8",
+              "$$hashKey": "object:2046"
+            },
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=9",
+              "$$hashKey": "object:2047"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659045467691_134955967",
+      "id": "paragraph_1659045467691_134955967",
+      "dateCreated": "2022-07-28T21:57:47+0000",
+      "dateStarted": "2022-07-29T00:43:35+0000",
+      "dateFinished": "2022-07-29T00:43:37+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:258"
+    },
+    {
+      "text": "%md\n# Análisis con datos de 2 dataframes",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-29T00:35:54+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true,
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Análisis con datos de 2 dataframes</h1>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658981579518_2126615633",
+      "id": "paragraph_1658981579518_2126615633",
+      "dateCreated": "2022-07-28T04:12:59+0000",
+      "dateStarted": "2022-07-29T00:35:54+0000",
+      "dateFinished": "2022-07-29T00:35:56+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:259"
+    },
+    {
+      "text": "val provincias = spark\n    .read\n    .option(\"inferSchema\", \"true\")\n    .option(\"header\", \"true\")\n    .option(\"delimiter\", \";\")\n    .csv(\"/workspace/zeppelin-paavanzada/data/Provincias.csv\")",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T06:26:09+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mprovincias\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m = [codigoProvincia: int, nombreProvincia: string ... 5 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=7",
+              "$$hashKey": "object:5986"
+            },
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=8",
+              "$$hashKey": "object:5987"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658982029359_747742740",
+      "id": "paragraph_1658982029359_747742740",
+      "dateCreated": "2022-07-28T04:20:29+0000",
+      "dateStarted": "2022-08-01T06:26:09+0000",
+      "dateFinished": "2022-08-01T06:26:10+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:260"
+    },
+    {
+      "text": "val prov = provincias.withColumnRenamed(\"nombreProvincia\", \"provincia\")\nval data = dfClean.join(prov, Seq(\"provincia\"), \"inner\")\nval dataF = data.withColumnRenamed(\"codigoProvincia\", \"idProvincia\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T06:26:59+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true,
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mprov\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m = [codigoProvincia: int, provincia: string ... 5 more fields]\n\u001b[1m\u001b[34mdata\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m = [provincia: string, nombre: string ... 18 more fields]\n\u001b[1m\u001b[34mdataF\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m = [provincia: string, nombre: string ... 18 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658982034670_1418510201",
+      "id": "paragraph_1658982034670_1418510201",
+      "dateCreated": "2022-07-28T04:20:34+0000",
+      "dateStarted": "2022-08-01T06:26:59+0000",
+      "dateFinished": "2022-08-01T06:27:00+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:261"
+    },
+    {
+      "text": "%md\nSegundo dataframe\n",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-28T21:50:16+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<p>Segundo dataframe</p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659044953206_981708369",
+      "id": "paragraph_1659044953206_981708369",
+      "dateCreated": "2022-07-28T21:49:13+0000",
+      "dateStarted": "2022-07-28T21:50:16+0000",
+      "dateFinished": "2022-07-28T21:50:16+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:262"
+    },
+    {
+      "text": "val ventas = spark\n    .read\n    .option(\"inferSchema\", \"true\")\n    .option(\"header\", \"true\")\n    .option(\"delimiter\", \";\")\n    .csv(\"/workspace/zeppelin-paavanzada/data/Ventas.csv\")",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T06:26:17+0000",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mventas\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m = [idVenta: int, ventaTotal: double ... 3 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=9",
+              "$$hashKey": "object:6079"
+            },
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=10",
+              "$$hashKey": "object:6080"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658982089386_1063567246",
+      "id": "paragraph_1658982089386_1063567246",
+      "dateCreated": "2022-07-28T04:21:29+0000",
+      "dateStarted": "2022-08-01T06:26:17+0000",
+      "dateFinished": "2022-08-01T06:26:19+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:263"
+    },
+    {
+      "text": "%md\n# Las variables que se agregan son las siguientes: \n1. Las recaudaciones los cuales son cuanto aportan por todas las actividades del catastro al gobierno\n2. La venta total en millones por cada provincia y año",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-28T21:45:26+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Las variables que se agregan son las siguientes:</h1>\n<ol>\n<li>Las recaudaciones los cuales son cuanto aportan por todas las actividades del catastro al gobierno</li>\n<li>La venta total en millones por cada provincia y año</li>\n</ol>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659044616957_2068664887",
+      "id": "paragraph_1659044616957_2068664887",
+      "dateCreated": "2022-07-28T21:43:36+0000",
+      "dateStarted": "2022-07-28T21:45:26+0000",
+      "dateFinished": "2022-07-28T21:45:26+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:264"
+    },
+    {
+      "text": "val allData = dataF.join(ventas, Seq(\"idProvincia\"), \"inner\")\nallData.createOrReplaceTempView(\"COMERCIALESD\")",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T06:27:16+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mallData\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m = [idProvincia: int, provincia: string ... 22 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658982099468_1595608374",
+      "id": "paragraph_1658982099468_1595608374",
+      "dateCreated": "2022-07-28T04:21:39+0000",
+      "dateStarted": "2022-08-01T06:27:16+0000",
+      "dateFinished": "2022-08-01T06:27:17+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:265"
+    },
+    {
+      "text": "%md\n# Provincias con mas ventas en el sector turistico en el año 2019",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-28T04:22:56+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Provincias con mas ventas en el sector turistico en el año 2019</h1>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658982172077_244030560",
+      "id": "paragraph_1658982172077_244030560",
+      "dateCreated": "2022-07-28T04:22:52+0000",
+      "dateStarted": "2022-07-28T04:22:56+0000",
+      "dateFinished": "2022-07-28T04:22:56+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:266"
+    },
+    {
+      "text": "%sql\nSELECT DISTINCT provincia, ventaTotal\nFROM COMERCIALESD\nWHERE anio = 2019\nORDER BY 2 DESC\nLIMIT 5;",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-28T15:58:25+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "pieChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "provincia": "string",
+                      "ventaTotal": "string"
+                    },
+                    "updated": true
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "pieChart": {}
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "provincia",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "ventaTotal",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "provincia\tventaTotal\nPICHINCHA\t2421.4\nGUAYAS\t1082.0\nGALÁPAGOS\t355.6\nAZUAY\t195.1\nTUNGURAHUA\t184.0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=9",
+              "$$hashKey": "object:2443"
+            },
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=10",
+              "$$hashKey": "object:2444"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658982176882_2077465140",
+      "id": "paragraph_1658982176882_2077465140",
+      "dateCreated": "2022-07-28T04:22:56+0000",
+      "dateStarted": "2022-07-28T04:23:02+0000",
+      "dateFinished": "2022-07-28T04:23:15+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:267"
+    },
+    {
+      "text": "%md\n# Durante la pandemia las provincias que menos aportaron en recaudaciones del turismo al gobierno",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-28T04:23:10+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Durante la pandemia las provincias que menos aportaron en recaudaciones del turismo al gobierno</h1>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658982182049_1626225025",
+      "id": "paragraph_1658982182049_1626225025",
+      "dateCreated": "2022-07-28T04:23:02+0000",
+      "dateStarted": "2022-07-28T04:23:10+0000",
+      "dateFinished": "2022-07-28T04:23:10+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:268"
+    },
+    {
+      "text": "%sql\nSELECT DISTINCT provincia, recaudaciones\nFROM COMERCIALESD\nWHERE anio = 2020\nORDER BY 2\nLIMIT 5;",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-28T04:24:16+0000",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "pieChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "provincia": "string",
+                      "recaudaciones": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "provincia",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "recaudaciones",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "provincia\trecaudaciones\nBOLÍVAR\t0.1\nCAÑAR\t0.2\nMORONA SANTIAGO\t0.2\nCARCHI\t0.2\nPASTAZA\t0.3\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=13",
+              "$$hashKey": "object:2534"
+            },
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=14",
+              "$$hashKey": "object:2535"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658982190352_912520052",
+      "id": "paragraph_1658982190352_912520052",
+      "dateCreated": "2022-07-28T04:23:10+0000",
+      "dateStarted": "2022-07-28T04:23:14+0000",
+      "dateFinished": "2022-07-28T04:23:26+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:269"
+    },
+    {
+      "text": "%md\n# Provincias con mayor promedio de ventas de acuerdo de la cantidad de comerciales en el año 2021",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-28T04:23:20+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Provincias con mayor promedio de ventas de acuerdo de la cantidad de comerciales en el año 2021</h1>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658982194530_1041972842",
+      "id": "paragraph_1658982194530_1041972842",
+      "dateCreated": "2022-07-28T04:23:14+0000",
+      "dateStarted": "2022-07-28T04:23:20+0000",
+      "dateFinished": "2022-07-28T04:23:20+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:270"
+    },
+    {
+      "text": "%sql\nSELECT (ventaTotal*1000000)/COUNT(*), provincia\nFROM COMERCIALESD\nWHERE anio = 2021\nGROUP BY provincia, ventaTotal\nORDER BY 1 DESC\nLIMIT 5;",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T04:49:06+0000",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "((ventaTotal * 1000000) / count(1))": "string",
+                      "provincia": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "provincia",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "((ventaTotal * 1000000) / count(1))",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true,
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "((ventaTotal * 1000000) / count(1))\tprovincia\n278330.2639656231\tPICHINCHA\n238209.71867007672\tGUAYAS\n218055.55555555556\tCARCHI\n213114.75409836066\tLOS RÍOS\n174439.46188340808\tORELLANA\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=17",
+              "$$hashKey": "object:2625"
+            },
+            {
+              "jobUrl": "http://10.0.5.2:4040/jobs/job?id=18",
+              "$$hashKey": "object:2626"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658982200517_1813850068",
+      "id": "paragraph_1658982200517_1813850068",
+      "dateCreated": "2022-07-28T04:23:20+0000",
+      "dateStarted": "2022-07-28T04:23:26+0000",
+      "dateFinished": "2022-07-28T04:23:38+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:271"
+    },
+    {
+      "text": "%md\n# Análisis de datos con las variables:\n1. Migrantes\n2. Ventas por provincia y por todas las actividades\n3. Guías turisticos",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-29T00:37:40+0000",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Análisis de datos con las variables:</h1>\n<ol>\n<li>Migrantes</li>\n<li>Ventas por provincia y por todas las actividades</li>\n<li>Guías turisticos</li>\n</ol>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659023708328_186011985",
+      "id": "paragraph_1659023708328_186011985",
+      "dateCreated": "2022-07-28T15:55:08+0000",
+      "dateStarted": "2022-07-29T00:37:40+0000",
+      "dateFinished": "2022-07-29T00:37:40+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:272"
+    },
+    {
+      "text": "%md\n# Entradas de extranjeros por grupos de edad y comparativa de años.",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-31T21:38:01+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true,
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Entradas de extranjeros por grupos de edad y comparativa de años.</h1>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659055060035_703427136",
+      "id": "paragraph_1659055060035_703427136",
+      "dateCreated": "2022-07-29T00:37:40+0000",
+      "dateStarted": "2022-07-31T21:38:01+0000",
+      "dateFinished": "2022-07-31T21:38:03+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:273"
+    },
+    {
+      "text": "%mysql\nSELECT COUNT(*) as Cantidad, t.rango_edad, t.anio_movi\nFROM(\n    SELECT case\n        when edad between 0 and 18 then '0 a 15'\n        when edad between 19 and 40 then '19 a 40'\n        when edad between 41 and 65 then '41 a 65'\n    else 'mas de 66' end as rango_edad, edad, tip_movi, anio_movi\n    FROM Migrantes\n    WHERE tip_movi = 'Entrada' AND idPais != 'EC'\n    ) as t\nGROUP BY t.rango_edad, t.anio_movi\nORDER BY 3,2;",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T04:45:35+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300,
+              "optionOpen": true,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Cantidad": "string",
+                      "rango_edad": "string",
+                      "anio_movi": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "pieChart": {},
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "anio_movi",
+                  "index": 2,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [
+                {
+                  "name": "rango_edad",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ],
+              "values": [
+                {
+                  "name": "Cantidad",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Cantidad\trango_edad\tanio_movi\n326475\t0 a 15\t2019\n908075\t19 a 40\t2019\n678164\t41 a 65\t2019\n131279\tmas de 66\t2019\n49539\t0 a 15\t2020\n195274\t19 a 40\t2020\n187168\t41 a 65\t2020\n36913\tmas de 66\t2020\n80097\t0 a 15\t2021\n210623\t19 a 40\t2021\n250101\t41 a 65\t2021\n49185\tmas de 66\t2021\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659303488958_1371781224",
+      "id": "paragraph_1659303488958_1371781224",
+      "dateCreated": "2022-07-31T21:38:08+0000",
+      "dateStarted": "2022-07-31T21:38:15+0000",
+      "dateFinished": "2022-07-31T21:38:27+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:274"
+    },
+    {
+      "text": "%md\n# Saldo migratorio turistico",
+      "user": "anonymous",
+      "dateUpdated": "2022-07-31T21:38:26+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Saldo migratorio turistico</h1>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659303481879_1712537688",
+      "id": "paragraph_1659303481879_1712537688",
+      "dateCreated": "2022-07-31T21:38:01+0000",
+      "dateStarted": "2022-07-31T21:38:26+0000",
+      "dateFinished": "2022-07-31T21:38:26+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:275"
+    },
+    {
+      "text": "%mysql\nSELECT COUNT(*), anio_movi, tip_movi\nFROM Migrantes\nWHERE tip_movi = 'Entrada' AND mot_viam = 'Turismo'\nGROUP BY anio_movi\nUNION\nSELECT COUNT(*), anio_movi, tip_movi\nFROM Migrantes\nWHERE tip_movi = 'Salida' AND mot_viam = 'Turismo'\nGROUP BY anio_movi;\n",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T04:45:08+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "text",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/text",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "COUNT(*)": "string",
+                      "anio_movi": "string",
+                      "tip_movi": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "anio_movi",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [
+                {
+                  "name": "tip_movi",
+                  "index": 2,
+                  "aggr": "sum"
+                }
+              ],
+              "values": [
+                {
+                  "name": "COUNT(*)",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "COUNT(*)\tanio_movi\ttip_movi\n264244\t2020\tEntrada\n288334\t2021\tEntrada\n1396749\t2019\tEntrada\n1158867\t2019\tSalida\n340141\t2020\tSalida\n650067\t2021\tSalida\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659303506419_1031732189",
+      "id": "paragraph_1659303506419_1031732189",
+      "dateCreated": "2022-07-31T21:38:26+0000",
+      "dateStarted": "2022-07-31T21:38:56+0000",
+      "dateFinished": "2022-07-31T21:39:08+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:276"
+    },
+    {
+      "text": "%md\n# Flujo de entrada de extranjeros por nacionalidad y comparativa en años",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T04:38:29+0000",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Flujo de entrada de extranjeros por nacionalidad y comparativa en años</h1>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659303522463_2064070686",
+      "id": "paragraph_1659303522463_2064070686",
+      "dateCreated": "2022-07-31T21:38:42+0000",
+      "dateStarted": "2022-08-01T04:38:29+0000",
+      "dateFinished": "2022-08-01T04:38:32+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:277"
+    },
+    {
+      "text": "%mysql\n(SELECT COUNT(*), anio_movi, P.nombrePais\nFROM Migrantes m INNER JOIN Paises P on m.idPais = P.idPais\nWHERE  tip_movi = 'Entrada' AND mot_viam = 'Turismo' AND m.idPais != 'EC' AND anio_movi = 2019\nGROUP BY P.nombrePais\n ORDER BY 1 DESC \nLIMIT 5)\nUNION\n(SELECT COUNT(*), anio_movi, P.nombrePais\n FROM Migrantes m\n          INNER JOIN Paises P on m.idPais = P.idPais\n WHERE tip_movi = 'Entrada'\n   AND mot_viam = 'Turismo'\n   AND m.idPais != 'EC'\n   AND anio_movi = 2020\n GROUP BY P.nombrePais\n ORDER BY 1 DESC \n LIMIT 5)\nUNION \n(SELECT COUNT(*), anio_movi, P.nombrePais\n FROM Migrantes m\n          INNER JOIN Paises P on m.idPais = P.idPais\n WHERE tip_movi = 'Entrada'\n   AND mot_viam = 'Turismo'\n   AND m.idPais != 'EC'\n   AND anio_movi = 2021\n GROUP BY P.nombrePais\n  ORDER BY 1 DESC \n LIMIT 5)\n;\n",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T06:33:30+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "text",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/text",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "COUNT(*)": "string",
+                      "anio_movi": "string",
+                      "nombrePais": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "anio_movi",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [
+                {
+                  "name": "nombrePais",
+                  "index": 2,
+                  "aggr": "sum"
+                }
+              ],
+              "values": [
+                {
+                  "name": "COUNT(*)",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "COUNT(*)\tanio_movi\tnombrePais\n451049\t2019\tVenezuela\n229444\t2019\tColombia\n225354\t2019\tEstados Unidos de América\n110283\t2019\tPerú\n45236\t2019\tEspaña\n67656\t2020\tEstados Unidos de América\n62527\t2020\tColombia\n28408\t2020\tPerú\n10917\t2020\tEspaña\n9193\t2020\tCanadá\n134646\t2021\tEstados Unidos de América\n27691\t2021\tColombia\n23714\t2021\tEspaña\n8271\t2021\tPerú\n7031\t2021\tMéxico\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659328709721_2103736758",
+      "id": "paragraph_1659328709721_2103736758",
+      "dateCreated": "2022-08-01T04:38:29+0000",
+      "dateStarted": "2022-08-01T04:38:57+0000",
+      "dateFinished": "2022-08-01T04:48:40+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:278"
+    },
+    {
+      "text": "%md\n# Número de guia turisticos",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T04:38:47+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Número de guia turisticos</h1>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659328716038_2011411867",
+      "id": "paragraph_1659328716038_2011411867",
+      "dateCreated": "2022-08-01T04:38:36+0000",
+      "dateStarted": "2022-08-01T04:38:47+0000",
+      "dateFinished": "2022-08-01T04:38:47+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:279"
+    },
+    {
+      "text": "%mysql\nSELECT COUNT(p.idPersonal) Guias, P2.nombreProvincia\nFROM Personal p JOIN Cantones C on C.idCanton = p.idCanton JOIN Provincias P2 on P2.idProvincia = C.idProvincia\nGROUP BY P2.nombreProvincia\nORDER BY 1 DESC\nLIMIT 5;",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T04:44:29+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "text",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/text",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Guias": "string",
+                      "nombreProvincia": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "nombreProvincia",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "Guias",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Guias\tnombreProvincia\n1341\tLOS RÍOS\n302\tMORONA SANTIAGO\n248\tTUNGURAHUA\n205\tMANABÍ\n182\tCAÑAR\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659328727067_2141138631",
+      "id": "paragraph_1659328727067_2141138631",
+      "dateCreated": "2022-08-01T04:38:47+0000",
+      "dateStarted": "2022-08-01T04:39:03+0000",
+      "dateFinished": "2022-08-01T04:39:03+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:280"
+    },
+    {
+      "text": "%md\n# Comparativa de la venta total por años de las provincias con mayor incidencia de turismo ",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T04:39:13+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Comparativa de la venta total por años de las provincias con mayor incidencia de turismo</h1>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659328743765_452069248",
+      "id": "paragraph_1659328743765_452069248",
+      "dateCreated": "2022-08-01T04:39:03+0000",
+      "dateStarted": "2022-08-01T04:39:13+0000",
+      "dateFinished": "2022-08-01T04:39:13+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:281"
+    },
+    {
+      "text": "%mysql\nSELECT ventatotal, anio, p.nombreProvincia\nFROM Ventas v INNER JOIN Provincias p ON v.idProvincia = p.idProvincia\nWHERE p.nombreProvincia = 'PICHINCHA' OR  p.nombreProvincia = 'GUAYAS'  OR  p.nombreProvincia = 'GALAPAGOS' OR  p.nombreProvincia = 'AZUAY' OR  p.nombreProvincia = 'TUNGURAHUA'\nORDER BY ventaTotal DESC;",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T04:40:05+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "text",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/text",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "ventatotal": "string",
+                      "anio": "string",
+                      "nombreProvincia": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "nombreProvincia",
+                  "index": 2,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [
+                {
+                  "name": "anio",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ],
+              "values": [
+                {
+                  "name": "ventatotal",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "ventatotal\tanio\tnombreProvincia\n2421.40000\t2019\tPICHINCHA\n1813.60000\t2021\tPICHINCHA\n1240.20000\t2020\tPICHINCHA\n1082.00000\t2019\tGUAYAS\n931.40000\t2021\tGUAYAS\n694.10000\t2020\tGUAYAS\n355.60000\t2019\tGALÁPAGOS\n195.10000\t2019\tAZUAY\n184.00000\t2019\tTUNGURAHUA\n156.20000\t2021\tAZUAY\n135.30000\t2021\tGALÁPAGOS\n127.30000\t2021\tTUNGURAHUA\n112.50000\t2020\tGALÁPAGOS\n94.60000\t2020\tAZUAY\n76.30000\t2020\tTUNGURAHUA\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659328753158_695756020",
+      "id": "paragraph_1659328753158_695756020",
+      "dateCreated": "2022-08-01T04:39:13+0000",
+      "dateStarted": "2022-08-01T04:39:58+0000",
+      "dateFinished": "2022-08-01T04:39:58+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:282"
+    },
+    {
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-01T05:18:27+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1659328760884_1712637013",
+      "id": "paragraph_1659328760884_1712637013",
+      "dateCreated": "2022-08-01T04:39:20+0000",
+      "status": "READY",
+      "$$hashKey": "object:283"
+    }
+  ],
+  "name": "ProyectoFinal",
+  "id": "2H9X61KGE",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.10.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/ProyectoFinal"
+}

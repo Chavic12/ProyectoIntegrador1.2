@@ -3,7 +3,7 @@ Proyecto final base de datos
 
 ##### Universidad Técnica Particular de Loja
 ##### Ingeniería en Ciencias de la Computación
-##### Materia: Practicum 1.2 - Octubre 2021 - Febrero 2022
+##### Materia: Practicum 1.2 - Abril 2022 - Agosto 2022
 ##### Proyecto Final - Datos Sobre Catastros
 ##### Integrantes: 
 * Jhordan Kriss Bustamante Solano
